@@ -21,7 +21,7 @@ module tb_card7seg();
                 incorrect = incorrect + 1;
                 $display("Test failed! Expected = %b%b%b%b%b%b%b; Actual = %b", xHEX00, xHEX01, xHEX02, xHEX03, xHEX04, xHEX05, xHEX06, tbHEX0);
             end else begin
-                correct = correct + 1;
+                correct++;
                  $display("Test passed!");
             end
         end
