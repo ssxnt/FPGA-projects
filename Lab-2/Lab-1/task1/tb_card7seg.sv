@@ -15,15 +15,13 @@ module tb_card7seg();
 
     // "x" = expected
     task checkEquals(input xHEX00, input xHEX01, input xHEX02, input xHEX03, input xHEX04, input xHEX05, input xHEX06);
-        begin
-            if (xHEX00 !== tbHEX0[0] && xHEX01 !== tbHEX0[1] && xHEX02 !== tbHEX0[2] && xHEX03 !== tbHEX0[3] && xHEX04 !== tbHEX0[4] && xHEX05 !== tbHEX0[5] && xHEX06 !== tbHEX0[6]) begin
-                flag = 1'b1;
-                incorrect = incorrect + 1;
-                $display("Test failed! Expected = %b%b%b%b%b%b%b; Actual = %b", xHEX00, xHEX01, xHEX02, xHEX03, xHEX04, xHEX05, xHEX06, tbHEX0);
-            end else begin
-                correct++;
-                 $display("Test passed!");
-            end
+        if (xHEX00 !== tbHEX0[0] && xHEX01 !== tbHEX0[1] && xHEX02 !== tbHEX0[2] && xHEX03 !== tbHEX0[3] && xHEX04 !== tbHEX0[4] && xHEX05 !== tbHEX0[5] && xHEX06 !== tbHEX0[6]) begin
+            flag = 1'b1;
+            incorrect = incorrect + 1;
+            $display("Test failed! Expected = %b%b%b%b%b%b%b; Actual = %b", xHEX00, xHEX01, xHEX02, xHEX03, xHEX04, xHEX05, xHEX06, tbHEX0);
+        end else begin
+            correct++;
+                $display("Test passed!");
         end
     endtask
 
@@ -111,4 +109,3 @@ module tb_card7seg();
     end
 						
 endmodule
-

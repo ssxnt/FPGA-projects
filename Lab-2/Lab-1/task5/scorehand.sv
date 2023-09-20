@@ -4,5 +4,7 @@ module scorehand(input [3:0] card1, input [3:0] card2, input [3:0] card3, output
 // block. The function is described in the handout.  Be sure to review the section
 // on representing numbers in the lecture notes.
 
+// total = score of the round
+
 endmodule
 

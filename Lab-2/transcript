@@ -1,3 +1,9 @@
 # Compile of tb_card7seg.sv was successful.
 # Compile of card7seg.sv was successful.
 # 2 compiles, 0 failed with no errors.
+# Compile of tb_card7seg.sv was successful.
+# Compile of card7seg.sv was successful.
+# Compile of tb_scorehand.sv failed with 7 errors.
+# 3 compiles, 1 failed with 7 errors.
+# Error opening C:/Users/sants/Desktop/CPEN-311/Lab-2/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task5/tb_scorehand.sv
+# Path name 'C:/Users/sants/Desktop/CPEN-311/Lab-2/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task5/tb_scorehand.sv' doesn't exist.
