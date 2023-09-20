@@ -5,24 +5,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	card7seg
 
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv {0 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module tb_card7seg
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(33): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(38): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(43): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(48): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(53): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(58): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(63): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(68): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(73): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(78): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(83): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(88): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(93): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(98): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(103): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
-** Error (suppressible): (vlog-2997) C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv(108): Cannot assign a packed type 'bit[3:0]' to an unpacked type 'reg $[3:0]'.
+
+Top level modules:
+	tb_card7seg
 
 } {} {}}

@@ -4,8 +4,8 @@ module tb_card7seg();
     // in the .sv file.  Note that in our tests the simulator will exit after
     // 10,000 ticks (equivalent to "initial #10000 $finish();").\
 
-    reg tbSW [3:0];
-    reg tbHEX0 [6:0];
+    reg [3:0] tbSW;
+    reg [6:0] tbHEX0;
     reg flag = 1'b0;
     integer correct = 0;
     integer incorrect = 0;
