@@ -10,15 +10,15 @@ cModel Technology
 dC:/Users/sants/Desktop
 vcard7seg
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1695187648
+Z1 !s110 1695258175
 !i10b 1
-!s100 l5W0NEF3VP5D3k3kMa]]^3
-Ik<6Z8DimXhbBSZ5]iO^hc1
+!s100 _XakMQZ;K[n1Q:n6SCoo71
+IX7QOWfObQaQU>1k@edSzB0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 !s105 card7seg_sv_unit
 S1
 Z3 dC:/Users/sants/Desktop/CPEN-311/Lab-2
-w1695089193
+w1695258170
 8C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/card7seg.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/card7seg.sv
 L0 1
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1695187648.000000
+Z5 !s108 1695258175.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/card7seg.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/card7seg.sv|
 !i113 1
@@ -36,13 +36,13 @@ vtb_card7seg
 R0
 R1
 !i10b 1
-!s100 VjzCj2<0gDF<ZI5J7:fo32
-IX@LXfHJ9kiH=g?WEHh@603
+!s100 8AnI<hkLS:2>KAA>FmUz^3
+IFnO^jB?BX24c24XdHaUf40
 R2
 !s105 tb_card7seg_sv_unit
 S1
 R3
-w1695187493
+w1695257410
 8C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task1/tb_card7seg.sv
 L0 1

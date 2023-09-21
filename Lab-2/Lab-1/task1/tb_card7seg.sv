@@ -40,7 +40,7 @@ module tb_card7seg();
          // 2
         tbSW = 4'b0010;
         #5;
-        checkEquals(1'b1, 1'b1, 1'b0, 1'b0, 1'b1, 1'b0, 1'b1);
+        checkEquals(1'b1, 1'b1, 1'b0, 1'b1, 1'b1, 1'b0, 1'b1);
 
          // 3
         tbSW = 4'b0011;
