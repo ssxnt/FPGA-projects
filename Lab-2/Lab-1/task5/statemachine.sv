@@ -32,6 +32,7 @@ module statemachine(input slow_clock, input resetb,
 	always_comb begin
 		case (state)
 			DEAL_CARDS : begin
+				{p_win, d_win} = 0;
 				case (step)
 					2'd0 : 		{waiting, load} = 1<<0;
 					2'd1 : 		{waiting, load} = 1<<3;
@@ -41,6 +42,7 @@ module statemachine(input slow_clock, input resetb,
 				n_state = waiting ? CHECK_SCORE : DEAL_CARDS;
 			end
 			CHECK_SCORE : begin
+				{p_win, d_win} = 0;
 				if (dscore > 4'd7 || pscore > 4'd7) begin
 					// state = GAME_OVER;
 					{waiting, load} = 1<<6;
@@ -74,7 +76,7 @@ module statemachine(input slow_clock, input resetb,
 				waiting = 0;
 			end
 			default: begin
-				load = 0;
+				{p_win, d_win, load} = 0;
 				waiting = 1;
 				n_state = DEAL_CARDS;
 			end
