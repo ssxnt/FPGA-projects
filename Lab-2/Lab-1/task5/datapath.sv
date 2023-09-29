@@ -34,8 +34,6 @@ module datapath(input slow_clock, input fast_clock, input resetb,
 	card7seg D7seg1(.card(dcard1_out), .seg7(HEX3));
 	card7seg D7seg2(.card(dcard2_out), .seg7(HEX4));
 	card7seg D7seg3(.card(dcard3_out), .seg7(HEX5));
-
-
 endmodule
 
 module reg4(input [3:0] in, input clk, input en, input rst_n, output [3:0] out);
