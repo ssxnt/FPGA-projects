@@ -8,7 +8,7 @@ module statemachine(input slow_clock, input resetb,
 // a state machine consists of next state logic, output logic, and the 
 // registers that hold the state.  You will want to review your notes from
 // CPEN 211 or equivalent if you have forgotten how to write a state machine.
-	wire [2:0] step;
+	wire [1:0] step;
 	wire [1:0] state;
 	reg [5:0] load;
 	reg [1:0] n_state;
@@ -35,8 +35,8 @@ module statemachine(input slow_clock, input resetb,
 				case (step)
 					2'd0 : 		{waiting, load} = 1<<0;
 					2'd1 : 		{waiting, load} = 1<<3;
-					2'd2 : 		{waiting, load} = 1<<1;
-					default : 	{waiting, load} = 1<<4 || 1<<6;
+					2'd2 :		{waiting, load} = 1<<1;
+					default : 	{waiting, load} = 1<<4 | 1<<6;
 				endcase
 				n_state = waiting ? CHECK_SCORE : DEAL_CARDS;
 			end
@@ -85,16 +85,12 @@ module statemachine(input slow_clock, input resetb,
 	state_reg STT(.clk(slow_clock), .rst_n(resetb), .n_state, .state);
 endmodule
 
-module step_reg(input clk, input rst_n, input waiting, output [2:0] step);
-	reg [2:0] val;
+module step_reg(input clk, input rst_n, input waiting, output [1:0] step);
+	reg [1:0] val;
 
 	assign step = val;
 
-	always_ff @(posedge clk) begin
-		if (!rst_n) val <= 3'b111;
-		else if (waiting) val <=3'b000;
-		else val <= 1 + val;
-	end
+	always_ff @(posedge clk) val <= !rst_n || waiting ? 2'b000 : 1 + val;
 endmodule
 
 module state_reg(input clk, input rst_n, input [1:0] n_state, output [1:0] state);

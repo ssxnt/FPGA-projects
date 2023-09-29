@@ -23,17 +23,51 @@ module tb_statemachine();
 		forever #5 clk = ~clk;
 	end
 
+	task test_in(int p, int d);
+		$display("==== RESET ====");
+		reset;
+		
+		pscore = p;
+		dscore = d;
+
+		#60;
+		$display("P_WIN : %1b, D_WIN : %1b", p_win, d_win);
+	endtask
+
     initial begin
 		#3;
         $display("==== START FSM TEST ====");
+		$monitor("enable: %6b", load);
+
+		$monitor("pscore: %4d ", pscore);
+		$monitor("dscore: %4d ", dscore);
+
 		$display("==== RESET ====");
+		
+		
 		reset;
-		#5;
-		$display("");
-		$monitor("OUT: %6b", load);
-		dscore = 4'd7;
-		pscore = 4'd7;
-		#100
+		
+		pscore = 4'd9;
+		dscore = 4'd9;
+
+		#60;
+		$display("P_WIN : %1b, D_WIN : %1b", p_win, d_win);
+		
+		pcard3 = 7;
+		test_in(8, 9);
+		test_in(9, 8);
+		test_in(5, 7);
+		test_in(5, 6);
+		test_in(5, 5);
+		test_in(5, 4);
+		test_in(5, 3);
+		pcard3 = 8;
+		test_in(5, 3);
+		test_in(5, 2);
+		test_in(6, 5);
+		test_in(6, 6);
+		
+
 
         $display("\n==== TEST SUMMARY ====");
 		$display("PASSED: %-d", pass);
