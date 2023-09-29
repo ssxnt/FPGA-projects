@@ -9,10 +9,10 @@ module scorehand(input [3:0] card1, input [3:0] card2, input [3:0] card3, output
     reg [3:0] val2;
     reg [3:0] val3;
     reg [3:0] score;
-    assign val1 = card1;
-    assign val2 = card2;
-    assign val3 = card3;
-    assign score = total;
+    assign card1 = val1;
+    assign card2 = val2;
+    assign card3 = val3;
+    assign total = score;
 
     always_comb begin
         if (val1 >= 4'b1010) begin
@@ -29,4 +29,3 @@ module scorehand(input [3:0] card1, input [3:0] card2, input [3:0] card3, output
     score = (val1 + val2 + val3) % 4'b1010;
 
 endmodule
-

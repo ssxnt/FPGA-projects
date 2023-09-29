@@ -1,9 +1,8 @@
 module tb_scorehand();
 
-// Your testbench goes here. Make sure your tests exercise the entire design
-// in the .sv file.  Note that in our tests the simulator will exit after
-// 10,000 ticks (equivalent to "initial #10000 $finish();").
-
+    // Your testbench goes here. Make sure your tests exercise the entire design
+    // in the .sv file.  Note that in our tests the simulator will exit after
+    // 10,000 ticks (equivalent to "initial #10000 $finish();").
     reg [3:0] tbcard1;
     reg [3:0] tbcard2;
     reg [3:0] tbcard3;
