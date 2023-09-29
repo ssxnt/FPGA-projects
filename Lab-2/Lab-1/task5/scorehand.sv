@@ -8,24 +8,13 @@ module scorehand(input [3:0] card1, input [3:0] card2, input [3:0] card3, output
     reg [3:0] val1;
     reg [3:0] val2;
     reg [3:0] val3;
-    reg [3:0] score;
-    assign card1 = val1;
-    assign card2 = val2;
-    assign card3 = val3;
-    assign total = score;
-
+    
     always_comb begin
-        if (val1 >= 4'b1010) begin
-            val1 = 4'b0000;
-        end
-        if (val2 >= 4'b1010) begin
-            val2 = 4'b0000;
-        end
-        if (val3 >= 4'b1010) begin
-            val3 = 4'b0000;
-        end
+		val1 = card1 > 4'd9 ? 4'b0 : card1;
+		val2 = card2 > 4'd9 ? 4'b0 : card2;
+		val3 = card3 > 4'd9 ? 4'b0 : card3;
     end
 
-    score = (val1 + val2 + val3) % 4'b1010;
+    assign total = (val1 + val2 + val3) % 4'd10;
 
 endmodule
