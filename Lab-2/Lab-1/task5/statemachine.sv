@@ -9,7 +9,10 @@ module statemachine(input slow_clock, input resetb,
 // registers that hold the state.  You will want to review your notes from
 // CPEN 211 or equivalent if you have forgotten how to write a state machine.
 	wire [2:0] step;
-	reg [2:0] load;
+	wire [1:0] state;
+	reg [5:0] load;
+	reg [1:0] n_state;
+	reg waiting, p_win, d_win;
 
     // ctrl signals load_pcard1-3 load_dcard1-3
 	assign load_pcard1 = load[0];
@@ -18,10 +21,13 @@ module statemachine(input slow_clock, input resetb,
 	assign load_dcard1 = load[3];
 	assign load_dcard2 = load[4];
 	assign load_dcard3 = load[5];
+	assign player_win_light = p_win;
+	assign dealer_win_light = d_win;
 
 	// states
-	parameter DEAL_CARDS 	= d'0; // deal two cards each
-	parameter CHECK_SCORE 	= d'1;
+	parameter DEAL_CARDS 	= 2'd0; // deal two cards each
+	parameter CHECK_SCORE 	= 2'd1;
+	parameter GAME_OVER		= 2'd2;
 
 	always_comb begin
 		case (state)
@@ -32,7 +38,7 @@ module statemachine(input slow_clock, input resetb,
 					2'd2 : 		{waiting, load} = 1<<1;
 					default : 	{waiting, load} = 1<<4 || 1<<6;
 				endcase
-				state = waiting ? CHECK_SCORE : DEAL_CARDS;
+				n_state = waiting ? CHECK_SCORE : DEAL_CARDS;
 			end
 			CHECK_SCORE : begin
 				if (dscore > 4'd7 || pscore > 4'd7) begin
@@ -59,18 +65,24 @@ module statemachine(input slow_clock, input resetb,
 					load = dscore < 4'd6 ? 1<<5 : 0;
 					waiting = 1'b1;
 				end
-				state = waiting ? GAME_OVER : CHECK_SCORE;
+				n_state = waiting ? GAME_OVER : CHECK_SCORE;
 			end
 			GAME_OVER : begin
 				load = 0;
-				player_win_light = pscore >= dscore;
-				dealer_win_light = dscore >= pscore;
+				p_win = pscore >= dscore;
+				d_win = dscore >= pscore;
 				waiting = 0;
 			end
-			default: 
+			default: begin
+				load = 0;
+				waiting = 1;
+				n_state = DEAL_CARDS;
+			end
 		endcase
 	end
 	
+	step_reg STP(.clk(slow_clock), .rst_n(resetb), .waiting, .step);
+	state_reg STT(.clk(slow_clock), .rst_n(resetb), .n_state, .state);
 endmodule
 
 module step_reg(input clk, input rst_n, input waiting, output [2:0] step);
@@ -83,4 +95,12 @@ module step_reg(input clk, input rst_n, input waiting, output [2:0] step);
 		else if (waiting) val <=3'b000;
 		else val <= 1 + val;
 	end
+endmodule
+
+module state_reg(input clk, input rst_n, input [1:0] n_state, output [1:0] state);
+	reg [1:0] val;
+
+	assign state = val;
+
+	always_ff @(posedge clk) val <= rst_n ? n_state : 0;
 endmodule
