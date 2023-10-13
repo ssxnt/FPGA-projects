@@ -1,0 +1,34 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/sants/Desktop/CPEN-311/Lab-2
+vinit
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1697170919
+!i10b 1
+!s100 fKa34dUk4n6X8^RcelO870
+IcQ27=l4d[ZnWz;^5D@oED1
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 init_sv_unit
+S1
+dC:/Users/sants/Desktop/CPEN-311/Lab-3
+w1697170916
+8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1697170919.000000
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv|
+!i113 1
+o-work work -sv
+tCvgOpt 0
