@@ -8,6 +8,7 @@ module task1(input logic CLOCK_50, input logic [3:0] KEY, input logic [9:0] SW,
     reg [7:0] addr;
     reg [7:0] wrdata;
     reg [7:0] wren;
+            
     reg currentState = 0;
 
     s_mem s(.address(address), .clock(CLOCK_50), .data(data), .wren(wren), .q());
