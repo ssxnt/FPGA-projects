@@ -74,6 +74,7 @@ module statemachine(input slow_clock, input resetb,
 				p_win = pscore >= dscore;
 				d_win = dscore >= pscore;
 				waiting = 0;
+				n_state = GAME_OVER;
 			end
 			default: begin
 				{p_win, d_win, load} = 0;
@@ -92,7 +93,7 @@ module step_reg(input clk, input rst_n, input waiting, output [1:0] step);
 
 	assign step = val;
 
-	always_ff @(posedge clk) val <= !rst_n || waiting ? 2'b000 : 1 + val;
+	always_ff @(posedge clk) val <= !rst_n || waiting ? 2'b00 : 1 + val;
 endmodule
 
 module state_reg(input clk, input rst_n, input [1:0] n_state, output [1:0] state);

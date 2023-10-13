@@ -42,7 +42,7 @@ module reg4(input [3:0] in, input clk, input en, input rst_n, output [3:0] out);
 	assign out = val;
 
 	always_ff @(posedge clk) begin
-		if (~rst_n)
+		if (!rst_n)
 			val <= 0;
 		else if (en)
 			val <= in;
