@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at dealcard.sv(8): always construct contains both blocking and non-blocking assignments File: C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task5/dealcard.sv Line: 8
+Warning (10268): Verilog HDL information at dealcard.sv(19): always construct contains both blocking and non-blocking assignments File: C:/Users/sants/Desktop/CPEN-311/Lab-2/Lab-1/task5/dealcard.sv Line: 19
