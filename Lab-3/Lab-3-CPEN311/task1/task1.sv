@@ -8,54 +8,33 @@ module task1(input logic CLOCK_50, input logic [3:0] KEY, input logic [9:0] SW,
     reg [7:0] addr;
     reg [7:0] wrdata;
     reg [7:0] wren;
+    wire rst_n = KEY[3];
             
-    reg currentState = 0;
+    reg [1:0] state;
+    localparam idle = 0;
+    localparam writeS = 1;
+    localparam finished = 2;
 
-    s_mem s(.address(address), .clock(CLOCK_50), .data(data), .wren(wren), .q());
-    init init(.clk(CLOCK_50), .rst_n(KEY[3]), .en(en), .rdy(rdy), .addr(addr), .wrdata(wrdata), .wren(wren));
+    s_mem s(.address(addr), .clock(CLOCK_50), .data(wrdata), .wren, .q());
+    init init(.clk(CLOCK_50), .rst_n, .en, .rdy, .addr, .wrdata, .wren);
 
     always_comb begin
-        case (currentState)
-            0: begin
-                if (rdy == 1) begin
-                    en = 1;
-                end else begin
-                    en = 0;
-                end
-            end
-
-            1, 2: begin
-                en = 0;
-            end
+        case (state)
+			idle: en = rdy;
+			default en = 0;
         endcase
     end
 
-    always_ff @(posedge CLOCK_50) begin
-        case (currentState)
-            0: begin
-                if (KEY[3]) begin
-                    currentState <= 0;
-                end else begin
-                    currentState <= 1;
-                end
-            end
-
-            1: begin
-                if (rdy == 1) begin
-                    currentState <= 2;
-                end else begin
-                    currentState <= 1;
-                end
-            end
-
-            2: begin
-                if (rdy == 1) begin
-                    currentState <= 0;
-                end else begin
-                    currentState <= 2;
-                end
-            end
-        endcase
+    always_ff @(posedge CLOCK_50, negedge rst_n) begin
+		if (!rst_n) state = idle;
+		else begin
+			case (state)
+				idle: state <= rdy ? writeS : idle;
+				writeS: state <= rdy ? finished : writeS;
+				finished: state <= finished;
+				default: state <= idle;
+			endcase
+		end
     end
 
 endmodule: task1
