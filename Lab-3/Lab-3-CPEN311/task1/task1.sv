@@ -7,7 +7,7 @@ module task1(input logic CLOCK_50, input logic [3:0] KEY, input logic [9:0] SW,
 	logic rdy;
 	reg [7:0] addr;
 	reg [7:0] wrdata;
-	reg [7:0] wren;
+	reg wren;
 	wire rst_n = KEY[3];
 			
 	reg [1:0] state;
