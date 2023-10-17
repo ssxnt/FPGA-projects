@@ -27,11 +27,6 @@ module tb_syn_task1();
         #50;
         KEY[3] = 0;
         #10000;
-        KEY[3] = 1;
-        #50;
-        KEY[3] = 0;
-        #50;
-        KEY[3] = 1;
     end
 
 endmodule: tb_syn_task1
