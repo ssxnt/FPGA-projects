@@ -3,7 +3,7 @@ module tb_rtl_task2();
 
     reg clk, rst_n;
     reg [3:0] KEY;
-    reg [9:0] SW;
+    reg [9:0] SW = 2'haa;
     wire [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
     wire [9:0] LEDR;
 
@@ -28,7 +28,7 @@ module tb_rtl_task2();
 		
 		
 
-        #3000
+        #9000
         $display("\n==== TEST SUMMARY ====");
 		$stop;
     end
