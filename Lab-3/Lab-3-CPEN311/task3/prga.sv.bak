@@ -39,7 +39,7 @@ module prga(input logic clk, input logic rst_n, input logic en, output logic rdy
     end
 
     always_ff @(posedge  clk, negedge rst_n) begin
-        if begin (!rst_n) state = idle; end
+        if begin (!rst_n) state <= idle; end
         else begin
 			case (state)
                 idle: state <= (en == 1) ? messageLength : idle; rdy <= (en == 1) ? 0 : 1;

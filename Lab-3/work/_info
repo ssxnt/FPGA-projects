@@ -10,7 +10,7 @@ cModel Technology
 dC:/Users/sants/Desktop/CPEN-311/Lab-2
 vinit
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1697563572
+Z1 !s110 1697590260
 !i10b 1
 !s100 P=]AH<CeMa`kV7iNc<Zgd3
 IbDV6gJAKm@d2A26@6J<6P2
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1697563572.000000
+Z5 !s108 1697590260.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv|
 !i113 1
@@ -63,7 +63,7 @@ R2
 !s105 task1_sv_unit
 S1
 R3
-w1697562726
+w1697564311
 8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/task1.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/task1.sv
 L0 1
@@ -105,13 +105,13 @@ vtb_rtl_task1
 R0
 R1
 !i10b 1
-!s100 bWW48zU=M?2TR=gTH3a^83
-I`?GYdf1[=fo5]737]iX5=2
+!s100 FAh:lKQ4`ChI]obniTE`30
+I;]W24j50H4@QNkn5o]mLl3
 R2
 !s105 tb_rtl_task1_sv_unit
 S1
 R3
-w1697563561
+w1697563915
 8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_task1.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_task1.sv
 L0 3
@@ -153,13 +153,13 @@ vtb_syn_task1
 R0
 R1
 !i10b 1
-!s100 G59zWhQP`<22`IML11@`=1
-I^6`7OILA0=6ID?BQLOnm01
+!s100 VR2;6lKHkCFL_`>SmTkXb1
+I5=ITBKEVDo_^I2MJc:4A;0
 R2
 !s105 tb_syn_task1_sv_unit
 S1
 R3
-w1697562303
+w1697564304
 8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_task1.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_task1.sv
 L0 3
