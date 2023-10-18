@@ -175,3 +175,45 @@ project compileall; restart; run -all
 # ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_rtl_task3.sv(28)
 #    Time: 11055 ps  Iteration: 0  Instance: /tb_rtl_task3
 # Break in Module tb_rtl_task3 at C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_rtl_task3.sv line 28
+# Compile of init.sv was successful.
+# Compile of task1.sv was successful.
+# Compile of tb_syn_task1.sv was successful.
+# Compile of tb_rtl_init.sv was successful.
+# Compile of tb_rtl_task1.sv was successful.
+# Compile of tb_syn_init.sv was successful.
+# Compile of s_mem.v was successful.
+# Compile of prga.sv failed with 1 errors.
+# Compile of arc4.sv was successful with warnings.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of ksa.sv was successful.
+# Compile of task2.sv was successful with warnings.
+# Compile of tb_rtl_ksa.sv was successful.
+# Compile of tb_rtl_task2.sv was successful with warnings.
+# Compile of tb_syn_ksa.sv was successful.
+# Compile of pt_mem.v was successful.
+# Compile of ct_mem.v was successful.
+# 20 compiles, 1 failed with 1 error.
+# Compile of init.sv was successful.
+# Compile of task1.sv was successful.
+# Compile of tb_syn_task1.sv was successful.
+# Compile of tb_rtl_init.sv was successful.
+# Compile of tb_rtl_task1.sv was successful.
+# Compile of tb_syn_init.sv was successful.
+# Compile of s_mem.v was successful.
+# Compile of prga.sv was successful with warnings.
+# Compile of arc4.sv was successful with warnings.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of ksa.sv was successful.
+# Compile of task2.sv was successful with warnings.
+# Compile of tb_rtl_ksa.sv was successful.
+# Compile of tb_rtl_task2.sv was successful with warnings.
+# Compile of tb_syn_ksa.sv was successful.
+# Compile of pt_mem.v was successful.
+# Compile of ct_mem.v was successful.
+# 20 compiles, 0 failed with no errors.
