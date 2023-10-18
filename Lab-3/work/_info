@@ -8,30 +8,78 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/sants/Desktop/CPEN-311/Lab-2
-vinit
+varc4
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1697590260
+Z1 !s110 1697613209
 !i10b 1
-!s100 P=]AH<CeMa`kV7iNc<Zgd3
-IbDV6gJAKm@d2A26@6J<6P2
+!s100 n<CAWTE^f>64bB9ejZ^G93
+I]:b1Sl06iX065><QoigoI3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
-!s105 init_sv_unit
+!s105 arc4_sv_unit
 S1
 Z3 dC:/Users/sants/Desktop/CPEN-311/Lab-3
-w1697561843
-8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv
-FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv
+w1697613205
+8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv
 L0 1
 Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1697590260.000000
-!s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv|
+Z5 !s108 1697613209.000000
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv|
 !i113 1
 Z6 o-work work -sv
 Z7 tCvgOpt 0
+vinit
+R0
+R1
+!i10b 1
+!s100 P=]AH<CeMa`kV7iNc<Zgd3
+IbDV6gJAKm@d2A26@6J<6P2
+R2
+!s105 init_sv_unit
+S1
+R3
+w1697561843
+8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv|
+!i113 1
+R6
+R7
+vprga
+R0
+R1
+!i10b 1
+!s100 baW634eIP]cD_BH`hJ>8e0
+IY?_b4?=`o=GnT5?5GYbAi0
+R2
+!s105 prga_sv_unit
+S1
+R3
+w1697612993
+8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv|
+!i113 1
+R6
+R7
 vs_mem
 R1
 !i10b 1

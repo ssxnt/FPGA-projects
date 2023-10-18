@@ -5,8 +5,9 @@
 # Compile of tb_rtl_task1.sv was successful.
 # Compile of tb_syn_init.sv was successful.
 # Compile of s_mem.v was successful.
-# Compile of prga.sv failed with 6 errors.
-# 8 compiles, 1 failed with 6 errors.
+# Compile of prga.sv failed with 2 errors.
+# Compile of arc4.sv failed with 2 errors.
+# 9 compiles, 2 failed with 4 errors.
 # Compile of init.sv was successful.
 # Compile of task1.sv was successful.
 # Compile of tb_syn_task1.sv was successful.
@@ -14,12 +15,37 @@
 # Compile of tb_rtl_task1.sv was successful.
 # Compile of tb_syn_init.sv was successful.
 # Compile of s_mem.v was successful.
-# Compile of prga.sv failed with 5 errors.
-# 8 compiles, 1 failed with 5 errors.
-# Error opening C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv
-# Path name 'C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv' doesn't exist.
-# Error opening C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv
-# Path name 'C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv' doesn't exist.
+# Compile of prga.sv failed with 2 errors.
+# Compile of arc4.sv failed with 2 errors.
+# 9 compiles, 2 failed with 4 errors.
+# Error opening C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv
+# Path name 'C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv' doesn't exist.
+# Error opening C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv
+# Path name 'C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv' doesn't exist.
+# Compile of init.sv was successful.
+# Compile of task1.sv was successful.
+# Compile of tb_syn_task1.sv was successful.
+# Compile of tb_rtl_init.sv was successful.
+# Compile of tb_rtl_task1.sv was successful.
+# Compile of tb_syn_init.sv was successful.
+# Compile of s_mem.v was successful.
+# Compile of prga.sv failed with 2 errors.
+# Compile of arc4.sv failed with 9 errors.
+# 9 compiles, 2 failed with 11 errors.
+# Error opening C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv
+# Path name 'C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv' doesn't exist.
+# Compile of init.sv was successful.
+# Compile of task1.sv was successful.
+# Compile of tb_syn_task1.sv was successful.
+# Compile of tb_rtl_init.sv was successful.
+# Compile of tb_rtl_task1.sv was successful.
+# Compile of tb_syn_init.sv was successful.
+# Compile of s_mem.v was successful.
+# Compile of prga.sv failed with 2 errors.
+# Compile of arc4.sv failed with 9 errors.
+# 9 compiles, 2 failed with 11 errors.
+# Error opening C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv
+# Path name 'C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv' doesn't exist.
 # Compile of init.sv was successful.
 # Compile of task1.sv was successful.
 # Compile of tb_syn_task1.sv was successful.
@@ -28,7 +54,8 @@
 # Compile of tb_syn_init.sv was successful.
 # Compile of s_mem.v was successful.
 # Compile of prga.sv failed with 3 errors.
-# 8 compiles, 1 failed with 3 errors.
+# Compile of arc4.sv failed with 9 errors.
+# 9 compiles, 2 failed with 12 errors.
 # Compile of init.sv was successful.
 # Compile of task1.sv was successful.
 # Compile of tb_syn_task1.sv was successful.
@@ -36,12 +63,9 @@
 # Compile of tb_rtl_task1.sv was successful.
 # Compile of tb_syn_init.sv was successful.
 # Compile of s_mem.v was successful.
-# Compile of prga.sv failed with 2 errors.
-# 8 compiles, 1 failed with 2 errors.
-# Error opening C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv
-# Path name 'C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv' doesn't exist.
-# Error opening C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv
-# Path name 'C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv' doesn't exist.
+# Compile of prga.sv was successful with warnings.
+# Compile of arc4.sv failed with 9 errors.
+# 9 compiles, 1 failed with 9 errors.
 # Compile of init.sv was successful.
 # Compile of task1.sv was successful.
 # Compile of tb_syn_task1.sv was successful.
@@ -49,8 +73,13 @@
 # Compile of tb_rtl_task1.sv was successful.
 # Compile of tb_syn_init.sv was successful.
 # Compile of s_mem.v was successful.
-# Compile of prga.sv failed with 2 errors.
-# 8 compiles, 1 failed with 2 errors.
+# Compile of prga.sv was successful with warnings.
+# Compile of arc4.sv failed with 1 errors.
+# 9 compiles, 1 failed with 1 error.
+# Error opening C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv
+# Path name 'C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv' doesn't exist.
+# Error opening C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv
+# Path name 'C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv' doesn't exist.
 # Compile of init.sv was successful.
 # Compile of task1.sv was successful.
 # Compile of tb_syn_task1.sv was successful.
@@ -58,34 +87,6 @@
 # Compile of tb_rtl_task1.sv was successful.
 # Compile of tb_syn_init.sv was successful.
 # Compile of s_mem.v was successful.
-# Compile of prga.sv failed with 2 errors.
-# 8 compiles, 1 failed with 2 errors.
-# Compile of init.sv was successful.
-# Compile of task1.sv was successful.
-# Compile of tb_syn_task1.sv was successful.
-# Compile of tb_rtl_init.sv was successful.
-# Compile of tb_rtl_task1.sv was successful.
-# Compile of tb_syn_init.sv was successful.
-# Compile of s_mem.v was successful.
-# Compile of prga.sv failed with 13 errors.
-# 8 compiles, 1 failed with 13 errors.
-# Compile of init.sv was successful.
-# Compile of task1.sv was successful.
-# Compile of tb_syn_task1.sv was successful.
-# Compile of tb_rtl_init.sv was successful.
-# Compile of tb_rtl_task1.sv was successful.
-# Compile of tb_syn_init.sv was successful.
-# Compile of s_mem.v was successful.
-# Compile of prga.sv failed with 2 errors.
-# 8 compiles, 1 failed with 2 errors.
-# Compile of init.sv was successful.
-# Compile of task1.sv was successful.
-# Compile of tb_syn_task1.sv was successful.
-# Compile of tb_rtl_init.sv was successful.
-# Compile of tb_rtl_task1.sv was successful.
-# Compile of tb_syn_init.sv was successful.
-# Compile of s_mem.v was successful.
-# Compile of prga.sv failed with 2 errors.
-# 8 compiles, 1 failed with 2 errors.
-# Error opening C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv
-# Path name 'C:/Users/sants/Desktop/CPEN-311/Lab-3/(vlog-13069) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv' doesn't exist.
+# Compile of prga.sv was successful with warnings.
+# Compile of arc4.sv was successful with warnings.
+# 9 compiles, 0 failed with no errors.
