@@ -7,10 +7,7 @@ module tb_rtl_task1();
     reg [3:0] KEY;
     reg clk;
 
-    task1 dut(.CLOCK_50(clk), .KEY(KEY), .SW(SW),
-            .HEX0(HEX0), .HEX1(HEX1), .HEX2(HEX2),
-            .HEX3(HEX3), .HEX4(HEX4), .HEX5(HEX5),
-            .LEDR(LEDR));
+    task1 dut(.CLOCK_50(clk), .KEY(KEY), .SW(SW), .HEX0(HEX0), .HEX1(HEX1), .HEX2(HEX2), .HEX3(HEX3), .HEX4(HEX4), .HEX5(HEX5), .LEDR(LEDR));
 
     initial forever begin
         clk = 0;

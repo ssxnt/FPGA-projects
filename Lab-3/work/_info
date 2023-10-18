@@ -10,7 +10,7 @@ cModel Technology
 dC:/Users/sants/Desktop/CPEN-311/Lab-2
 varc4
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1697655917
+Z1 !s110 1697665172
 !i10b 1
 !s100 n<CAWTE^f>64bB9ejZ^G93
 I]:b1Sl06iX065><QoigoI3
@@ -26,15 +26,36 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1697655917.000000
+Z5 !s108 1697665172.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv|
 !i113 1
 Z6 o-work work -sv
 Z7 tCvgOpt 0
+vct_mem
+Z8 !s110 1697665173
+!i10b 1
+!s100 fka_U^1@EOnZ<T5m]g_3g2
+In;K8H;h`301;n2dn@nDIi2
+R2
+R3
+w1697664711
+8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/ct_mem.v
+FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/ct_mem.v
+Z9 L0 40
+R4
+r1
+!s85 0
+31
+Z10 !s108 1697665173.000000
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/ct_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/ct_mem.v|
+!i113 1
+Z11 o-work work
+R7
 vinit
 R0
-Z8 !s110 1697655916
+Z12 !s110 1697665171
 !i10b 1
 !s100 P=]AH<CeMa`kV7iNc<Zgd3
 IbDV6gJAKm@d2A26@6J<6P2
@@ -50,9 +71,33 @@ R4
 r1
 !s85 0
 31
-Z9 !s108 1697655916.000000
+Z13 !s108 1697665171.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv|
+!i113 1
+R6
+R7
+vksa
+R0
+R1
+!i10b 1
+!s100 OgfQ>0EoTF871o3?69cOo1
+Il=?cadN_R:QiMUeE02iH50
+R2
+!s105 ksa_sv_unit
+S1
+R3
+Z14 w1697656231
+8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/ksa.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/ksa.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/ksa.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/ksa.sv|
 !i113 1
 R6
 R7
@@ -80,6 +125,27 @@ R5
 !i113 1
 R6
 R7
+vpt_mem
+R8
+!i10b 1
+!s100 E7kkM]5f;O3<mA_1kGd`O0
+IgAUJK51I=63mV<V2nVdkO2
+R2
+R3
+w1697664774
+8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/pt_mem.v
+FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/pt_mem.v
+R9
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/pt_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/pt_mem.v|
+!i113 1
+R11
+R7
 vs_mem
 R1
 !i10b 1
@@ -90,20 +156,20 @@ R3
 w1697492871
 8C:/Users/sants/Desktop/CPEN-311/Lab-3/s_mem.v
 FC:/Users/sants/Desktop/CPEN-311/Lab-3/s_mem.v
-L0 40
+R9
 R4
 r1
 !s85 0
 31
-R5
+R13
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/s_mem.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/s_mem.v|
 !i113 1
-o-work work
+R11
 R7
 vtask1
 R0
-R8
+R12
 !i10b 1
 !s100 S5AZz`_A0nd^@mlILc1NU3
 IMb@GJALloGb`REMQ:]b1`2
@@ -119,9 +185,33 @@ R4
 r1
 !s85 0
 31
-R9
+R13
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/task1.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/task1.sv|
+!i113 1
+R6
+R7
+vtask2
+R0
+R1
+!i10b 1
+!s100 l^9kcX:BESX_cK;oXHTHg1
+IkVBbQ<_WH[8azGQFHOczf0
+R2
+!s105 task2_sv_unit
+S1
+R3
+R14
+8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/task2.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/task2.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/task2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/task2.sv|
 !i113 1
 R6
 R7
@@ -129,13 +219,13 @@ vtask3
 R0
 R1
 !i10b 1
-!s100 T05z3Nc6h0=2VJQ[lz27d3
-I2E;0]5Q=1Pzc]GkfAm9aH0
+!s100 2?]T3B>GSaM7Phjg5=CLA0
+I0`2UKJUV<N=n_RY_[f05F1
 R2
 !s105 task3_sv_unit
 S1
 R3
-w1697655693
+w1697665064
 8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
 L0 1
@@ -151,7 +241,7 @@ R6
 R7
 vtb_rtl_init
 R0
-R8
+R12
 !i10b 1
 !s100 JNS3N^oV8j;]]AzR`^>C42
 I^1ViK7_ok[OFgSZj[DCgE2
@@ -159,7 +249,7 @@ R2
 !s105 tb_rtl_init_sv_unit
 S1
 R3
-Z10 w1697166917
+Z15 w1697166917
 8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_init.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_init.sv
 L0 1
@@ -167,23 +257,47 @@ R4
 r1
 !s85 0
 31
-R9
+R13
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_init.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_init.sv|
 !i113 1
 R6
 R7
-vtb_rtl_task1
+vtb_rtl_ksa
 R0
 R1
 !i10b 1
-!s100 FAh:lKQ4`ChI]obniTE`30
-I;]W24j50H4@QNkn5o]mLl3
+!s100 ?m`@3zcn=T7En<`NZD2i71
+Iehj_P:F2lkh2@];L1R;DQ0
+R2
+!s105 tb_rtl_ksa_sv_unit
+S1
+R3
+Z16 w1697166918
+8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_ksa.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_ksa.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_ksa.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_ksa.sv|
+!i113 1
+R6
+R7
+vtb_rtl_task1
+R0
+R12
+!i10b 1
+!s100 bOk0Ojz:=ZFZUXbd^^h<f1
+I=F]3e2J1]RRGSn=^PaCFG1
 R2
 !s105 tb_rtl_task1_sv_unit
 S1
 R3
-w1697563915
+w1697656972
 8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_task1.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_task1.sv
 L0 3
@@ -191,9 +305,33 @@ R4
 r1
 !s85 0
 31
-R9
+R13
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_task1.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_task1.sv|
+!i113 1
+R6
+R7
+vtb_rtl_task2
+R0
+R1
+!i10b 1
+!s100 V`<m]z7G`>;f?kBoR66_G0
+I;UL_RzUBG0QPdQ6iRAGLj0
+R2
+!s105 tb_rtl_task2_sv_unit
+S1
+R3
+w1697657335
+8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv|
 !i113 1
 R6
 R7
@@ -201,13 +339,13 @@ vtb_rtl_task3
 R0
 R1
 !i10b 1
-!s100 Lm@8_48GoT@`?KA6VR4_02
-I?`zlmLMMB5V8WTR5i72_60
+!s100 6=]T=YZ:m?53X@JB^KE0_0
+IlXRHFFgV1X5<nk?;64z8:0
 R2
 !s105 tb_rtl_task3_sv_unit
 S1
 R3
-w1697655883
+w1697665167
 8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_rtl_task3.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_rtl_task3.sv
 L0 3
@@ -223,7 +361,7 @@ R6
 R7
 vtb_syn_init
 R0
-R1
+R12
 !i10b 1
 !s100 2H6_FIHWml@]BUX1E6`Eb2
 I^HKM=FnU>E3K7zbB8z2Jc0
@@ -231,7 +369,7 @@ R2
 !s105 tb_syn_init_sv_unit
 S1
 R3
-R10
+R15
 8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_init.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_init.sv
 L0 1
@@ -239,15 +377,39 @@ R4
 r1
 !s85 0
 31
-R5
+R13
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_init.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_init.sv|
 !i113 1
 R6
 R7
-vtb_syn_task1
+vtb_syn_ksa
 R0
 R8
+!i10b 1
+!s100 NEZ;``=VoamIR7I;Zonj02
+InVRjbz<FPXYnz9V``eX:13
+R2
+!s105 tb_syn_ksa_sv_unit
+S1
+R3
+R16
+8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_syn_ksa.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_syn_ksa.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_syn_ksa.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_syn_ksa.sv|
+!i113 1
+R6
+R7
+vtb_syn_task1
+R0
+R12
 !i10b 1
 !s100 VR2;6lKHkCFL_`>SmTkXb1
 I5=ITBKEVDo_^I2MJc:4A;0
@@ -263,9 +425,33 @@ R4
 r1
 !s85 0
 31
-R9
+R13
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_task1.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_task1.sv|
+!i113 1
+R6
+R7
+vtb_syn_task2
+R0
+R1
+!i10b 1
+!s100 3oT3]S[``?EQNiCSG1D551
+Id]G>Nnn^kc66;_HXl`;f92
+R2
+!s105 tb_syn_task2_sv_unit
+S1
+R3
+R16
+8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_syn_task2.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_syn_task2.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_syn_task2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_syn_task2.sv|
 !i113 1
 R6
 R7
@@ -273,13 +459,13 @@ vtb_syn_task3
 R0
 R1
 !i10b 1
-!s100 zDYBGWL2NFo<Jo@Al[dDT3
-IiYWFPPaW:Vl1QYzC><;h^1
+!s100 Z6]B>:YH@20>am<c64Rio3
+IOTlZGG7XW2RE1fhQ]IceT1
 R2
 !s105 tb_syn_task3_sv_unit
 S1
 R3
-w1697655913
+w1697662478
 8C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_syn_task3.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_syn_task3.sv
 L0 3

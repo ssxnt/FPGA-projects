@@ -1,3 +1,5 @@
+`timescale 1ps / 1ps
+
 module tb_syn_task3();
 
     reg [9:0] SW, LEDR;
