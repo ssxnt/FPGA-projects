@@ -34,9 +34,15 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY, input logic [9:0] SW,
 
     always_ff @(posedge CLOCK_50, negedge rst_n) begin
         case (state)
-            idle:     begin state <= (rst_n == 0) ? rdyOrNot: idle; end
-            rdyOrNot: begin state <= (rdy == 1) ? decrypt : rdyOrNot; end
-            decrypt:  begin state <= (rdy == 1) ? idle : decrypt; end 
+            idle:       begin 
+                            state <= (rst_n == 0) ? rdyOrNot: idle; 
+                        end
+            rdyOrNot:   begin 
+                            state <= (rdy == 1) ? decrypt : rdyOrNot; 
+                        end
+            decrypt:    begin 
+                            state <= (rdy == 1) ? idle : decrypt; 
+                        end 
         endcase
     end
 

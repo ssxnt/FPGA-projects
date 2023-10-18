@@ -18,7 +18,7 @@ module tb_rtl_task3();
 
     initial begin
 
-	    $readmemh("C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/test1.memh", dut.ct.altsyncram_component.m_default.altsyncram_inst.mem_data);
+	    $readmemh("C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/test2.memh", dut.ct.altsyncram_component.m_default.altsyncram_inst.mem_data);
 	    #1000;
         #5;
         KEY[3] = 0;

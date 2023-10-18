@@ -1,380 +1,18 @@
-# Compile of init.sv was successful.
-# Compile of task1.sv was successful.
-# Compile of tb_syn_task1.sv was successful.
-# Compile of tb_rtl_init.sv was successful.
-# Compile of tb_rtl_task1.sv was successful.
-# Compile of tb_syn_init.sv was successful.
-# Compile of s_mem.v was successful.
-# Compile of prga.sv was successful with warnings.
-# Compile of arc4.sv was successful with warnings.
-# Compile of task3.sv was successful with warnings.
-# Compile of tb_rtl_task3.sv was successful.
-# Compile of tb_syn_task3.sv was successful.
-# Compile of tb_syn_task2.sv was successful.
-# Compile of ksa.sv was successful.
-# Compile of task2.sv was successful with warnings.
-# Compile of tb_rtl_ksa.sv was successful.
-# Compile of tb_rtl_task2.sv was successful with warnings.
-# Compile of tb_syn_ksa.sv was successful.
-# 18 compiles, 0 failed with no errors.
-vsim -L altera_mf_ver work.tb_rtl_task3
-# vsim -L altera_mf_ver work.tb_rtl_task3 
-# Start time: 13:54:57 on Oct 18,2023
+vsim -L altera_mf_ver work.tb_rtl_task2
+# vsim -L altera_mf_ver work.tb_rtl_task2 
+# Start time: 14:52:58 on Oct 18,2023
 # Loading sv_std.std
-# Loading work.tb_rtl_task3
-# Loading work.task3
-# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(16): Instantiation of 'ct_mem' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
-#         Searched libraries:
-#             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/Users/sants/Desktop/CPEN-311/Lab-3/work
-# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(17): Instantiation of 'pt_mem' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
-#         Searched libraries:
-#             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/Users/sants/Desktop/CPEN-311/Lab-3/work
-# Loading work.arc4
+# Loading work.tb_rtl_task2
+# Loading work.task2
 # Loading work.s_mem
 # Loading altera_mf_ver.altsyncram
 # Loading work.init
 # Loading work.ksa
-# Loading work.prga
-# Error loading design
-# End time: 13:54:58 on Oct 18,2023, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 0
-# Compile of init.sv was successful.
-# Compile of task1.sv was successful.
-# Compile of tb_syn_task1.sv was successful.
-# Compile of tb_rtl_init.sv was successful.
-# Compile of tb_rtl_task1.sv was successful.
-# Compile of tb_syn_init.sv was successful.
-# Compile of s_mem.v was successful.
-# Compile of prga.sv was successful with warnings.
-# Compile of arc4.sv was successful with warnings.
-# Compile of task3.sv was successful with warnings.
-# Compile of tb_rtl_task3.sv was successful.
-# Compile of tb_syn_task3.sv was successful.
-# Compile of tb_syn_task2.sv was successful.
-# Compile of ksa.sv was successful.
-# Compile of task2.sv was successful with warnings.
-# Compile of tb_rtl_ksa.sv was successful.
-# Compile of tb_rtl_task2.sv was successful with warnings.
-# Compile of tb_syn_ksa.sv was successful.
-# 18 compiles, 0 failed with no errors.
-vsim -L altera_mf_ver work.tb_rtl_task3
-# vsim -L altera_mf_ver work.tb_rtl_task3 
-# Start time: 14:06:10 on Oct 18,2023
-# Loading sv_std.std
-# Loading work.tb_rtl_task3
-# Loading work.task3
-# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(16): Instantiation of 'ct_mem' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
-#         Searched libraries:
-#             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/Users/sants/Desktop/CPEN-311/Lab-3/work
-# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(17): Instantiation of 'pt_mem' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
-#         Searched libraries:
-#             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/Users/sants/Desktop/CPEN-311/Lab-3/work
-# Loading work.arc4
-# Loading work.s_mem
-# Loading altera_mf_ver.altsyncram
-# Loading work.init
-# Loading work.ksa
-# Loading work.prga
-# Error loading design
-# End time: 14:06:10 on Oct 18,2023, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# Compile of init.sv was successful.
-# Compile of task1.sv was successful.
-# Compile of tb_syn_task1.sv was successful.
-# Compile of tb_rtl_init.sv was successful.
-# Compile of tb_rtl_task1.sv was successful.
-# Compile of tb_syn_init.sv was successful.
-# Compile of s_mem.v was successful.
-# Compile of prga.sv was successful with warnings.
-# Compile of arc4.sv was successful with warnings.
-# Compile of task3.sv was successful with warnings.
-# Compile of tb_rtl_task3.sv was successful.
-# Compile of tb_syn_task3.sv was successful.
-# Compile of tb_syn_task2.sv was successful.
-# Compile of ksa.sv was successful.
-# Compile of task2.sv was successful with warnings.
-# Compile of tb_rtl_ksa.sv was successful.
-# Compile of tb_rtl_task2.sv was successful with warnings.
-# Compile of tb_syn_ksa.sv was successful.
-# 18 compiles, 0 failed with no errors.
-vsim -L altera_mf_ver work.tb_rtl_task3
-# vsim -L altera_mf_ver work.tb_rtl_task3 
-# Start time: 14:08:05 on Oct 18,2023
-# Loading sv_std.std
-# Loading work.tb_rtl_task3
-# Loading work.task3
-# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(16): Instantiation of 'ct_mem' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
-#         Searched libraries:
-#             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/Users/sants/Desktop/CPEN-311/Lab-3/work
-# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(17): Instantiation of 'pt_mem' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
-#         Searched libraries:
-#             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/Users/sants/Desktop/CPEN-311/Lab-3/work
-# Loading work.arc4
-# Loading work.s_mem
-# Loading altera_mf_ver.altsyncram
-# Loading work.init
-# Loading work.ksa
-# Loading work.prga
-# Error loading design
-# End time: 14:08:06 on Oct 18,2023, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 0
-# Compile of init.sv was successful.
-# Compile of task1.sv was successful.
-# Compile of tb_syn_task1.sv was successful.
-# Compile of tb_rtl_init.sv was successful.
-# Compile of tb_rtl_task1.sv was successful.
-# Compile of tb_syn_init.sv was successful.
-# Compile of s_mem.v was successful.
-# Compile of prga.sv was successful with warnings.
-# Compile of arc4.sv was successful with warnings.
-# Compile of task3.sv was successful with warnings.
-# Compile of tb_rtl_task3.sv was successful.
-# Compile of tb_syn_task3.sv was successful.
-# Compile of tb_syn_task2.sv was successful.
-# Compile of ksa.sv was successful.
-# Compile of task2.sv was successful with warnings.
-# Compile of tb_rtl_ksa.sv was successful.
-# Compile of tb_rtl_task2.sv was successful with warnings.
-# Compile of tb_syn_ksa.sv was successful.
-# 18 compiles, 0 failed with no errors.
-vsim -L altera_mf_ver work.tb_rtl_task3
-# vsim -L altera_mf_ver work.tb_rtl_task3 
-# Start time: 14:10:53 on Oct 18,2023
-# Loading sv_std.std
-# Loading work.tb_rtl_task3
-# Loading work.task3
-# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(16): Instantiation of 'ct_mem' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
-#         Searched libraries:
-#             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/Users/sants/Desktop/CPEN-311/Lab-3/work
-# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(17): Instantiation of 'pt_mem' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
-#         Searched libraries:
-#             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/Users/sants/Desktop/CPEN-311/Lab-3/work
-# Loading work.arc4
-# Loading work.s_mem
-# Loading altera_mf_ver.altsyncram
-# Loading work.init
-# Loading work.ksa
-# Loading work.prga
-# Error loading design
-# End time: 14:10:54 on Oct 18,2023, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 0
-# Compile of init.sv was successful.
-# Compile of task1.sv was successful.
-# Compile of tb_syn_task1.sv was successful.
-# Compile of tb_rtl_init.sv was successful.
-# Compile of tb_rtl_task1.sv was successful.
-# Compile of tb_syn_init.sv was successful.
-# Compile of s_mem.v was successful.
-# Compile of prga.sv was successful with warnings.
-# Compile of arc4.sv was successful with warnings.
-# Compile of task3.sv was successful with warnings.
-# Compile of tb_rtl_task3.sv was successful.
-# Compile of tb_syn_task3.sv was successful.
-# Compile of tb_syn_task2.sv was successful.
-# Compile of ksa.sv was successful.
-# Compile of task2.sv was successful with warnings.
-# Compile of tb_rtl_ksa.sv was successful.
-# Compile of tb_rtl_task2.sv was successful with warnings.
-# Compile of tb_syn_ksa.sv was successful.
-# 18 compiles, 0 failed with no errors.
-vsim -L altera_mf_ver work.tb_rtl_task3
-# vsim -L altera_mf_ver work.tb_rtl_task3 
-# Start time: 14:16:26 on Oct 18,2023
-# Loading sv_std.std
-# Loading work.tb_rtl_task3
-# Loading work.task3
-# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(16): Instantiation of 'ct_mem' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
-#         Searched libraries:
-#             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/Users/sants/Desktop/CPEN-311/Lab-3/work
-# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(17): Instantiation of 'pt_mem' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
-#         Searched libraries:
-#             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/Users/sants/Desktop/CPEN-311/Lab-3/work
-# Loading work.arc4
-# Loading work.s_mem
-# Loading altera_mf_ver.altsyncram
-# Loading work.init
-# Loading work.ksa
-# Loading work.prga
-# Error loading design
-# End time: 14:16:26 on Oct 18,2023, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# Compile of init.sv was successful.
-# Compile of task1.sv was successful.
-# Compile of tb_syn_task1.sv was successful.
-# Compile of tb_rtl_init.sv was successful.
-# Compile of tb_rtl_task1.sv was successful.
-# Compile of tb_syn_init.sv was successful.
-# Compile of s_mem.v was successful.
-# Compile of prga.sv was successful with warnings.
-# Compile of arc4.sv was successful with warnings.
-# Compile of task3.sv was successful with warnings.
-# Compile of tb_rtl_task3.sv was successful.
-# Compile of tb_syn_task3.sv was successful.
-# Compile of tb_syn_task2.sv was successful.
-# Compile of ksa.sv was successful.
-# Compile of task2.sv was successful with warnings.
-# Compile of tb_rtl_ksa.sv was successful.
-# Compile of tb_rtl_task2.sv was successful with warnings.
-# Compile of tb_syn_ksa.sv was successful.
-# 18 compiles, 0 failed with no errors.
-vsim -L altera_mf_ver work.tb_rtl_task3
-# vsim -L altera_mf_ver work.tb_rtl_task3 
-# Start time: 14:20:59 on Oct 18,2023
-# Loading sv_std.std
-# Loading work.tb_rtl_task3
-# Loading work.task3
-# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(16): Instantiation of 'ct_mem' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
-#         Searched libraries:
-#             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/Users/sants/Desktop/CPEN-311/Lab-3/work
-# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(17): Instantiation of 'pt_mem' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
-#         Searched libraries:
-#             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/Users/sants/Desktop/CPEN-311/Lab-3/work
-# Loading work.arc4
-# Loading work.s_mem
-# Loading altera_mf_ver.altsyncram
-# Loading work.init
-# Loading work.ksa
-# Loading work.prga
-# Error loading design
-# End time: 14:21:00 on Oct 18,2023, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 0
-vsim -L altera_mf_ver work.tb_rtl_task3
-# vsim -L altera_mf_ver work.tb_rtl_task3 
-# Start time: 14:33:02 on Oct 18,2023
-# Loading sv_std.std
-# Loading work.tb_rtl_task3
-# Loading work.task3
-# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(16): Instantiation of 'ct_mem' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
-#         Searched libraries:
-#             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/Users/sants/Desktop/CPEN-311/Lab-3/work
-# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(17): Instantiation of 'pt_mem' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
-#         Searched libraries:
-#             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/Users/sants/Desktop/CPEN-311/Lab-3/work
-# Loading work.arc4
-# Loading work.s_mem
-# Loading altera_mf_ver.altsyncram
-# Loading work.init
-# Loading work.ksa
-# Loading work.prga
-# Error loading design
-# End time: 14:33:02 on Oct 18,2023, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# Compile of init.sv was successful.
-# Compile of task1.sv was successful.
-# Compile of tb_syn_task1.sv was successful.
-# Compile of tb_rtl_init.sv was successful.
-# Compile of tb_rtl_task1.sv was successful.
-# Compile of tb_syn_init.sv was successful.
-# Compile of s_mem.v was successful.
-# Compile of prga.sv was successful with warnings.
-# Compile of arc4.sv was successful with warnings.
-# Compile of task3.sv was successful with warnings.
-# Compile of tb_rtl_task3.sv was successful.
-# Compile of tb_syn_task3.sv was successful.
-# Compile of tb_syn_task2.sv was successful.
-# Compile of ksa.sv was successful.
-# Compile of task2.sv was successful with warnings.
-# Compile of tb_rtl_ksa.sv was successful.
-# Compile of tb_rtl_task2.sv was successful with warnings.
-# Compile of tb_syn_ksa.sv was successful.
-# Compile of pt_mem.v was successful.
-# Compile of ct_mem.v was successful.
-# 20 compiles, 0 failed with no errors.
-vsim -L altera_mf_ver work.tb_rtl_task3
-# vsim -L altera_mf_ver work.tb_rtl_task3 
-# Start time: 14:33:26 on Oct 18,2023
-# Loading sv_std.std
-# Loading work.tb_rtl_task3
-# Loading work.task3
-# Loading work.ct_mem
-# Loading altera_mf_ver.altsyncram
-# Loading work.pt_mem
-# Loading work.arc4
-# Loading work.s_mem
-# Loading work.init
-# Loading work.ksa
-# Loading work.prga
 # Loading altera_mf_ver.altsyncram_body
 # Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(16): [TFMPC] - Too few port connections. Expected 5, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/ct File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/ct_mem.v
-# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(16): [TFMPC] - Missing connection for port 'data'.
-# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(16): [TFMPC] - Missing connection for port 'wren'.
-# ** Warning: (vsim-3015) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(18): [PCDPC] - Port size (1) does not match connection size (32) for port 'rst_n'. The port definition is at: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/a4 File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv
-# Compile of init.sv was successful.
-# Compile of task1.sv was successful.
-# Compile of tb_syn_task1.sv was successful.
-# Compile of tb_rtl_init.sv was successful.
-# Compile of tb_rtl_task1.sv was successful.
-# Compile of tb_syn_init.sv was successful.
-# Compile of s_mem.v was successful.
-# Compile of prga.sv was successful with warnings.
-# Compile of arc4.sv was successful with warnings.
-# Compile of task3.sv was successful with warnings.
-# Compile of tb_rtl_task3.sv was successful.
-# Compile of tb_syn_task3.sv was successful.
-# Compile of tb_syn_task2.sv was successful.
-# Compile of ksa.sv was successful.
-# Compile of task2.sv was successful with warnings.
-# Compile of tb_rtl_ksa.sv was successful.
-# Compile of tb_rtl_task2.sv was successful with warnings.
-# Compile of tb_syn_ksa.sv was successful.
-# Compile of pt_mem.v was successful.
-# Compile of ct_mem.v was successful.
-# 20 compiles, 0 failed with no errors.
-vsim -L altera_mf_ver work.tb_rtl_task3
-# End time: 14:35:08 on Oct 18,2023, Elapsed time: 0:01:42
-# Errors: 0, Warnings: 4
-# vsim -L altera_mf_ver work.tb_rtl_task3 
-# Start time: 14:35:08 on Oct 18,2023
-# Loading sv_std.std
-# Loading work.tb_rtl_task3
-# Loading work.task3
-# Loading work.ct_mem
-# Loading altera_mf_ver.altsyncram
-# Loading work.pt_mem
-# Loading work.arc4
-# Loading work.s_mem
-# Loading work.init
-# Loading work.ksa
-# Loading work.prga
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(16): [TFMPC] - Too few port connections. Expected 5, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/ct File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/ct_mem.v
-# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(16): [TFMPC] - Missing connection for port 'data'.
-# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(16): [TFMPC] - Missing connection for port 'wren'.
+s.altsyncram_component.m_default.altsyncram_inst.mem_data
+# invalid command name "s.altsyncram_component.m_default.altsyncram_inst.mem_data"
 project compileall; restart; run -all
 # Compile of init.sv was successful.
 # Compile of task1.sv was successful.
@@ -397,19 +35,112 @@ project compileall; restart; run -all
 # Compile of pt_mem.v was successful.
 # Compile of ct_mem.v was successful.
 # 20 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.s_mem
+# Loading work.init
+# Loading work.ksa
+# ** Error: (vsim-3043) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv(23): Unresolved reference to 'dut'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2 File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv
+# No Design Loaded!
+project compileall; restart; run -all
+# Compile of init.sv was successful.
+# Compile of task1.sv was successful.
+# Compile of tb_syn_task1.sv was successful.
+# Compile of tb_rtl_init.sv was successful.
+# Compile of tb_rtl_task1.sv was successful.
+# Compile of tb_syn_init.sv was successful.
+# Compile of s_mem.v was successful.
+# Compile of prga.sv was successful with warnings.
+# Compile of arc4.sv was successful with warnings.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of ksa.sv was successful.
+# Compile of task2.sv was successful with warnings.
+# Compile of tb_rtl_ksa.sv was successful.
+# Compile of tb_rtl_task2.sv was successful with warnings.
+# Compile of tb_syn_ksa.sv was successful.
+# Compile of pt_mem.v was successful.
+# Compile of ct_mem.v was successful.
+# 20 compiles, 0 failed with no errors.
+# No Design Loaded!
+vsim -L altera_mf_ver work.tb_rtl_task2
+# vsim -L altera_mf_ver work.tb_rtl_task2 
+# Start time: 14:52:58 on Oct 18,2023
+# Loading sv_std.std
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.s_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.init
+# Loading work.ksa
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error: (vsim-3043) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv(27): Unresolved reference to 'DUT'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2 File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv
+# Error loading design
+# End time: 15:01:46 on Oct 18,2023, Elapsed time: 0:08:48
+# Errors: 3, Warnings: 0
+project compileall; restart; run -all
+# Compile of init.sv was successful.
+# Compile of task1.sv was successful.
+# Compile of tb_syn_task1.sv was successful.
+# Compile of tb_rtl_init.sv was successful.
+# Compile of tb_rtl_task1.sv was successful.
+# Compile of tb_syn_init.sv was successful.
+# Compile of s_mem.v was successful.
+# Compile of prga.sv was successful with warnings.
+# Compile of arc4.sv was successful with warnings.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of ksa.sv was successful.
+# Compile of task2.sv was successful with warnings.
+# Compile of tb_rtl_ksa.sv was successful.
+# Compile of tb_rtl_task2.sv was successful with warnings.
+# Compile of tb_syn_ksa.sv was successful.
+# Compile of pt_mem.v was successful.
+# Compile of ct_mem.v was successful.
+# 20 compiles, 0 failed with no errors.
+# No Design Loaded!
+vsim -L altera_mf_ver work.tb_rtl_task2
+# vsim -L altera_mf_ver work.tb_rtl_task2 
+# Start time: 15:02:13 on Oct 18,2023
+# Loading sv_std.std
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.s_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.init
+# Loading work.ksa
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_rtl_task2/dut/*
+vsim -L altera_mf_ver work.tb_rtl_task3
+# End time: 15:03:33 on Oct 18,2023, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver work.tb_rtl_task3 
+# Start time: 15:03:33 on Oct 18,2023
+# Loading sv_std.std
 # Loading work.tb_rtl_task3
 # Loading work.task3
 # Loading work.ct_mem
+# Loading altera_mf_ver.altsyncram
 # Loading work.pt_mem
 # Loading work.arc4
 # Loading work.s_mem
 # Loading work.init
 # Loading work.ksa
 # Loading work.prga
-# Break key hit
-# Break in Module altsyncram_body at /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v line 50116
-# Error opening C:/build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
-# Path name 'C:/build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v' doesn't exist.
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_rtl_task3/dut/*
 project compileall; restart; run -all
 # Compile of init.sv was successful.
 # Compile of task1.sv was successful.

@@ -42,18 +42,53 @@ module prga(input logic clk, input logic rst_n, input logic en, output logic rdy
 		if (!rst_n) begin state = idle; end
 		else begin
 			case (state)
-				idle:			begin state <= (en == 1) ? messageLength : idle; rdy <= (en == 1) ? 0 : 1; end
-				messageLength:  begin state <= encryptedText; msglen <= ct_rddata; k <= 1; end
-				encryptedText:  begin state <= incrementI; encryptedbyte <= ct_rddata; end
-				incrementI:     begin state <= readSI; i <= (i + 1) % 256; end
-				readSI:         begin state <= incrementJ; si <= s_rddata; end
-				incrementJ:     begin state <= readSJ; j <= (j + si) % 256; end
-				readSJ:         begin state <= si2sj; sj <= s_rddata; end
-				si2sj:          begin state <= sj2si; end
-				sj2si:          begin state <= getPadK; end
-				getPadK:        begin state <= readPadK; padk <= s_rddata; end
-				writePT:        begin state <= incrementK; end
-				incrementK:     begin state <= (k < msglen) ? messageLength : idle; k <= (k < msglen) ? k + 1 : k; rdy <= (k < msglen) ? rdy : 1; end
+				idle:			begin 
+									state <= (en == 1) ? messageLength : idle; 
+									rdy <= (en == 1) ? 0 : 1; 
+								end
+				messageLength:	begin 
+									state <= encryptedText; 
+									msglen <= ct_rddata; 
+									k <= 1; 
+								end
+				encryptedText:  begin 
+									state <= incrementI; 
+									encryptedbyte <= ct_rddata; 
+								end
+				incrementI:     begin 
+									state <= readSI; 
+									i <= (i + 1) % 256; 
+								end
+				readSI:         begin 
+									state <= incrementJ; 
+									si <= s_rddata; 
+								end
+				incrementJ:     begin 
+									state <= readSJ; 
+									j <= (j + si) % 256; 
+								end
+				readSJ:         begin 
+									state <= si2sj; 
+									sj <= s_rddata; 
+								end
+				si2sj:          begin 
+									state <= sj2si; 
+								end
+				sj2si:          begin 
+									state <= getPadK; 
+								end
+				getPadK:        begin 
+									state <= readPadK; 
+									padk <= s_rddata; 
+								end
+				writePT:        begin 
+									state <= incrementK; 
+								end
+				incrementK:     begin 
+									state <= (k < msglen) ? messageLength : idle; 
+									k <= (k < msglen) ? k + 1 : k; 
+									rdy <= (k < msglen) ? rdy : 1; 
+								end
 				default: 		state <= idle;
 			endcase 
 		end

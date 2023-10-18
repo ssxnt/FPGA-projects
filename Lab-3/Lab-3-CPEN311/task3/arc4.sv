@@ -45,15 +45,32 @@ module arc4(input logic clk, input logic rst_n,
         if (!rst_n) begin state = idle; end
         else begin
 			case (state)
-                idle:         begin state <= (en == 1) ? rdyInit : idle; rdy <= (en == 1) ? 1 : 0; end
-                rdyOrNotInit: begin state <= (rdyInit == 1) ? doInit : rdyInit; end
-                doInit:       begin state <= (rdyInit == 1) ? rdyKSA : doInit; end
-                rdyOrNotKSA:  begin state <= (rdyKSA == 1) ? doKSA : rdyKSA; end
-                doKSA:        begin state <= (rdyKSA == 1) ? rdyPRGA : doKSA; end
-                rdyOrNotPRGA: begin state <= (rdyPRGA == 1) ? doPRGA : rdyPRGA; end
-                doPRGA:       begin state <= (rdyPRGA == 1) ? finished : doPRGA; end
-                finished:     begin state <= idle; rdy <= 1; end
-                default:      state <= idle;
+                idle:           begin 
+                                    state <= (en == 1) ? rdyInit : idle; 
+                                    rdy <= (en == 1) ? 1 : 0; 
+                                end
+                rdyOrNotInit:   begin 
+                                    state <= (rdyInit == 1) ? doInit : rdyInit; 
+                                end
+                doInit:         begin 
+                                    state <= (rdyInit == 1) ? rdyKSA : doInit; 
+                                end
+                rdyOrNotKSA:    begin 
+                                    state <= (rdyKSA == 1) ? doKSA : rdyKSA; 
+                                end
+                doKSA:          begin 
+                                    state <= (rdyKSA == 1) ? rdyPRGA : doKSA; 
+                                end
+                rdyOrNotPRGA:   begin 
+                                    state <= (rdyPRGA == 1) ? doPRGA : rdyPRGA; 
+                                end
+                doPRGA:         begin 
+                                    state <= (rdyPRGA == 1) ? finished : doPRGA; 
+                                end
+                finished:       begin 
+                                    state <= idle; rdy <= 1; 
+                                end
+                default:        state <= idle;
             endcase 
         end
     end
