@@ -3,12 +3,42 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY, input logic [9:0] SW,
              output logic [6:0] HEX3, output logic [6:0] HEX4, output logic [6:0] HEX5,
              output logic [9:0] LEDR);
 
-    // your code here
+    logic [7:0] ptaddr, ptrddata, ptwrdata;
+    logic [7:0] ctaddr, ctrddata;
+    logic ptwren, rdy, en = 0;
 
-    ct_mem ct( /* connect ports */ );
-    pt_mem pt( /* connect ports */ );
-    arc4 a4( /* connect ports */ );
+    wire rst_n = KEY[3];
 
-    // your code here
+    reg [23:0] key;
+    assign key [23:10] = 0;
+    assign key [9:0] = SW[9:0];
+
+    ct_mem ct(.address(ctaddr), .clock(CLOCK_50), .q(ctrddata));
+    pt_mem pt(.address(ptaddr), .clock(CLOCK_50), .data(ptwrdata), .wren(ptwren), .q(ptrddata));
+    arc4 a4(.clk(CLOCK_50), .rst_n(1), .en(en), .rdy(rdy), .key(key), 
+		    .ct_addr(ctaddr), .ct_rddata(ctrddata), .pt_addr(ptaddr), 
+		    .pt_rddata(ptrddata), .pt_wrdata(ptwrdata), .pt_wren(ptwren));
+
+    reg [2:0] state;
+
+    localparam idle = 0;
+    localparam rdyOrNot = 1;
+    localparam decrypt = 2;
+
+    always_comb begin
+        case (state)
+            idle: en = 0;
+            rdyOrNot: en = (rdy == 1) ? 1 : 0;
+            decrypt: en = 0; 
+        endcase
+    end
+
+    always_ff @(posedge CLOCK_50, negedge rst_n) begin
+        case (state)
+            idle:     begin state <= (rst_n == 0) ? rdyOrNot: idle; end
+            rdyOrNot: begin state <= (rdy == 1) ? decrypt : rdyOrNot; end
+            decrypt:  begin state <= (rdy == 1) ? idle : decrypt; end 
+        endcase
+    end
 
 endmodule: task3
