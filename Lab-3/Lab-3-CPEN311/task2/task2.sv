@@ -20,7 +20,7 @@ module task2(input logic CLOCK_50, input logic [3:0] KEY, input logic [9:0] SW,
 	localparam ksa_ = 3;
 	localparam finished = 7;
 
-	assign key = 6'h00033C; //{14'b0, SW};
+	assign key = 24'h00033C; //{14'b0, SW};
 
 	s_mem s(.address(addr), .clock(CLOCK_50), .data(wrdata), .wren, .q);
 

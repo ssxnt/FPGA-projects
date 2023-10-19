@@ -8,6 +8,8 @@ module tb_rtl_task2();
     wire [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
     wire [9:0] LEDR;
 
+    reg [23:0] key = 24'h00033C;
+
     assign KEY[3] = rst_n;
 
     task2 dut(.CLOCK_50(clk), .KEY, .SW, .HEX0, .HEX1, .HEX2, .HEX3, .HEX4, .HEX5, .LEDR);
@@ -20,14 +22,20 @@ module tb_rtl_task2();
 	end
 
     initial begin
-        $readmemh("C:/Users/sants/Desktop/CPEN-311/Lab-3", dut.s.altsyncram_component.m_default.altsyncram_inst.mem_data);
+        //$readmemh("C:/Users/sants/Desktop/CPEN-311/Lab-3", dut.s.altsyncram_component.m_default.altsyncram_inst.mem_data);
 		#3;
         reset;
         $display("==== START FSM TEST ====");
-		$monitor("q: %8d", dut.wrdata);
-
+		$monitor("j: %8d", dut.KSA.j);
+        $display("%h",(key[7:0]));
+        $display("%h",(key[15:8]));
+        $display("%h",(key[23:16]));
+        $display("%h",(key[15:0]));
+        $display("%h",(key[23:0]));
+        $display("%h",(key));
+        $display("%d",(0 + 1 + key[18:8]) % 256);
 		$display("==== RESET ====");
-        #9000
+        #18000
         $display("\n==== TEST SUMMARY ====");
 		$stop;
     end
