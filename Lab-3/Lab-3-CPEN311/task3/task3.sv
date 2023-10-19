@@ -11,6 +11,7 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY, input logic [9:0] SW,
 
     reg [23:0] key;
     assign key [23:0] = 24'h000018;
+    assign ctwren = 0;
     //assign key [9:0] = SW[9:0];
 
     ct_mem ct(.address(ctaddr), .clock(CLOCK_50), .data(ctwrdata), .wren(ctwren), .q(ctrddata));
