@@ -20,12 +20,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	task2
 
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/ksa.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/ksa.sv
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv {2 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module ksa
+-- Compiling module task3
+** Warning: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/task3.sv(13): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 
 Top level modules:
-	ksa
+	task3
 
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/pt_mem.v {1 {vlog -work work -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/pt_mem.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -62,19 +63,69 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	tb_syn_task1
 
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv {2 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module arc4
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(32): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(32): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(32): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(32): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(32): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(32): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(32): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(32): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(33): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(33): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(33): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(33): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(33): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(33): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(33): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(34): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(34): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(34): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(34): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(34): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(35): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(35): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(35): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(35): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(35): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(35): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(35): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(36): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(36): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(36): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(36): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(37): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(37): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(37): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(37): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(37): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(37): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(37): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(38): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(38): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(38): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(38): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(39): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(39): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(39): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(39): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(39): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(39): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(39): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/arc4.sv(39): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+
+Top level modules:
+	arc4
+
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/s_mem.v {1 {vlog -work work -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/s_mem.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module s_mem
 
 Top level modules:
 	s_mem
-
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_rtl_task3.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_rtl_task3.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tb_rtl_task3
-
-Top level modules:
-	tb_rtl_task3
 
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_syn_task3.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_syn_task3.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -83,27 +134,107 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	tb_syn_task3
 
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv {2 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_rtl_task3.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_rtl_task3.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tb_rtl_task2
-** Warning: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv(7): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+-- Compiling module tb_rtl_task3
 
 Top level modules:
-	tb_rtl_task2
+	tb_rtl_task3
 
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/task1.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/task1.sv
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv {2 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module task1
+-- Compiling module prga
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(25): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(25): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(25): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(25): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(25): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(25): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(25): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(26): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(26): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(26): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(26): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(26): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(26): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(26): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(27): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(27): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(27): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(27): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(27): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(27): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(28): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(28): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(28): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(28): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(28): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(28): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(29): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(29): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(29): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(29): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(29): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(29): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(29): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(30): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(30): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(30): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(30): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(30): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(30): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(31): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(31): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(31): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(31): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(31): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(31): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(31): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(32): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(32): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(32): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(32): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(32): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(33): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(33): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(33): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(33): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(33): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(34): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(34): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(34): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(34): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(34): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(34): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(35): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(35): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(35): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(35): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(35): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(35): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(35): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(36): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(36): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(36): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(36): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(36): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(37): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(37): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(37): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(37): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(37): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(37): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv(37): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
 
 Top level modules:
-	task1
+	prga
 
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/ct_mem.v {1 {vlog -work work -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/ct_mem.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module init
+-- Compiling module ct_mem
 
 Top level modules:
-	init
+	ct_mem
 
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_syn_task2.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_syn_task2.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -112,11 +243,26 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	tb_syn_task2
 
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/ct_mem.v {1 {vlog -work work -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/ct_mem.v
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module ct_mem
+-- Compiling module init
 
 Top level modules:
-	ct_mem
+	init
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/task1.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/task1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task1
+
+Top level modules:
+	task1
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv {2 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_rtl_task2
+** Warning: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv(7): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	tb_rtl_task2
 
 } {} {}}

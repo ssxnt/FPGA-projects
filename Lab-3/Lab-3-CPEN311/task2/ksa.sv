@@ -12,9 +12,9 @@ module ksa(input logic clk, input logic rst_n,
 	reg [7:0] st, s, i, j, add;
 	reg [2:0] state = idle;
 	reg [7:0] key_byte[3];
-	assign key_byte[0] = key[7:0];
+	assign key_byte[2] = key[7:0];
 	assign key_byte[1] = key[15:8];
-	assign key_byte[2] = key[23:16];
+	assign key_byte[0] = key[23:16];
 
 
 	assign addr = add;

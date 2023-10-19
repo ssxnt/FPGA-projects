@@ -14,8 +14,7 @@ module arc4(input logic clk, input logic rst_n,
     s_mem s(.address(addrMem), .clock(clk), .data(inputDataMem), .wren(wrenMem), .q(readValMem));
     init i(.clk(clk), .rst_n(rst_n), .en(enInit), .rdy(rdyInit), .addr(addrInit), .wrdata(wrdataInit), .wren(wrenInit));
     ksa k(.clk(clk), .rst_n(rst_n), .en(enKSA), .rdy(rdyKSA), .key(key), .addr(addrKSA), .rddata(rddataKSA), .wrdata(wrdataKSA), .wren(wrenKSA));
-    prga p(.clk(clk), .rst_n(rst_n), .en(enPRGA), .rdy(rdyPRGA), .key(key), .s_addr(saddrPRGA), .s_rddata(srddataPRGA), .s_wrdata(swrdataPRGA), 
-           .s_wren(swrenPRGA), .ct_addr(ct_addr), .ct_rddata(ct_rddata), .pt_addr(pt_addr), .pt_rddata(pt_rddata), .pt_wrdata(pt_wrdata), .pt_wren(pt_wren));
+    prga p(.clk(clk), .rst_n(rst_n), .en(enPRGA), .rdy(rdyPRGA), .key(key), .s_addr(saddrPRGA), .s_rddata(srddataPRGA), .s_wrdata(swrdataPRGA), .s_wren(swrenPRGA), .ct_addr(ct_addr), .ct_rddata(ct_rddata), .pt_addr(pt_addr), .pt_rddata(pt_rddata), .pt_wrdata(pt_wrdata), .pt_wren(pt_wren));
 
     reg [3:0] state;
 
@@ -50,19 +49,19 @@ module arc4(input logic clk, input logic rst_n,
                                     rdy <= (en == 1) ? 1 : 0; 
                                 end
                 rdyOrNotInit:   begin 
-                                    state <= (rdyInit == 1) ? doInit : rdyInit; 
+                                    state <= (rdyInit == 1) ? doInit : rdyOrNotInit; 
                                 end
                 doInit:         begin 
                                     state <= (rdyInit == 1) ? rdyKSA : doInit; 
                                 end
                 rdyOrNotKSA:    begin 
-                                    state <= (rdyKSA == 1) ? doKSA : rdyKSA; 
+                                    state <= (rdyKSA == 1) ? doKSA : rdyOrNotKSA; 
                                 end
                 doKSA:          begin 
                                     state <= (rdyKSA == 1) ? rdyPRGA : doKSA; 
                                 end
                 rdyOrNotPRGA:   begin 
-                                    state <= (rdyPRGA == 1) ? doPRGA : rdyPRGA; 
+                                    state <= (rdyPRGA == 1) ? doPRGA : rdyOrNotPRGA; 
                                 end
                 doPRGA:         begin 
                                     state <= (rdyPRGA == 1) ? finished : doPRGA; 

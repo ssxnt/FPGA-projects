@@ -17,15 +17,20 @@ module tb_rtl_task3();
     end
 
     initial begin
-
 	    $readmemh("C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/test2.memh", dut.ct.altsyncram_component.m_default.altsyncram_inst.mem_data);
-	    #1000;
-        #5;
+	    #5;
+        KEY[3] = 1;
+        #50;
         KEY[3] = 0;
         #50;
         KEY[3] = 1;
-        #10000;
-	$stop();
+        #50;
+        KEY[3] = 0;
+        #50;
+        KEY[3] = 1;
+        #50;
+        KEY[3] = 0;
+        $stop();
     end
 
 endmodule: tb_rtl_task3

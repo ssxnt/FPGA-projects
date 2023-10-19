@@ -5,13 +5,12 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY, input logic [9:0] SW,
 
     logic [7:0] ptaddr, ptrddata, ptwrdata;
     logic [7:0] ctaddr, ctrddata, ctwrdata;
-    logic ctwren = 0;
-    logic ptwren, rdy, en = 0;
+    logic ptwren, ctwren, rdy, en;
 
     wire rst_n = KEY[3];
 
     reg [23:0] key;
-    assign key [23:10] = 6'h1E4600;
+    assign key [23:10] = 6'h00033c;
     assign key [9:0] = SW[9:0];
 
     ct_mem ct(.address(ctaddr), .clock(CLOCK_50), .data(ctwrdata), .wren(ctwren), .q(ctrddata));
