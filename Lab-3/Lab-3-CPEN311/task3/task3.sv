@@ -10,14 +10,14 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY, input logic [9:0] SW,
     wire rst_n = KEY[3];
 
     reg [23:0] key;
-    assign key [23:10] = 6'h00033c;
-    assign key [9:0] = SW[9:0];
+    assign key [23:0] = 24'h000018;
+    //assign key [9:0] = SW[9:0];
 
     ct_mem ct(.address(ctaddr), .clock(CLOCK_50), .data(ctwrdata), .wren(ctwren), .q(ctrddata));
     pt_mem pt(.address(ptaddr), .clock(CLOCK_50), .data(ptwrdata), .wren(ptwren), .q(ptrddata));
     arc4 a4(.clk(CLOCK_50), .rst_n(rst_n), .en(en), .rdy(rdy), .key(key), .ct_addr(ctaddr), .ct_rddata(ctrddata), .pt_addr(ptaddr), .pt_rddata(ptrddata), .pt_wrdata(ptwrdata), .pt_wren(ptwren));
 
-    reg [2:0] state;
+    reg [1:0] state;
 
     localparam idle = 0;
     localparam rdyOrNot = 1;
@@ -25,23 +25,18 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY, input logic [9:0] SW,
 
     always_comb begin
         case (state)
-            idle: en = 0;
-            rdyOrNot: en = (rdy == 1) ? 1 : 0;
-            decrypt: en = 0; 
+            idle:       en = 0;
+            rdyOrNot:   en = rdy;
+            decrypt:    en = 0; 
         endcase
     end
 
     always_ff @(posedge CLOCK_50, negedge rst_n) begin
         case (state)
-            idle:       begin 
-                            state <= (rst_n == 0) ? rdyOrNot: idle; 
-                        end
-            rdyOrNot:   begin 
-                            state <= (rdy == 1) ? decrypt : rdyOrNot; 
-                        end
-            decrypt:    begin 
-                            state <= (rdy == 1) ? idle : decrypt; 
-                        end 
+            idle:     state <= !rst_n ? rdyOrNot: idle; 
+            rdyOrNot: state <= rdy ? decrypt : rdyOrNot; 
+            decrypt:  state <= rdy ? idle : decrypt; 
+            default:  state <= idle;
         endcase
     end
 

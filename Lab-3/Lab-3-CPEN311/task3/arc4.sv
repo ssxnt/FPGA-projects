@@ -6,17 +6,18 @@ module arc4(input logic clk, input logic rst_n,
 
     logic rdyInit, rdyKSA, rdyPRGA; // readys
     logic enInit, enKSA, enPRGA, wrenMem, wrenInit, wrenKSA, swrenPRGA; // enables
-    logic [7:0] addrMem, inputDataMem, readValMem; // mem
-    logic [7:0] addrInit, wrdataInit; // init
-    logic [7:0] rddataKSA, addrKSA, wrdataKSA; // ksa
-    logic [7:0] srddataPRGA, saddrPRGA, swrdataPRGA; // prga
+    reg [7:0] addrMem, inputDataMem;
+    wire [7:0] q; // mem
+    wire [7:0] addrInit, wrdataInit; // init
+    wire [7:0] addrKSA, wrdataKSA; // ksa
+    wire [7:0] saddrPRGA, swrdataPRGA; // prga
 
-    s_mem s(.address(addrMem), .clock(clk), .data(inputDataMem), .wren(wrenMem), .q(readValMem));
+    s_mem s(.address(addrMem), .clock(clk), .data(inputDataMem), .wren(wrenMem), .q);
     init i(.clk(clk), .rst_n(rst_n), .en(enInit), .rdy(rdyInit), .addr(addrInit), .wrdata(wrdataInit), .wren(wrenInit));
-    ksa k(.clk(clk), .rst_n(rst_n), .en(enKSA), .rdy(rdyKSA), .key(key), .addr(addrKSA), .rddata(rddataKSA), .wrdata(wrdataKSA), .wren(wrenKSA));
-    prga p(.clk(clk), .rst_n(rst_n), .en(enPRGA), .rdy(rdyPRGA), .key(key), .s_addr(saddrPRGA), .s_rddata(srddataPRGA), .s_wrdata(swrdataPRGA), .s_wren(swrenPRGA), .ct_addr(ct_addr), .ct_rddata(ct_rddata), .pt_addr(pt_addr), .pt_rddata(pt_rddata), .pt_wrdata(pt_wrdata), .pt_wren(pt_wren));
+    ksa k(.clk(clk), .rst_n(rst_n), .en(enKSA), .rdy(rdyKSA), .key(key), .addr(addrKSA), .rddata(q), .wrdata(wrdataKSA), .wren(wrenKSA));
+    prga p(.clk(clk), .rst_n(rst_n), .en(enPRGA), .rdy(rdyPRGA), .key(key), .s_addr(saddrPRGA), .s_rddata(q), .s_wrdata(swrdataPRGA), .s_wren(swrenPRGA), .ct_addr(ct_addr), .ct_rddata(ct_rddata), .pt_addr(pt_addr), .pt_rddata(pt_rddata), .pt_wrdata(pt_wrdata), .pt_wren(pt_wren));
 
-    reg [3:0] state;
+    reg [2:0] state;
 
     localparam idle = 0;
     localparam rdyOrNotInit = 1;
@@ -28,15 +29,16 @@ module arc4(input logic clk, input logic rst_n,
     localparam finished = 7;
 
     always_comb begin
+        {enInit, enKSA, wrenMem, addrMem, inputDataMem, enPRGA, rdy} = 0;
         case (state)
-            idle:          {enInit, enKSA, rddataKSA, wrenMem, addrMem, inputDataMem, enPRGA, srddataPRGA} = {0, 0, 0, 0, 0, 0, 0, 0};
-            rdyOrNotInit:  {enInit, enKSA, rddataKSA, wrenMem, addrMem, inputDataMem, enPRGA, srddataPRGA} = {(rdyInit == 1) ? 1 : 0, 0, 0, 0, 0, 0, 0, 0};
-            doInit:        {enInit, enKSA, rddataKSA, wrenMem, addrMem, inputDataMem, enPRGA, srddataPRGA} = {0, 0, 0, wrenInit, addrInit, wrdataInit, 0, 0};
-            rdyOrNotKSA:   {enInit, enKSA, rddataKSA, wrenMem, addrMem, inputDataMem, enPRGA, srddataPRGA} = {0, (rdyKSA == 1) ? 1 : 0, 0, 0, 0, 0, 0, 0};
-            doKSA:         {enInit, enKSA, rddataKSA, wrenMem, addrMem, inputDataMem, enPRGA, srddataPRGA} = {0, 0, readValMem, wrenKSA, addrKSA, wrdataKSA, 0, 0};
-            rdyOrNotPRGA:  {enInit, enKSA, rddataKSA, wrenMem, addrMem, inputDataMem, enPRGA, srddataPRGA} = {0, 0, 0, 0, 0, 0, (rdyPRGA == 1) ? 1 : 0, 0};
-            doPRGA:        {enInit, enKSA, rddataKSA, wrenMem, addrMem, inputDataMem, enPRGA, srddataPRGA} = {0, 0, 0, swrenPRGA, saddrPRGA, swrdataPRGA, 0, readValMem};
-            finished:      {enInit, enKSA, rddataKSA, wrenMem, addrMem, inputDataMem, enPRGA, srddataPRGA} = {0, 0, 0, 0, 0, 0, 0, 0};
+            idle:                rdy = 1;
+            rdyOrNotInit:        enInit = rdyInit;
+            doInit:        begin wrenMem = wrenInit; addrMem = addrInit; inputDataMem = wrdataInit; end
+            rdyOrNotKSA:         enKSA = rdyKSA;
+            doKSA:         begin wrenMem = wrenKSA; addrMem = addrKSA; inputDataMem = wrdataKSA; end
+            rdyOrNotPRGA:        enPRGA = rdyPRGA;
+            doPRGA:        begin wrenMem = swrenPRGA; addrMem = saddrPRGA; inputDataMem = swrdataPRGA; end
+            finished:            rdy = 1;
         endcase
     end
 
@@ -45,29 +47,28 @@ module arc4(input logic clk, input logic rst_n,
         else begin
 			case (state)
                 idle:           begin 
-                                    state <= (en == 1) ? rdyInit : idle; 
-                                    rdy <= (en == 1) ? 1 : 0; 
+                                    state <= en ? rdyOrNotInit : idle; 
                                 end
                 rdyOrNotInit:   begin 
-                                    state <= (rdyInit == 1) ? doInit : rdyOrNotInit; 
+                                    state <= rdyInit ? doInit : rdyOrNotInit; 
                                 end
                 doInit:         begin 
-                                    state <= (rdyInit == 1) ? rdyKSA : doInit; 
+                                    state <= rdyInit ? rdyOrNotKSA : doInit; 
                                 end
                 rdyOrNotKSA:    begin 
-                                    state <= (rdyKSA == 1) ? doKSA : rdyOrNotKSA; 
+                                    state <= rdyKSA ? doKSA : rdyOrNotKSA; 
                                 end
                 doKSA:          begin 
-                                    state <= (rdyKSA == 1) ? rdyPRGA : doKSA; 
+                                    state <= rdyKSA ? rdyOrNotPRGA : doKSA; 
                                 end
                 rdyOrNotPRGA:   begin 
-                                    state <= (rdyPRGA == 1) ? doPRGA : rdyOrNotPRGA; 
+                                    state <= rdyPRGA ? doPRGA : rdyOrNotPRGA; 
                                 end
                 doPRGA:         begin 
-                                    state <= (rdyPRGA == 1) ? finished : doPRGA; 
+                                    state <= rdyPRGA ? finished : doPRGA; 
                                 end
                 finished:       begin 
-                                    state <= idle; rdy <= 1; 
+                                    state <= idle; 
                                 end
                 default:        state <= idle;
             endcase 
