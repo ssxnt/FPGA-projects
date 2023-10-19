@@ -20,21 +20,31 @@ module prga(input logic clk, input logic rst_n, input logic en, output logic rdy
 	localparam writePT = 11;
 	localparam incrementK = 12;
 
+	reg [7:0] saddr, swrdata, swren, ptaddr, ptwrdata, ptwren, ctaddr;
+
+	assign s_addr = saddr;
+	assign s_wrdata = swrdata;
+	assign s_wren = swren;
+	assign pt_addr = ptaddr;
+	assign pt_wrdata = ptwrdata;
+	assign pt_wren = ptwren;
+	assign ct_addr = ctaddr;
+
 	always_comb begin
 		case (state)
-			idle:          {s_addr, s_wrdata, s_wren, pt_addr, pt_wrdata, pt_wren, ct_addr} = {0, 0, 0, 0, 0, 0, 0}; 
-			messageLength: {s_addr, s_wrdata, s_wren, pt_addr, pt_wrdata, pt_wren, ct_addr} = {0, 0, 0, 0, 0, 0, 0}; 
-			encryptedText: {s_addr, s_wrdata, s_wren, pt_addr, pt_wrdata, pt_wren, ct_addr} = {0, 0, 0, 0, 0, 0, k}; 
-			incrementI:    {s_addr, s_wrdata, s_wren, pt_addr, pt_wrdata, pt_wren, ct_addr} = {i, 0, 0, 0, 0, 0, 0}; 
-			readSI:        {s_addr, s_wrdata, s_wren, pt_addr, pt_wrdata, pt_wren, ct_addr} = {0, 0, 0, 0, 0, 0, 0}; 
-			incrementJ:    {s_addr, s_wrdata, s_wren, pt_addr, pt_wrdata, pt_wren, ct_addr} = {j, 0, 0, 0, 0, 0, 0}; 
-			readSJ:        {s_addr, s_wrdata, s_wren, pt_addr, pt_wrdata, pt_wren, ct_addr} = {0, 0, 0, 0, 0, 0, 0}; 
-			si2sj:         {s_addr, s_wrdata, s_wren, pt_addr, pt_wrdata, pt_wren, ct_addr} = {j, si, 1, 0, 0, 0, 0}; 
-			sj2si:         {s_addr, s_wrdata, s_wren, pt_addr, pt_wrdata, pt_wren, ct_addr} = {i, sj, 1, 0, 0, 0, 0}; 
-			getPadK:       {s_addr, s_wrdata, s_wren, pt_addr, pt_wrdata, pt_wren, ct_addr} = {(si + sj) % 256, 0, 0, 0, 0, 0, 0}; 
-			readPadK:      {s_addr, s_wrdata, s_wren, pt_addr, pt_wrdata, pt_wren, ct_addr} = {0, 0, 0, 0, 0, 0, 0}; 
-			writePT:       {s_addr, s_wrdata, s_wren, pt_addr, pt_wrdata, pt_wren, ct_addr} = {0, 0, 0, k - 1, padk ^ encrypted, 1, 0}; 
-			incrementK:    {s_addr, s_wrdata, s_wren, pt_addr, pt_wrdata, pt_wren, ct_addr} = {0, 0, 0, 0, 0, 0, 0};
+			idle:          {saddr, swrdata, swren, ptaddr, ptwrdata, ptwren, ctaddr} = {0, 0, 0, 0, 0, 0, 0}; 
+			messageLength: {saddr, swrdata, swren, ptaddr, ptwrdata, ptwren, ctaddr} = {0, 0, 0, 0, 0, 0, 0}; 
+			encryptedText: {saddr, swrdata, swren, ptaddr, ptwrdata, ptwren, ctaddr} = {0, 0, 0, 0, 0, 0, k}; 
+			incrementI:    {saddr, swrdata, swren, ptaddr, ptwrdata, ptwren, ctaddr} = {i, 0, 0, 0, 0, 0, 0}; 
+			readSI:        {saddr, swrdata, swren, ptaddr, ptwrdata, ptwren, ctaddr} = {0, 0, 0, 0, 0, 0, 0}; 
+			incrementJ:    {saddr, swrdata, swren, ptaddr, ptwrdata, ptwren, ctaddr} = {j, 0, 0, 0, 0, 0, 0}; 
+			readSJ:        {saddr, swrdata, swren, ptaddr, ptwrdata, ptwren, ctaddr} = {0, 0, 0, 0, 0, 0, 0}; 
+			si2sj:         {saddr, swrdata, swren, ptaddr, ptwrdata, ptwren, ctaddr} = {j, si, 1, 0, 0, 0, 0}; 
+			sj2si:         {saddr, swrdata, swren, ptaddr, ptwrdata, ptwren, ctaddr} = {i, sj, 1, 0, 0, 0, 0}; 
+			getPadK:       {saddr, swrdata, swren, ptaddr, ptwrdata, ptwren, ctaddr} = {(si + sj) % 256, 0, 0, 0, 0, 0, 0}; 
+			readPadK:      {saddr, swrdata, swren, ptaddr, ptwrdata, ptwren, ctaddr} = {0, 0, 0, 0, 0, 0, 0}; 
+			writePT:       {saddr, swrdata, swren, ptaddr, ptwrdata, ptwren, ctaddr} = {0, 0, 0, k - 1, padk ^ encrypted, 1, 0}; 
+			incrementK:    {saddr, swrdata, swren, ptaddr, ptwrdata, ptwren, ctaddr} = {0, 0, 0, 0, 0, 0, 0};
 		endcase
 	end
 
@@ -43,6 +53,7 @@ module prga(input logic clk, input logic rst_n, input logic en, output logic rdy
 		else begin
 			case (state)
 				idle:			begin 
+									{i, j, k} <= 0;
 									state <= (en == 1) ? messageLength : idle; 
 									rdy <= (en == 1) ? 0 : 1; 
 								end

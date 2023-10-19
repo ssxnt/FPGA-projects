@@ -17,7 +17,6 @@ module ksa(input logic clk, input logic rst_n,
 	assign key_byte[1] = key[15:8];
 	assign key_byte[2] = key[23:16];
 
-
 	assign addr = add;
 	assign wrdata = s;
 

@@ -36,3 +36,66 @@ vsim -L altera_mf_ver work.tb_rtl_task2
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
 add wave -position insertpoint sim:/tb_rtl_task2/dut/*
 # Load canceled
+# Compile of init.sv was successful.
+# Compile of task1.sv was successful.
+# Compile of tb_syn_task1.sv was successful.
+# Compile of tb_rtl_init.sv was successful.
+# Compile of tb_rtl_task1.sv was successful.
+# Compile of tb_syn_init.sv was successful.
+# Compile of s_mem.v was successful.
+# Compile of prga.sv failed with 91 errors.
+# Compile of arc4.sv was successful with warnings.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of ksa.sv was successful.
+# Compile of task2.sv was successful with warnings.
+# Compile of tb_rtl_ksa.sv was successful.
+# Compile of tb_rtl_task2.sv was successful with warnings.
+# Compile of tb_syn_ksa.sv was successful.
+# Compile of pt_mem.v was successful.
+# Compile of ct_mem.v was successful.
+# 20 compiles, 1 failed with 91 errors.
+# Compile of init.sv was successful.
+# Compile of task1.sv was successful.
+# Compile of tb_syn_task1.sv was successful.
+# Compile of tb_rtl_init.sv was successful.
+# Compile of tb_rtl_task1.sv was successful.
+# Compile of tb_syn_init.sv was successful.
+# Compile of s_mem.v was successful.
+# Compile of prga.sv failed with 7 errors.
+# Compile of arc4.sv was successful with warnings.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of ksa.sv was successful.
+# Compile of task2.sv was successful with warnings.
+# Compile of tb_rtl_ksa.sv was successful.
+# Compile of tb_rtl_task2.sv was successful with warnings.
+# Compile of tb_syn_ksa.sv was successful.
+# Compile of pt_mem.v was successful.
+# Compile of ct_mem.v was successful.
+# 20 compiles, 1 failed with 7 errors.
+# Compile of init.sv was successful.
+# Compile of task1.sv was successful.
+# Compile of tb_syn_task1.sv was successful.
+# Compile of tb_rtl_init.sv was successful.
+# Compile of tb_rtl_task1.sv was successful.
+# Compile of tb_syn_init.sv was successful.
+# Compile of s_mem.v was successful.
+# Compile of prga.sv was successful with warnings.
+# Compile of arc4.sv was successful with warnings.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of ksa.sv was successful.
+# Compile of task2.sv was successful with warnings.
+# Compile of tb_rtl_ksa.sv was successful.
+# Compile of tb_rtl_task2.sv was successful with warnings.
+# Compile of tb_syn_ksa.sv was successful.
+# Compile of pt_mem.v was successful.
+# Compile of ct_mem.v was successful.
+# 20 compiles, 0 failed with no errors.
