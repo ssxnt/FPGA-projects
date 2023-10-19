@@ -4,17 +4,18 @@ module ksa(input logic clk, input logic rst_n,
 			output logic [7:0] addr, input logic [7:0] rddata, output logic [7:0] wrdata, output logic wren);
 
 	localparam idle = 0;
-	localparam load = 1;
+	localparam ld_i = 1;
 	localparam calc = 2;
-	localparam wr_j = 3;
-	localparam wr_i = 4;
+	localparam ld_j = 3;
+	localparam wr_j = 4;
+	localparam wr_i = 5;
 
 	reg [7:0] sti, stj, s, i, j, add;
 	reg [2:0] state = idle;
 	reg [7:0] key_byte[3];
-	assign key_byte[2] = key[7:0];
+	assign key_byte[0] = key[7:0];
 	assign key_byte[1] = key[15:8];
-	assign key_byte[0] = key[23:16];
+	assign key_byte[2] = key[23:16];
 
 
 	assign addr = add;
@@ -37,17 +38,24 @@ module ksa(input logic clk, input logic rst_n,
 		if (!rst_n) begin state = idle; {i, j} = 0; end
 		else begin
 			case (state)
-				idle: begin state <= en ? load : idle;
+				idle: begin state <= en ? ld_i : idle;
 					j <= 0;
 					i <= 0;
 				end
 				ld_i: 		state <= calc;
-				calc: begin state <= wr_j;
+				calc: begin state <= ld_j;
+					// case(i % 3)
+					// 	2: j <= (j + rddata + key[7:0]) % 256;
+					// 	1: j <= (j + rddata + key[18:8]) % 256;
+					// 	0: j <= (j + rddata + key[23:16]) % 256;
+					// endcase
 					j <= (j + rddata + key_byte[i % 3]) % 256;
 					sti <= rddata;
 				end 
 				ld_j: 		state <= wr_j;
-				wr_j:		state <= wr_i;
+				wr_j: begin state <= wr_i;
+					stj <= rddata;
+				end
 				wr_i: begin state <= i < 255 ? ld_i : idle;
 					i <= i + 1;
 				end
