@@ -47,10 +47,10 @@ module prga(input logic clk, input logic rst_n, input logic en, output logic rdy
 			wr_j: 	  begin saddr = j; swrdata = sti; swren = 1; end
 			wr_i:     begin saddr = i; swrdata = stj; swren = 1; end 
 			ld_pad:     	saddr = shit_bucket; 
-			wr_pad:   begin ptaddr = k; ptwrdata = s_rddata; ptwren = 1; end
+			wr_pad:   begin ptaddr = k+1; ptwrdata = s_rddata; ptwren = 1; end
 			clc_k:	  begin ptaddr = 0; ptwrdata = msglen + 1; ptwren = 1; end
-			ld_k:     begin ptaddr = k; ctaddr = k+1; end
-			xor_pt:   begin ptaddr = k+1; ptwrdata = poopi; ptwren = 1; end
+			ld_k:     begin ptaddr = k; ctaddr = k; end
+			xor_pt:   begin ptaddr = k; ptwrdata = poopi; ptwren = 1; end
 		endcase
 	end
 
@@ -97,7 +97,7 @@ module prga(input logic clk, input logic rst_n, input logic en, output logic rdy
 						end
 				clc_k:  begin 
 							state <= ld_k; 
-							k <= 0;
+							k <= 1;
 						end
 				ld_k:   begin 
 							state <= xor_pt;  

@@ -38,13 +38,17 @@ module task4(input logic CLOCK_50, input logic [3:0] KEY, input logic [9:0] SW,
 	end
 
 	always_ff @(posedge CLOCK_50, negedge rst_n) begin
-		case (state)
-			idle: 		state <= !rst_n ? wt_rdy : idle;
-			wt_rdy: 	state <= rdy ? crack : wt_rdy;
-			crack: 		state <= rdy ? finished : crack;
-			finished: 	state <= finished;
-			default: 	state <= idle;
-		endcase
+		if (!rst_n) begin
+			state = wt_rdy;
+		end else begin
+			case (state)
+				idle: 		state <= !rst_n ? wt_rdy : idle;
+				wt_rdy: 	state <= rdy ? crack : wt_rdy;
+				crack: 		state <= rdy ? finished : crack;
+				finished: 	state <= finished;
+				default: 	state <= idle;
+			endcase
+		end
 	end
 
 endmodule: task4
