@@ -33,6 +33,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	tb_rtl_ksa
 
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task4/crack.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task4/crack.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module crack
+-- Compiling module check_pt
+
+Top level modules:
+	crack
+
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task4/tb_rtl_task4.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task4/tb_rtl_task4.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module tb_rtl_task4
@@ -75,19 +83,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	task4
 
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_init.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_init.sv
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_task1.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_task1.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tb_syn_init
+-- Compiling module tb_rtl_task1
 
 Top level modules:
-	tb_syn_init
-
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_task1.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_task1.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tb_syn_task1
-
-Top level modules:
-	tb_syn_task1
+	tb_rtl_task1
 
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_init.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_init.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -96,12 +97,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	tb_rtl_init
 
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_task1.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_rtl_task1.sv
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_task1.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_task1.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tb_rtl_task1
+-- Compiling module tb_syn_task1
 
 Top level modules:
-	tb_rtl_task1
+	tb_syn_task1
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_init.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/tb_syn_init.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_syn_init
+
+Top level modules:
+	tb_syn_init
 
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task4/card7seg.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task4/card7seg.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -124,13 +132,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	s_mem
 
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_syn_task3.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_syn_task3.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tb_syn_task3
-
-Top level modules:
-	tb_syn_task3
-
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_rtl_task3.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_rtl_task3.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module tb_rtl_task3
@@ -138,40 +139,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	tb_rtl_task3
 
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/prga.sv
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_syn_task3.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_syn_task3.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module prga
+-- Compiling module tb_syn_task3
 
 Top level modules:
-	prga
-
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/task1.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/task1.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module task1
-
-Top level modules:
-	task1
-
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module init
-
-Top level modules:
-	init
-
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_syn_task2.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_syn_task2.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tb_syn_task2
-
-Top level modules:
-	tb_syn_task2
-
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/ct_mem.v {1 {vlog -work work -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/ct_mem.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module ct_mem
-
-Top level modules:
-	ct_mem
+	tb_syn_task3
 
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv {2 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_rtl_task2.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -180,5 +153,33 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	tb_rtl_task2
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/ct_mem.v {1 {vlog -work work -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/ct_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ct_mem
+
+Top level modules:
+	ct_mem
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_syn_task2.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task2/tb_syn_task2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_syn_task2
+
+Top level modules:
+	tb_syn_task2
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/init.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module init
+
+Top level modules:
+	init
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/task1.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task1/task1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task1
+
+Top level modules:
+	task1
 
 } {} {}}

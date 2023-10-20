@@ -16,13 +16,9 @@ module tb_rtl_task3();
 		clk = 0;
 		forever #5 clk = ~clk;
 	end
-    initial begin
-        #19225
-        $stop();
-    end
 
     initial begin
-	    $readmemh("C:\\Users\\admin\\Documents\\Verilog\\CPEN 311\\CPEN-311\\CPEN-311\\Lab-3\\Lab-3-CPEN311\\task3/test2.memh", dut.ct.altsyncram_component.m_default.altsyncram_inst.mem_data);
+	    $readmemh("C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/test2.memh", dut.ct.altsyncram_component.m_default.altsyncram_inst.mem_data);
 	    #3;
         reset;
         $display("==== START FSM TEST ====");

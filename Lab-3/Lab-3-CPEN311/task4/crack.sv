@@ -34,7 +34,7 @@ module crack(input logic clk, input logic rst_n,
 
 	always_ff @(posedge clk, negedge rst_n) begin
         if (!rst_n) begin
-            key = 24'h000016;
+            key = 0;
             state = idle;
         end else begin
             case(state)
