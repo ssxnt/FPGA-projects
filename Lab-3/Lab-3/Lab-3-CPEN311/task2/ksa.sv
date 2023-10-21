@@ -13,7 +13,7 @@ module ksa(input logic clk, input logic rst_n,
 	reg [7:0] sti, stj, s, i, j, add;
 	reg [2:0] state = idle;
 	reg [7:0] key_byte[3];
-	reg [7:0] cum_stain;
+	reg [7:0] temp;
 	assign key_byte[0] = key[7:0];
 	assign key_byte[1] = key[15:8];
 	assign key_byte[2] = key[23:16];
@@ -22,7 +22,7 @@ module ksa(input logic clk, input logic rst_n,
 	assign wrdata = s;
 
 	always_comb begin
-		cum_stain = i % 3;
+		temp = i % 3;
 		{add, s, rdy} = 0;
 		case (state)
 			idle: 	begin wren = 0; rdy = 1; end
@@ -45,7 +45,7 @@ module ksa(input logic clk, input logic rst_n,
 				end
 				ld_i: 		state <= calc;
 				calc: begin state <= ld_j;
-					case(cum_stain)
+					case(temp)
 						2: j <= (j + rddata + key[7:0]) % 256;
 						1: j <= (j + rddata + key[15:8]) % 256;
 						0: j <= (j + rddata + key[23:16]) % 256;

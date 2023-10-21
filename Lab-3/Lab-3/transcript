@@ -31774,3 +31774,5 @@ project compileall; restart; run -all
 # ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_rtl_task3.sv(30)
 #    Time: 40013 ps  Iteration: 0  Instance: /tb_rtl_task3
 # Break in Module tb_rtl_task3 at C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3-CPEN311/task3/tb_rtl_task3.sv line 30
+# End time: 17:56:20 on Oct 20,2023, Elapsed time: 1:19:49
+# Errors: 0, Warnings: 0

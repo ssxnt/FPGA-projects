@@ -3,7 +3,7 @@ module prga(input logic clk, input logic rst_n, input logic en, output logic rdy
 			output logic [7:0] ct_addr, input logic [7:0] ct_rddata, output logic [7:0] pt_addr, 
 			input logic [7:0] pt_rddata, output logic [7:0] pt_wrdata, output logic pt_wren);
 
-	reg [7:0] i = 0, j = 0, k = 0, i_n, j_n, shit_bucket, poopi, sti = 0, stj = 0, padk = 0, ctk = 0, msglen = 0, encrypted = 0;
+	reg [7:0] i = 0, j = 0, k = 0, i_n, j_n, temp, temp2, sti = 0, stj = 0, padk = 0, ctk = 0, msglen = 0, encrypted = 0;
 	reg [3:0] state;    
 
 	localparam idle = 0;
@@ -32,8 +32,8 @@ module prga(input logic clk, input logic rst_n, input logic en, output logic rdy
 
 	assign i_n = i + 1;
 	assign j_n = (j + s_rddata) % 256;
-	assign shit_bucket = (sti + stj) % 256;
-	assign poopi = pt_rddata ^ ct_rddata;
+	assign temp = (sti + stj) % 256;
+	assign temp2 = pt_rddata ^ ct_rddata;
 	// always_comb begin
 	// 	case(i%3)
 	// 		2: j_n = (j + s_rddata + key[7:0]) % 256;
@@ -53,11 +53,11 @@ module prga(input logic clk, input logic rst_n, input logic en, output logic rdy
 			rd_j:;
 			wr_j: 	  begin saddr = j; swrdata = sti; swren = 1; end
 			wr_i:     begin saddr = i; swrdata = stj; swren = 1; end 
-			ld_pad:     	saddr = shit_bucket; 
+			ld_pad:     	saddr = temp; 
 			wr_pad:   begin ptaddr = k+1; ptwrdata = s_rddata; ptwren = 1; end
 			clc_k:	  begin ptaddr = 0; ptwrdata = msglen + 1; ptwren = 1; end
 			ld_k:     begin ptaddr = k+1; ctaddr = k+1; end
-			xor_pt:   begin ptaddr = k+1; ptwrdata = poopi; ptwren = 1; end
+			xor_pt:   begin ptaddr = k+1; ptwrdata = temp2; ptwren = 1; end
 		endcase
 	end
 
