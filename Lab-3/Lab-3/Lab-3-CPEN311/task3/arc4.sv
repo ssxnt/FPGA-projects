@@ -12,7 +12,7 @@ module arc4(input logic clk, input logic rst_n,
     wire [7:0] addrKSA, wrdataKSA; // ksa
     wire [7:0] saddrPRGA, swrdataPRGA; // prga
 
-    s_mem s(.address(addrMem), .clock(clk), .data(inputDataMem), .wren(wrenMem), .q);
+    s_mem s(.address(addrMem), .clock(clk), .data(inputDataMem), .wren(wrenMem), .q(q));
     init i(.clk(clk), .rst_n(rst_n), .en(enInit), .rdy(rdyInit), .addr(addrInit), .wrdata(wrdataInit), .wren(wrenInit));
     ksa k(.clk(clk), .rst_n(rst_n), .en(enKSA), .rdy(rdyKSA), .key(key), .addr(addrKSA), .rddata(q), .wrdata(wrdataKSA), .wren(wrenKSA));
     prga p(.clk(clk), .rst_n(rst_n), .en(enPRGA), .rdy(rdyPRGA), .key(key), .s_addr(saddrPRGA), .s_rddata(q), .s_wrdata(swrdataPRGA), .s_wren(swrenPRGA), .ct_addr(ct_addr), .ct_rddata(ct_rddata), .pt_addr(pt_addr), .pt_rddata(pt_rddata), .pt_wrdata(pt_wrdata), .pt_wren(pt_wren));

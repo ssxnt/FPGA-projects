@@ -23,7 +23,7 @@ module crack(input logic clk, input logic rst_n,
 
 	// this memory must have the length-prefixed plaintext if key_valid
 	pt_mem 	  pt(.address(ptaddr), .clock(clk), .data(wr_data), .wren(ptwren), .q(rd_d_pt));
-	arc4      a4( .clk, .rst_n, .en(en_a4),  .rdy(rdy_a4), .pt_addr(a4_addr_pt), .pt_rddata(rd_d_pt), .pt_wrdata(wr_data), .pt_wren(wren), .ct_rddata,  .ct_addr, .key);
+	arc4      a4( .clk, .rst_n, .en(en_a4),  .rdy(rdy_a4), .pt_addr(a4_addr_pt), .pt_rddata(rd_d_pt), .pt_wrdata(wr_data), .pt_wren(ptwren), .ct_rddata,  .ct_addr, .key);
 	check_pt  cpt(.clk, .rst_n, .en(en_cpt), .rdy(rdy_cpt),   .addr(cpt_addr_pt),  .rd_data(rd_d_pt), .key_valid);
 
 	always_comb begin
@@ -44,7 +44,7 @@ module crack(input logic clk, input logic rst_n,
 		if (!rst_n || (stop && !key_valid)) begin
 			key = is_2nd ? 1 : 0;
 			state = idle;
-			i = 0;
+			i <= 0;
 		end else begin
 			case(state)
 				idle: begin 

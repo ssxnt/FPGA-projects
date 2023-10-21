@@ -13,7 +13,7 @@ module doublecrack(input logic clk, input logic rst_n,
 
 	reg [7:0] data, addr;
 	reg [2:0] state;
-	reg [1:0] en_, wren_;
+	reg [1:0] en_, wren_, is_2nd_;
 	reg stop, wren;
 
 	wire [23:0] key_1, key_2;
@@ -25,13 +25,14 @@ module doublecrack(input logic clk, input logic rst_n,
 	assign addr = paddr1 | paddr2;
 	assign ct_addr = ct_addr_1 | ct_addr_2;
 	assign key_valid = key_valid_[0] || key_valid_[1];
+	assign is_2nd_ = 2'b01;
 
 	// this memory must have the length-prefixed plaintext if key_valid
 	pt_mem pt(.address(addr), .clock(clk), .data, .wren, .q());
 
 	// for this task only, you may ADD ports to crack
-	crack c1(.clk, .rst_n, .en(en_[0]), .rdy(rdy_[0]), .key(key_1), .key_valid(key_valid_[0]), .ct_addr(ct_addr_1), .ct_rddata, .is_2nd(1'b0), .stop, .pt_out_addr(paddr1), .pt_out_data(pdata1), .pt_out_wren(wren_[0]));
-	crack c2(.clk, .rst_n, .en(en_[1]), .rdy(rdy_[1]), .key(key_2), .key_valid(key_valid_[1]), .ct_addr(ct_addr_2), .ct_rddata, .is_2nd(1'b1), .stop, .pt_out_addr(paddr2), .pt_out_data(pdata2), .pt_out_wren(wren_[1]));
+	crack c1(.clk, .rst_n, .en(en_[0]), .rdy(rdy_[0]), .key(key_1), .key_valid(key_valid_[0]), .ct_addr(ct_addr_1), .ct_rddata, .is_2nd(is_2nd_[0]), .stop, .pt_out_addr(paddr1), .pt_out_data(pdata1), .pt_out_wren(wren_[0]));
+	crack c2(.clk, .rst_n, .en(en_[1]), .rdy(rdy_[1]), .key(key_2), .key_valid(key_valid_[1]), .ct_addr(ct_addr_2), .ct_rddata, .is_2nd(is_2nd_[1]), .stop, .pt_out_addr(paddr2), .pt_out_data(pdata2), .pt_out_wren(wren_[1]));
 
 	always_comb begin
 		{rdy, en_, stop} = 0;
