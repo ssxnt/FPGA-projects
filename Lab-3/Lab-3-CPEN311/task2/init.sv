@@ -19,10 +19,15 @@ module init(input logic clk, input logic rst_n,
 	end
 
 	always_ff @(posedge clk or negedge rst_n) begin
-		if (!rst_n) state = idle;
-		else begin
+		if (!rst_n) begin 
+			state = idle;
+			s = 0;
+		end else begin
 			case (state)
-				idle: state <= en ? incrementS : idle;
+				idle: begin
+					state <= en ? incrementS : idle;
+					s <= 0;
+				end
 				incrementS: begin
 					if (s < 255) begin
 						state <= incrementS;

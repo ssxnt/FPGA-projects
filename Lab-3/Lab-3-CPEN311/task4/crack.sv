@@ -34,7 +34,7 @@ module crack(input logic clk, input logic rst_n,
 
 	always_ff @(posedge clk, negedge rst_n) begin
         if (!rst_n) begin
-            key = 0;
+            key = 24'h16;
             state = idle;
         end else begin
             case(state)
@@ -56,6 +56,7 @@ module crack(input logic clk, input logic rst_n,
                 check:          begin
                                     state <= key_valid ? idle : wt_rdy_a4;
                                     key <= key + 1;
+									//key <= 24'h18;
                                 end
                 default:			state <= idle;
             endcase
