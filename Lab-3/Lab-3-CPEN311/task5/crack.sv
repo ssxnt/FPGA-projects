@@ -2,7 +2,7 @@ module crack(input logic clk, input logic rst_n,
 			input logic en, output logic rdy,
 			output logic [23:0] key, output logic key_valid,
 			output logic [7:0] ct_addr, input logic [7:0] ct_rddata,
-			input logic is_2nd, 
+			input logic is_2nd, input logic stop,
 			output logic [7:0] pt_out_addr, output logic [7:0] pt_out_data, output logic pt_out_wren);
 
 	wire [7:0] a4_addr_pt, cpt_addr_pt, wr_data, rd_d_pt;
@@ -19,6 +19,7 @@ module crack(input logic clk, input logic rst_n,
 	localparam do_cpt = 4;
 	localparam check = 5;
 	localparam copy_pt_w_en = 6;
+	localparam copy_pt = 7;
 
 	// this memory must have the length-prefixed plaintext if key_valid
 	pt_mem 	  pt(.address(ptaddr), .clock(clk), .data(wr_data), .wren(ptwren), .q(rd_d_pt));
@@ -33,6 +34,7 @@ module crack(input logic clk, input logic rst_n,
 			do_a4:			begin ptaddr = a4_addr_pt; end
 			wt_rdy_cpt: 	begin en_cpt = rdy_cpt; end
 			do_cpt:			begin ptaddr = cpt_addr_pt; end
+			// check:
 			copy_pt_w_en:	begin rdy = 1; end
 			copy_pt:		begin pt_out_addr = i; pt_out_data = rd_d_pt; ptaddr = i + 1; pt_out_wren = 1; end
 		endcase
@@ -90,23 +92,25 @@ module check_pt(input logic clk, input logic rst_n, input logic en,
 			  output logic rdy, output logic key_valid);
 
 	reg in_range, is_valid;
-	reg [1:0] state;
+	reg [2:0] state;
 	reg [7:0] i, len;
-
-	assign in_range = rd_data > 8'h1f && rd_data < 8'h7f;
-	assign key_valid = is_valid;
 
 	localparam idle = 0;
 	localparam rd_len = 1;
 	localparam ld_adr = 2;
 	localparam ck_key = 3;
+	localparam key_found = 4;
+
+	assign in_range = (rd_data > 8'h1f && rd_data < 8'h7f) || state != ck_key;
 
 	always_comb begin
+		{key_valid, rdy, addr} = 0;
 		case(state)
-			idle: 	begin rdy = 1; addr = 0; end
-			rd_len:	begin rdy = 0; addr = 0; end
-			ld_adr: begin rdy = 0; addr = i; end
-			ck_key: begin rdy = 0; addr = 0; end
+			idle: 		rdy = 1; 
+			rd_len:		;
+			ld_adr: 	addr = i;
+			ck_key: 	;
+			key_found:	begin key_valid = 1; rdy = 1; end
 		endcase
 	end
 
@@ -114,11 +118,13 @@ module check_pt(input logic clk, input logic rst_n, input logic en,
 		if (!rst_n) begin
 			state = idle;
 			i = 1;
-			is_valid = 0;
+			is_valid = 1;
 		end else begin
 			case(state)
-				idle:		
+				idle: begin	
 					state <= en ? rd_len : idle;
+					is_valid <= 1;
+				end
 				rd_len:	begin 
 					state <= ld_adr;
 					len <= rd_data;
@@ -127,10 +133,19 @@ module check_pt(input logic clk, input logic rst_n, input logic en,
 				ld_adr: 
 					state <= ck_key;
 				ck_key: begin
-					state <= in_range && i < len ? ld_adr : idle;
-					is_valid <= in_range && i == len;
+					if (is_valid && in_range) begin
+						state <= i < len ? ld_adr : key_found;
+						is_valid <= 1;
+					end else begin
+						state <= idle;
+					end
 					i <= i + 1;
 				end
+				key_found: begin
+					state <= key_found;
+					is_valid <= 1;
+				end
+				default: state <= idle;
 			endcase
 		end
 	end
@@ -145,4 +160,4 @@ endmodule: check_pt
                 //  0x77, 0x65, 0x72, 0x73, 0x20, 0x68, 0x65, 0x72, //28
                 //  0x73, 0x65, 0x6c, 0x66, 0x2E, '\0'};
 				
-4d 72 73 2e 20 44 61 6c 6c 6f 77 61 79 20 73 61 69 64 20 73 68 65 20 77 6f 75 6c 64 20 62 75 79 20 74 68 65 20 66 6c 6f 77 65 72 73 20 68 65 72 73 65 6c 66 2e  0  0  0 
+//4d 72 73 2e 20 44 61 6c 6c 6f 77 61 79 20 73 61 69 64 20 73 68 65 20 77 6f 75 6c 64 20 62 75 79 20 74 68 65 20 66 6c 6f 77 65 72 73 20 68 65 72 73 65 6c 66 2e  0  0  0 
