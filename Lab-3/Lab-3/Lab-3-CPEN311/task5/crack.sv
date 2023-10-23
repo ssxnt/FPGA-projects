@@ -8,7 +8,7 @@ module crack(input logic clk, input logic rst_n,
 	wire [7:0] a4_addr_pt, cpt_addr_pt, wr_data, rd_d_pt;
 	reg en_a4, en_cpt, rdy_a4, rdy_cpt, ptwren;
 	reg [3:0] state;
-	reg [7:0] ptaddr, i;
+	reg [7:0] ptaddr, i = 0;
 	reg [23:0] end_key;
 	assign end_key = is_2nd ? 24'hffffff : 24'hfffffe;
 
@@ -41,36 +41,44 @@ module crack(input logic clk, input logic rst_n,
 	end
 
 	always_ff @(posedge clk, negedge rst_n) begin
-		if (!rst_n || (stop && !key_valid)) begin
-			key = is_2nd ? 1 : 0;
+		if (!rst_n) begin
+			key <= is_2nd ? 24'b1 : 24'b0;
 			state = idle;
-			i <= 0;
 		end else begin
 			case(state)
 				idle: begin 
-					state <= en ? wt_rdy_a4 : idle;				 			
+					state <= en ? wt_rdy_a4 : idle;	
+					key <= key;	
+					i <= 0;		 			
 				end
 				wt_rdy_a4: begin
 					state <= rdy_a4 ? do_a4 : wt_rdy_a4;
 				end
 				do_a4: begin
-					state <= rdy_a4 ? wt_rdy_cpt : do_a4;
+					if (stop && !key_valid) 
+						state <= idle;
+					else if (rdy_a4)
+						state <= wt_rdy_cpt;
+					else 
+						state <= do_a4;
 				end
 				wt_rdy_cpt: begin
 					state <= rdy_cpt ? do_cpt : wt_rdy_cpt;
 				end
 				do_cpt:	begin
 					state <= rdy_cpt ? check : do_cpt;
+					key <= key;
 				end
 				check: begin
-					if (key_valid)
+					if (key_valid) begin
 						state <= copy_pt_w_en;
-					else if (key == end_key)
+					end else if (key == end_key) begin
 						state <= idle;
-					else
+					end
+					else begin
 						state <= wt_rdy_a4;
-					
-					key <= key + 2;
+						key <= key + 2;
+					end					
 				end
 				copy_pt_w_en: begin
 					state <= en ? copy_pt : copy_pt_w_en;
@@ -80,11 +88,12 @@ module crack(input logic clk, input logic rst_n,
 					state <= i < 255 ? copy_pt : idle;
 					i <= i + 1;
 				end
-				default:			state <= idle;
+				default: begin 
+					state <= idle;
+				end
 			endcase
 		end
 	end
-
 endmodule: crack
 
 module check_pt(input logic clk, input logic rst_n, input logic en, 

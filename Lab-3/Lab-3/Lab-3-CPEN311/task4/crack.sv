@@ -1,9 +1,9 @@
 module crack(input logic clk, input logic rst_n,
-            input logic en, output logic rdy,
-            output logic [23:0] key, output logic key_valid,
-            output logic [7:0] ct_addr, input logic [7:0] ct_rddata);
+			input logic en, output logic rdy,
+			output logic [23:0] key, output logic key_valid,
+			output logic [7:0] ct_addr, input logic [7:0] ct_rddata);
 
-    wire [7:0] a4_addr_pt, cpt_addr_pt, wr_data, rd_d_pt;
+	wire [7:0] a4_addr_pt, cpt_addr_pt, wr_data, rd_d_pt;
 	reg en_a4, en_cpt, rdy_a4, rdy_cpt, ptwren;
 	reg [3:0] state;
 	reg [7:0] ptaddr;
@@ -13,11 +13,11 @@ module crack(input logic clk, input logic rst_n,
 	localparam do_a4 = 2;
 	localparam wt_rdy_cpt = 3;
 	localparam do_cpt = 4;
-    localparam check = 5;
+	localparam check = 5;
 
-    // this memory must have the length-prefixed plaintext if key_valid
-    pt_mem 	  pt(.address(ptaddr), .clock(clk), .data(wr_data), .wren(ptwren), .q(rd_d_pt));
-    arc4      a4( .clk, .rst_n, .en(en_a4),  .rdy(rdy_a4), .pt_addr(a4_addr_pt), .pt_rddata(rd_d_pt), .pt_wrdata(wr_data), .pt_wren(ptwren), .ct_rddata,  .ct_addr, .key);
+	// this memory must have the length-prefixed plaintext if key_valid
+	pt_mem 	  pt(.address(ptaddr), .clock(clk), .data(wr_data), .wren(ptwren), .q(rd_d_pt));
+	arc4      a4( .clk, .rst_n, .en(en_a4),  .rdy(rdy_a4), .pt_addr(a4_addr_pt), .pt_rddata(rd_d_pt), .pt_wrdata(wr_data), .pt_wren(ptwren), .ct_rddata,  .ct_addr, .key);
 	check_pt  cpt(.clk, .rst_n, .en(en_cpt), .rdy(rdy_cpt),   .addr(cpt_addr_pt),  .rd_data(rd_d_pt), .key_valid);
 
 	always_comb begin
@@ -33,34 +33,34 @@ module crack(input logic clk, input logic rst_n,
 	end
 
 	always_ff @(posedge clk, negedge rst_n) begin
-        if (!rst_n) begin
-            key = 0;
-            state = idle;
-        end else begin
-            case(state)
-                idle: 			begin 
-                                    state <= en ? wt_rdy_a4 : idle;				 			
-                                end
-                wt_rdy_a4:		begin
-                                    state <= rdy_a4 ? do_a4 : wt_rdy_a4;
-                                end
-                do_a4:			begin
-                                    state <= rdy_a4 ? wt_rdy_cpt : do_a4;
-                                end
-                wt_rdy_cpt: 	begin
-                                    state <= rdy_cpt ? do_cpt : wt_rdy_cpt;
-                                end
-                do_cpt:			begin
-                                    state <= rdy_cpt ? check : do_cpt;
-                                end
-                check:          begin
-                                    state <= key_valid ? idle : wt_rdy_a4;
-                                    key <= key + 1;
+		if (!rst_n) begin
+			key = 0;
+			state = idle;
+		end else begin
+			case(state)
+				idle: 			begin 
+									state <= en ? wt_rdy_a4 : idle;				 			
+								end
+				wt_rdy_a4:		begin
+									state <= rdy_a4 ? do_a4 : wt_rdy_a4;
+								end
+				do_a4:			begin
+									state <= rdy_a4 ? wt_rdy_cpt : do_a4;
+								end
+				wt_rdy_cpt: 	begin
+									state <= rdy_cpt ? do_cpt : wt_rdy_cpt;
+								end
+				do_cpt:			begin
+									state <= rdy_cpt ? check : do_cpt;
+								end
+				check:			begin
+									state <= key_valid ? idle : wt_rdy_a4;
+									key <= key + 1;
 									//key <= 24'h18;
-                                end
-                default:			state <= idle;
-            endcase
-        end
+								end
+				default:			state <= idle;
+			endcase
+		end
 	end
 
 endmodule: crack

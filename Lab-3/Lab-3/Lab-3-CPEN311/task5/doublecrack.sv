@@ -21,11 +21,12 @@ module doublecrack(input logic clk, input logic rst_n,
 	wire [1:0] rdy_, key_valid_;
 
 	assign wren = wren_[0] || wren_[1];
-	assign data = pdata1 | paddr2;
+	assign data = pdata1 | pdata2;
 	assign addr = paddr1 | paddr2;
 	assign ct_addr = ct_addr_1 | ct_addr_2;
 	assign key_valid = key_valid_[0] || key_valid_[1];
 	assign is_2nd_ = 2'b01;
+	assign key = key_valid_[0] ? key_1 : key_2;
 
 	// this memory must have the length-prefixed plaintext if key_valid
 	pt_mem pt(.address(addr), .clock(clk), .data, .wren, .q());
@@ -47,10 +48,8 @@ module doublecrack(input logic clk, input logic rst_n,
 				en_[1] = rdy_[1] && key_valid_[1];
 			end
 			copy_pt:			begin
-
+				stop = 1;
 			end
-
-
 		endcase
 	end
 	
@@ -71,7 +70,7 @@ module doublecrack(input logic clk, input logic rst_n,
 					end
 				end
 				copy_pt_w:
-					state <= rdy_[0] && rdy_[1] ? copy_pt : copy_pt_w;
+					state <= rdy_[0] || rdy_[1] ? copy_pt : copy_pt_w;
 				copy_pt:
 					state <= rdy_[0] && rdy_[1] ? idle : copy_pt;
 				default: state <= idle;
