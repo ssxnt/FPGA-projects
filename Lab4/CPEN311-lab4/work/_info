@@ -1,0 +1,178 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/sants/Desktop/CPEN-311/Lab-3
+vfillscreen
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1698106656
+!i10b 1
+!s100 7lF`OD4W_[>O4UCXGd@9]3
+IWnZ21Y3L_8Wh:z=`[JKNW1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 fillscreen_sv_unit
+S1
+Z3 dC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4
+w1698105871
+8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1698106656.000000
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vtask2
+R0
+R1
+!i10b 1
+!s100 ORmic=;dSO2g>j>@^UGVL3
+I_:zSFZ?]VEKjZPMUHh]Dj2
+R2
+!s105 task2_sv_unit
+S1
+R3
+w1698106554
+8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/task2.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/task2.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/task2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/task2.sv|
+!i113 1
+R6
+R7
+vtb_rtl_fillscreen
+R0
+R1
+!i10b 1
+!s100 nFf7l7zj;YeaYe]T4YfYg1
+IBcNQKT^z]GlD^iUbnANiC3
+R2
+!s105 tb_rtl_fillscreen_sv_unit
+S1
+R3
+Z8 w1698091486
+8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_fillscreen.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_fillscreen.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_fillscreen.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_fillscreen.sv|
+!i113 1
+R6
+R7
+vtb_rtl_task2
+R0
+R1
+!i10b 1
+!s100 7S]T;@Y6h6hdOJKfaMG;I2
+I9O7`MG;>=NnFiH8M=;>Oo2
+R2
+!s105 tb_rtl_task2_sv_unit
+S1
+R3
+R8
+8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv|
+!i113 1
+R6
+R7
+vtb_syn_fillscreen
+R0
+!s110 1698106657
+!i10b 1
+!s100 FO7zd0kGzL5KjHZaWW2UU3
+IHlC5j>H^iiKMn7jXAif;20
+R2
+!s105 tb_syn_fillscreen_sv_unit
+S1
+R3
+w1698091487
+8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_fillscreen.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_fillscreen.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_fillscreen.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_fillscreen.sv|
+!i113 1
+R6
+R7
+vtb_syn_task2
+R0
+R1
+!i10b 1
+!s100 3oT3]S[``?EQNiCSG1D551
+IHo<H@aieHehFmb^Do@ALV0
+R2
+!s105 tb_syn_task2_sv_unit
+S1
+R3
+R8
+8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_task2.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_task2.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_task2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_task2.sv|
+!i113 1
+R6
+R7
+vvga_demo
+R0
+R1
+!i10b 1
+!s100 7aVGTY:=?Q[B8bW1E7KTe3
+I9dj5BoAhbA>oRAAFjaW=:2
+R2
+!s105 vga_demo_sv_unit
+S1
+R3
+w1698102081
+8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task1/vga_demo.sv
+FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task1/vga_demo.sv
+L0 5
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task1/vga_demo.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task1/vga_demo.sv|
+!i113 1
+R6
+R7

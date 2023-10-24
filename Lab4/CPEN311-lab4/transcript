@@ -1,0 +1,9 @@
+project compileall;
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# 7 compiles, 0 failed with no errors.
