@@ -10,7 +10,7 @@ cModel Technology
 dC:/Users/sants/Desktop/CPEN-311/Lab-3
 vfillscreen
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1698106656
+Z1 !s110 1698107982
 !i10b 1
 !s100 7lF`OD4W_[>O4UCXGd@9]3
 IWnZ21Y3L_8Wh:z=`[JKNW1
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1698106656.000000
+Z5 !s108 1698107982.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv|
 !i113 1
@@ -84,13 +84,13 @@ vtb_rtl_task2
 R0
 R1
 !i10b 1
-!s100 7S]T;@Y6h6hdOJKfaMG;I2
-I9O7`MG;>=NnFiH8M=;>Oo2
+!s100 eI1fJE?OJPzchhNFgA^g20
+I[6h@obfm[7cG@gNen8Tdf3
 R2
 !s105 tb_rtl_task2_sv_unit
 S1
 R3
-R8
+w1698107973
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv
 L0 1
@@ -106,7 +106,7 @@ R6
 R7
 vtb_syn_fillscreen
 R0
-!s110 1698106657
+R1
 !i10b 1
 !s100 FO7zd0kGzL5KjHZaWW2UU3
 IHlC5j>H^iiKMn7jXAif;20
