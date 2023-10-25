@@ -13,11 +13,11 @@ module task2(input logic CLOCK_50, input logic [3:0] KEY,
     assign rst_n = KEY[3];
 
     fillscreen fs(.clk(CLOCK_50), .rst_n(rst_n), .colour(colour), .start(start), .done(done), .vga_x(VGA_X), .vga_y(VGA_Y), .vga_colour(VGA_COLOUR), .vga_plot(VGA_PLOT));
-    vga_demo vgad(.clk(CLOCK_50), .KEY(KEY), .SW(SW), .VGA_R(VGA_R), .VGA_G(VGA_G), .VGA_B(VGA_B), .VGA_HS(VGA_HS), .VGA_VS(VGA_VS), .VGA_CLK(VGA_CLK), .VGA_X(VGA_X), .VGA_Y(VGA_Y), .VGA_COLOUR(VGA_COLOUR), .VGA_PLOT(VGA_PLOT));
+    vga_demo vgad(.CLOCK_50, .KEY, .SW, .VGA_R, .VGA_G, .VGA_B, .VGA_HS, .VGA_VS, .VGA_CLK, .VGA_X, .VGA_Y, .VGA_COLOUR, .VGA_PLOT);
 
     always_ff @(posedge CLOCK_50, negedge rst_n) begin
-        start <= !rst_n ? 1 : 0;
-        start <= done ? 0 : 1;
+        start <= !rst_n;
+        start <= !done;
     end
 
 endmodule: task2
