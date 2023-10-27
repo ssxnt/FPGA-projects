@@ -7,7 +7,7 @@ module circle(input logic clk, input logic rst_n, input logic [2:0] colour,
 	reg unsigned [7:0] offset_x, offset_y;
 	reg signed [7:0] crit;
 	reg [3:0] state;
-	reg is_on_screen;
+	reg is_valid;
 
 
 	localparam IDLE = 0;
@@ -25,10 +25,11 @@ module circle(input logic clk, input logic rst_n, input logic [2:0] colour,
 	localparam RESOLUTION_HIGHT = 120;
 
 	assign vga_colour = colour;
-	assign is_on_screen = vga_x < RESOLUTION_WIDTH && vga_y < RESOLUTION_HIGHT;
+	assign is_valid = vga_x < RESOLUTION_WIDTH && vga_y < RESOLUTION_HIGHT && offset_y <= offset_x;
 
 	always_comb begin
-		vga_plot = is_on_screen;
+		done = 0;
+		vga_plot = is_valid;
 		case (state)
 			IDLE: begin
 				vga_plot = 0;
@@ -67,6 +68,7 @@ module circle(input logic clk, input logic rst_n, input logic [2:0] colour,
 			end
 			DONE: begin
 				vga_plot = 0;
+				done = 1;
 			end 
 			default: begin
 				vga_plot = 0;
