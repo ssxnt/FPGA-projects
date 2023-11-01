@@ -4,10 +4,10 @@ module circle(input logic clk, input logic rst_n, input logic [2:0] colour,
 			  output logic [7:0] vga_x, output logic [6:0] vga_y,
 			  output logic [2:0] vga_colour, output logic vga_plot);
 	
-	reg unsigned [7:0] offset_x, offset_y;
+	reg unsigned [7:0] offset_x, offset_y, pixel_x, pixel_y;
 	reg signed [7:0] crit;
 	reg [3:0] state;
-	reg is_valid;
+	reg is_valid, is_on_screen;
 
 
 	localparam IDLE = 0;
@@ -25,7 +25,11 @@ module circle(input logic clk, input logic rst_n, input logic [2:0] colour,
 	localparam RESOLUTION_HIGHT = 120;
 
 	assign vga_colour = colour;
-	assign is_valid = vga_x < RESOLUTION_WIDTH && vga_y < RESOLUTION_HIGHT && offset_y <= offset_x;
+	assign is_on_screen = pixel_x < RESOLUTION_WIDTH && pixel_y < RESOLUTION_HIGHT;
+	assign is_valid = is_on_screen && offset_y <= offset_x;
+
+	assign vga_x = is_on_screen ? pixel_x : 8'h55;
+	assign vga_y = is_on_screen ? pixel_y[6:0] : 7'h55;
 
 	always_comb begin
 		done = 0;
@@ -35,36 +39,36 @@ module circle(input logic clk, input logic rst_n, input logic [2:0] colour,
 				vga_plot = 0;
 			end
 			OCT1: begin
-				vga_x = centre_x + offset_x;
-				vga_y = centre_y + offset_y;
+				pixel_x = centre_x + offset_x;
+				pixel_y = centre_y + offset_y;
 			end
 			OCT2: begin
-				vga_x = centre_x + offset_y;
-				vga_y = centre_y + offset_x;
+				pixel_x = centre_x + offset_y;
+				pixel_y = centre_y + offset_x;
 			end
 			OCT3: begin
-				vga_x = centre_x - offset_y;
-				vga_y = centre_y + offset_x;
+				pixel_x = centre_x - offset_y;
+				pixel_y = centre_y + offset_x;
 			end
 			OCT4: begin
-				vga_x = centre_x - offset_x;
-				vga_y = centre_y + offset_y;
+				pixel_x = centre_x - offset_x;
+				pixel_y = centre_y + offset_y;
 			end
 			OCT5: begin
-				vga_x = centre_x - offset_x;
-				vga_y = centre_y - offset_y;
+				pixel_x = centre_x - offset_x;
+				pixel_y = centre_y - offset_y;
 			end
 			OCT6: begin
-				vga_x = centre_x - offset_y;
-				vga_y = centre_y - offset_x;
+				pixel_x = centre_x - offset_y;
+				pixel_y = centre_y - offset_x;
 			end
 			OCT7: begin
-				vga_x = centre_x + offset_y;
-				vga_y = centre_y - offset_x;
+				pixel_x = centre_x + offset_y;
+				pixel_y = centre_y - offset_x;
 			end
 			OCT8: begin
-				vga_x = centre_x + offset_x;
-				vga_y = centre_y - offset_y;
+				pixel_x = centre_x + offset_x;
+				pixel_y = centre_y - offset_y;
 			end
 			DONE: begin
 				vga_plot = 0;
