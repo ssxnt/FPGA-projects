@@ -6,15 +6,17 @@ module reuleaux(input logic clk, input logic rst_n, input logic [2:0] colour,
 	 // draw the Reuleaux triangle
 	reg unsigned [7:0] c1x, c1y, c2x, c2y, c3x, c3y, CENTRE_X, CENTRE_Y;
 	reg [2:0] state;
+	reg circle_start;
+	wire circle_done;
 	// reg [15:0] joe;
 
 	// assign joe = (diameter * 16'd37)>>6;
 	assign c1x = centre_x;
-	assign c1y = centre_y - (dia*37>>6);
-	assign c2x = centre_x - (dia>>1);
-	assign c2y = centre_y + (dia*37>>7);
-	assign c3x = centre_x + (dia>>1);
-	assign c3y = centre_y + (dia*37>>7);
+	assign c1y = centre_y - (diameter*37>>6);
+	assign c2x = centre_x - (diameter>>1);
+	assign c2y = centre_y + (diameter*37>>7);
+	assign c3x = centre_x + (diameter>>1);
+	assign c3y = centre_y + (diameter*37>>7);
 	
 	localparam IDLE = 0;
 	localparam DRC1 = 1;
