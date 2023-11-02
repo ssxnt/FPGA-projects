@@ -617,3 +617,59 @@ run -all
 # Compile of tb_rtl_task4.sv was successful.
 # Compile of tb_syn_reuleaux.sv was successful.
 # 26 compiles, 0 failed with no errors.
+project compileall;
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv failed with 1 errors.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 1 failed with 1 error.
+project compileall;
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv failed with 4 errors.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 1 failed with 4 errors.
