@@ -17,10 +17,10 @@ module tb_rtl_task2();
 
     initial begin
 		key[3] = 1;
-	    #50;
-	    key[3] = 0;
-        #50;
-        key[3] = 1;
+    #50;
+    key[3] = 0;
+    #50;
+    key[3] = 1;
 	end
 
 endmodule: tb_rtl_task2
