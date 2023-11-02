@@ -8,8 +8,8 @@ package require tooltip
 namespace eval de1 {
     array set sw { 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 }
     array set sw_ref { 0 {} 1 {} 2 {} 3 {} 4 {} 5 {} 6 {} 7 {} 8 {} 9 {} }
-    array set key { 0 0 1 0 2 0 3 0 }
-    array set key_ref { 0 {} 1 {} 2 {} 3 {} }
+    array set ky { 0 0 1 0 2 0 3 0 }
+    array set ky_ref { 0 {} 1 {} 2 {} 3 {} }
     array set led { 0 z 1 z 2 z 3 z 4 z 5 z 6 z 7 z 8 z 9 z }
     array set hex { 0,0 0 0,1 0 0,2 0 0,3 0 0,4 0 0,5 0 0,6 0 1,0 0 1,1 0 1,2 0 1,3 0 1,4 0 1,5 0 1,6 0 2,0 0 2,1 0 2,2 0 2,3 0 2,4 0 2,5 0 2,6 0 3,0 0 3,1 0 3,2 0 3,3 0 3,4 0 3,5 0 3,6 0 4,0 0 4,1 0 4,2 0 4,3 0 4,4 0 4,5 0 4,6 0 5,0 0 5,1 0 5,2 0 5,3 0 5,4 0 5,5 0 5,6 0 }
     image create photo sw_0 -data "R0lGODlhFAAvAPZ6AAAAAAMDAwQEBAUFBQgICA0NCg8PDRAQDRUWExYXFBkZFxkaFxoaGBsbGRwcGh0dGx8fGx8gHCAhHSEiHSEiHiIiHiIjHiIjHyMjHyMkHyQkICQlICUlIyUmICUmISUnISYnIicnJCcnJScoIycoJCgpJCgpJSkpJykqJSkqJiorJyssJysrKS0tKy0uKS0uKi4uKi4vKy4uLDAxLDAxLTAwLjExLzIyMDc3NTg4Njk5Nz8/PT1FQ0BAPUBAPkBAP0FBP0hIRkpKSEpKSU1NS09PTVNTUlRUVFdXV1ddW19fXmJiYWJjYWNlZGRlYmRlY2VlY2RlZWVmZGZmZGdnZ2doZ2pqaGtra2tsamxsa2xsbGxtbW1tbW1ubW5ubnFxcXBycXJycnJzc3Nzc3Z2dHh4dnh4d3t8eoeHh4iIh4mJiI2NjY6OjpCQkJGRkZKSkpOTk5SUlJWVlZWWlpaWlpiYmJmZmZqampqam5ubm////wAAAAAAAAAAAAAAAAAAACH5BAEAAHoALAAAAAAUAC8AAAf+gDxgbXF0dHF2hYaKh4ZwTVpwdpOUlZZ2dJCIlnV2nZeZkZx1pJeYkJKVpKurlHGol52ynpN5r6KqrLOTdFRabZy0rK5NXHCfk6WypbzFqZ66yZV0UFfHubSg1dd53d7feZTUXG+TaF9fYOrrYGFrvFDGdnlIAQMCAgP6+gRe3XHx3Mw7EgCAwYMGA2gJFyfKFYF5jiCcKGChJyhZJOVRkmBBgo8gO45hiFHjlAwZRqQcoXIECjPh6jTJOO9kS5UrXzKcaTIDipYpUY6AeUoLojwnha5M+XLSraM2UQTNwMEnTFuaavpM+eKFi682yMQZy1MryhU9fKhVO4SIk0f+kejkgVIVpYO7eB0oCHILTjcoGSykjCFDho3CMlgMaUPF2jwogjmMYLGChWXLJxY7e2wBxAgOIUaEGD2aw5A4Tqx1czIBRAYVNmzcmH3DRg0ibZpYkwsZRFUHDYIL3xunsd88rH2vyMG8OfMibbbx7jzCwQED2A9oL6AjOhc3deZCCKFhQoXzEyxUgHCCy7hjdaBo0GCBg+SlLLjUAUguPBQIFNiH0oAZNAGPMeFZwUINLsQwg4MzzEDDGeFQc0U5driBBhppdOhhh5vQ4dAzeFASTjjziOOQQKa0KOKFLboYD3ytxJjIjNHYaCGNzMT4ol+roOgjFFqwEQccSMIvMdaSTI4FRxRaRMkFF15QqYUXWmQRJZZRiqHFFVFEAcWYVDTRBBVQmHlmmE0kEQgAOw=="
@@ -61,10 +61,10 @@ proc de1::key_init {} {
     set old_env [env]
     env /
     for { set id 0 } { $id < 4 } { incr id } {
-        array set de1::key "$id 0"
-        array set de1::key_ref "$id [find nets -recursive -internal -nofilter de1_gui_ifc_key$id]"
-        force $de1::key_ref($id) $de1::key($id)
-        .de1.cv create image [expr 335 + (3 - $id) * 52] 140 -image key_$de1::key($id) -tags "key_$id"
+        array set de1::ky "$id 0"
+        array set de1::ky_ref "$id [find nets -recursive -internal -nofilter de1_gui_ifc_key$id]"
+        force $de1::ky_ref($id) $de1::ky($id)
+        .de1.cv create image [expr 335 + (3 - $id) * 52] 140 -image key_$de1::ky($id) -tags "key_$id"
         ::tooltip::tooltip .de1.cv -items "key_${id}" "KEY${id}"
         .de1.cv bind key_$id <ButtonPress-1> "de1::key_click $id"
     }
@@ -72,14 +72,14 @@ proc de1::key_init {} {
 }
 
 proc de1::key_click { id } {
-    set de1::key($id) [expr ! $de1::key($id)]
-    force $de1::key_ref($id) $de1::key($id)
+    set de1::ky($id) [expr ! $de1::ky($id)]
+    force $de1::ky_ref($id) $de1::ky($id)
     de1::key_redraw $id
 }
 
 proc de1::key_redraw { id } {
     if { $id >= 0 && $id < 4 } {
-        .de1.cv itemconfigure key_$id -image key_$de1::key($id)
+        .de1.cv itemconfigure key_$id -image key_$de1::ky($id)
     } else {
         error "unknown key #: $id"
     }
