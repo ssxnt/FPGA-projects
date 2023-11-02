@@ -111,7 +111,7 @@ module circle(input logic clk, input logic rst_n, input logic [2:0] colour,
 						crit <= crit + ((offset_y - offset_x)<<1) + 1;
 					end
 				end
-				DONE: state <= start ? DONE : IDLE;
+				DONE: state <= start ? IDLE : DONE;
 				default: state <= IDLE;
 			endcase
 		end

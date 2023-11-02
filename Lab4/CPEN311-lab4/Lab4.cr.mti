@@ -1,4 +1,4 @@
-C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv
+C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv {1 {vlog -work work -sv -stats=none {C:\Users\sants\Desktop\CPEN-311\Lab4\CPEN311-lab4\task4\reuleaux.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module reuleaux
 
@@ -138,6 +138,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	vga_controller
 
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task4
+
+Top level modules:
+	task4
+
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/button_pusher.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/button_pusher.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module button_pusher
@@ -165,12 +172,5 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	tb_rtl_reuleaux
-
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module circle
-
-Top level modules:
-	circle
 
 } {} {}}

@@ -56,13 +56,14 @@ module reuleaux(input logic clk, input logic rst_n, input logic [2:0] colour,
 		end else begin
 			case (state)
 				IDLE: state <=  start ? DRC1 : IDLE;
-				DRC1: state <= !start ? IDLE :
-								 done ? DRC2 : DRC1;
+				// DRC1: state <= !start ? IDLE :
+				// 				 done ? DRC2 : DRC1;
+				DRC1: state <= 	 circle_done ? DRC2 : DRC1;
 				DRC2: state <= !start ? IDLE :
-								 done ? DRC3 : DRC2;
+								 circle_done ? DRC3 : DRC2;
 				DRC3: state <= !start ? IDLE :
-								 done ? DONE : DRC3;
-				DONE: state <= DONE;
+								 circle_done ? DONE : DRC3;
+				DONE: state <= start ? IDLE : DONE;
 				default: state <= IDLE;
 			endcase
 		end
