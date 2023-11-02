@@ -7,6 +7,106 @@ module task4(input logic CLOCK_50, input logic [3:0] KEY,
              output logic [7:0] VGA_X, output logic [6:0] VGA_Y,
              output logic [2:0] VGA_COLOUR, output logic VGA_PLOT);
 
-    
+    // instantiate and connect the VGA adapter and your module
+	logic start, done, rst_n, strt;
+    reg [2:0] colour;
+	reg [7:0] centre_x, diameter;
+	reg [6:0] centre_y;
 
+	reg [1:0] state;
+	//reg [3:0] i = 0;
+	
+	//wire [7:0] VGA_X, VGA_Y;
+	//wire [2:0] VGA_COLOUR;
+
+    logic [9:0] VGA_R_10;
+	logic [9:0] VGA_G_10;
+	logic [9:0] VGA_B_10;
+	logic VGA_BLANK, VGA_SYNC;
+
+	localparam IDLE = 0;
+	localparam DRAW = 1;
+	// localparam NEXT = 2;
+	localparam DONE = 3;
+
+	localparam RED 		= 3'b100;
+	localparam GREEN 	= 3'b010;
+	localparam BLUE 	= 3'b001;
+	localparam WHITE	= 3'b111;
+	localparam BLACK 	= 3'b000;
+	localparam YELLOW	= 3'b110;
+	localparam AQUA 	= 3'b011;
+	localparam PURPLE 	= 3'b101;
+
+	assign VGA_R = VGA_R_10[9:2];
+	assign VGA_G = VGA_G_10[9:2];
+	assign VGA_B = VGA_B_10[9:2];
+
+    assign rst_n = KEY[3];
+	assign strt = KEY[0];
+
+	assign colour = RED;
+	assign centre_x = 80;
+	assign centre_y = 60;
+	assign diameter = 80;
+
+	reuleaux joe(.clk(CLOCK_50), .rst_n, .colour, .centre_x, .centre_y, .diameter,
+			  .start, .done, .vga_x(VGA_X), .vga_y(VGA_Y), .vga_colour(VGA_COLOUR), .vga_plot(VGA_PLOT));
+
+	vga_adapter#(.RESOLUTION("160x120")) vga_u0(.resetn(rst_n), .clock(CLOCK_50), .colour(VGA_COLOUR),
+											.x(VGA_X), .y(VGA_Y), .plot(VGA_PLOT),
+											.VGA_R(VGA_R_10), .VGA_G(VGA_G_10), .VGA_B(VGA_B_10),
+											.*);
+	
+	always_comb begin
+		case(state)
+			IDLE: start = 0;
+			DRAW: start = 1;
+			// NEXT: start = 0;
+			DONE: start = 0;
+			// default: start = 0;
+		endcase
+	end
+
+	// always_comb begin
+	// 	case(i)
+	// 		 0: {colour, centre_x, centre_y, radius} = {RED,	8'd27, 	7'd37,	8'd52};
+	// 		 1: {colour, centre_x, centre_y, radius} = {GREEN,	8'd27, 	7'd12,	8'd21};
+	// 		 2: {colour, centre_x, centre_y, radius} = {BLUE,	8'd27, 	7'd123,	8'd14};
+	// 		 3: {colour, centre_x, centre_y, radius} = {WHITE,  8'd82, 	7'd1,	8'd34};
+	// 		 4: {colour, centre_x, centre_y, radius} = {BLACK, 	8'd99, 	7'd21,	8'd100};
+	// 		 5: {colour, centre_x, centre_y, radius} = {YELLOW, 8'd10, 	7'd34,	8'd123};
+	// 		 6: {colour, centre_x, centre_y, radius} = {AQUA, 	8'd120, 7'd55,	8'd12};
+	// 		 7: {colour, centre_x, centre_y, radius} = {RED, 	8'd33, 	7'd110,	8'd145};
+	// 		 8: {colour, centre_x, centre_y, radius} = {GREEN, 	8'd5, 	7'd32,	8'd67};
+	// 		 9: {colour, centre_x, centre_y, radius} = {BLUE,   8'd165,	7'd35,	8'd0};
+	// 		10: {colour, centre_x, centre_y, radius} = {WHITE, 	8'd198,	7'd18,	8'd42};
+	// 		11: {colour, centre_x, centre_y, radius} = {BLACK, 	8'd32, 	7'd35,	8'd13};
+	// 		12: {colour, centre_x, centre_y, radius} = {YELLOW, 8'd145,	7'd45,	8'd77};
+	// 		13: {colour, centre_x, centre_y, radius} = {AQUA, 	8'd23,	7'd39,	8'd90};
+	// 		14: {colour, centre_x, centre_y, radius} = {PURPLE, 8'd23,	7'd22,	8'd64};
+	// 		15: {colour, centre_x, centre_y, radius} = {PURPLE, 8'd87,	7'd56,	8'd32};
+	// 		//default: {colour, centre_x, centre_y, radius} = {YELLOW, 8'd27, 7'd37, 8'd52};
+	// 	endcase
+	// end
+
+	always_ff @(posedge CLOCK_50, negedge rst_n) begin
+		if (!rst_n) begin
+			state <= IDLE;
+		end else begin
+			case(state)
+				IDLE: state <= strt ? DRAW : IDLE;
+				DRAW: state <= done ? DONE :
+							   strt ? DRAW : IDLE;
+				// NEXT: begin
+				// 	  state <= done ? i==15 : 
+				// 			   strt ? DRAW : IDLE;
+				// 	i <= i + 1;
+				// end
+				DONE: state <= DONE;
+				default: state <= IDLE;
+			endcase
+		end
+	end
+	
 endmodule: task4
