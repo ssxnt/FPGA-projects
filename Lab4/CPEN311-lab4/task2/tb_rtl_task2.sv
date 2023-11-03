@@ -29,7 +29,7 @@ module tb_rtl_task2();
 		reset;
 		#10;
 		start;
-		#100000;
+		#200000;
 		$stop;
 	end
 

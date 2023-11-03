@@ -3,14 +3,12 @@ module reuleaux(input logic clk, input logic rst_n, input logic [2:0] colour,
 				input logic start, output logic done,
 				output logic [7:0] vga_x, output logic [6:0] vga_y,
 				output logic [2:0] vga_colour, output logic vga_plot);
-	 // draw the Reuleaux triangle
+
 	reg unsigned [7:0] c1x, c1y, c2x, c2y, c3x, c3y, CENTRE_X, CENTRE_Y;
 	reg [2:0] state;
 	reg circle_start;
 	wire circle_done;
-	// reg [15:0] joe;
 
-	// assign joe = (diameter * 16'd37)>>6;
 	assign c1x = centre_x;
 	assign c1y = centre_y - (diameter*37>>6);
 	assign c2x = centre_x - (diameter>>1);
@@ -25,7 +23,7 @@ module reuleaux(input logic clk, input logic rst_n, input logic [2:0] colour,
 	localparam DONE = 4;
 
 	circle cir(.clk, .rst_n, .colour, .centre_x(CENTRE_X), .centre_y(CENTRE_Y), .radius(diameter),
-			  .start(circle_start), .done(circle_done), .vga_x, .vga_y, .vga_colour, .vga_plot);
+				.start(circle_start), .done(circle_done), .vga_x, .vga_y, .vga_colour, .vga_plot);
 	
 	always_comb begin
 		done = 0;
@@ -56,8 +54,6 @@ module reuleaux(input logic clk, input logic rst_n, input logic [2:0] colour,
 		end else begin
 			case (state)
 				IDLE: state <=  start ? DRC1 : IDLE;
-				// DRC1: state <= !start ? IDLE :
-				// 				 done ? DRC2 : DRC1;
 				DRC1: state <= 	 circle_done ? DRC2 : DRC1;
 				DRC2: state <= !start ? IDLE :
 								 circle_done ? DRC3 : DRC2;
@@ -69,6 +65,4 @@ module reuleaux(input logic clk, input logic rst_n, input logic [2:0] colour,
 		end
 	end
 
-
 endmodule
-

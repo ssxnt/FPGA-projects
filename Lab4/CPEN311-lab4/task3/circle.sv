@@ -5,7 +5,7 @@ module circle(input logic clk, input logic rst_n, input logic [2:0] colour,
 			  output logic [2:0] vga_colour, output logic vga_plot);
 	
 	reg unsigned [7:0] offset_x, offset_y, pixel_x, pixel_y;
-	reg signed [7:0] crit;
+	reg signed [8:0] crit;
 	reg [3:0] state;
 	reg is_valid, is_on_screen;
 

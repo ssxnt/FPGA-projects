@@ -20,9 +20,9 @@ module task2(input logic CLOCK_50, input logic [3:0] KEY,
 	assign VGA_B = VGA_B_10[9:2];
 
     assign rst_n = KEY[3];
+    assign colour = VGA_COLOUR;
 
     fillscreen fs(.clk(CLOCK_50), .rst_n(rst_n), .colour(colour), .start(start), .done(done), .vga_x(VGA_X), .vga_y(VGA_Y), .vga_colour(VGA_COLOUR), .vga_plot(VGA_PLOT));
-    //vga_demo vgad(.CLOCK_50, .KEY, .SW, .VGA_R, .VGA_G, .VGA_B, .VGA_HS, .VGA_VS, .VGA_CLK, .VGA_X, .VGA_Y, .VGA_COLOUR, .VGA_PLOT);
     vga_adapter#(.RESOLUTION("160x120")) vga_u0(.resetn(rst_n), .clock(CLOCK_50), .colour(colour),
 												.x(VGA_X), .y(VGA_Y), .plot(VGA_PLOT),
 												.VGA_R(VGA_R_10), .VGA_G(VGA_G_10), .VGA_B(VGA_B_10),
@@ -30,7 +30,6 @@ module task2(input logic CLOCK_50, input logic [3:0] KEY,
 
     always_ff @(posedge CLOCK_50, negedge rst_n) begin
         start <= !rst_n && !done;
-        //start <= !done;
     end
     
 endmodule: task2
