@@ -27,10 +27,10 @@ module task2(input logic CLOCK_50, input logic [3:0] KEY,
 												.x(VGA_X), .y(VGA_Y), .plot(VGA_PLOT),
 												.VGA_R(VGA_R_10), .VGA_G(VGA_G_10), .VGA_B(VGA_B_10),
 												.*);
-    
+
     always_ff @(posedge CLOCK_50, negedge rst_n) begin
         start <= !rst_n && !done;
         //start <= !done;
     end
-
+    
 endmodule: task2

@@ -40,13 +40,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	tb_rtl_task3
 
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module fillscreen
-
-Top level modules:
-	fillscreen
-
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_circle.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_circle.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module tb_syn_circle
@@ -96,19 +89,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	vga_pll
 
-} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/de1_gui.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/de1_gui.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module de1_gui
-
-Top level modules:
-	de1_gui
-
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/task2.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/task2.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module task2
 
 Top level modules:
 	task2
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/de1_gui.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/de1_gui.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module de1_gui
+
+Top level modules:
+	de1_gui
 
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_task4.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_task4.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -158,6 +151,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	tb_de1_gui
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module circle
+
+Top level modules:
+	circle
 
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_reuleaux.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_reuleaux.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016

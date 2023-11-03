@@ -1308,3 +1308,1561 @@ run -all
 # ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_task4.sv(40)
 #    Time: 2000013 ps  Iteration: 0  Instance: /tb_rtl_task4
 # Break in Module tb_rtl_task4 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_task4.sv line 40
+vsim -L altera_mf_ver tb_rtl_task2
+# End time: 19:55:20 on Nov 02,2023, Elapsed time: 21:35:58
+# Errors: 2, Warnings: 255
+# vsim -L altera_mf_ver tb_rtl_task2 
+# Start time: 19:55:21 on Nov 02,2023
+# Loading sv_std.std
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading sv_std.mti_fli
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading altera_mf_ver.altsyncram
+# Loading work.vga_pll
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.vga_controller
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading altera_mf_ver.MF_stratixii_pll
+# Loading altera_mf_ver.MF_pll_reg
+# Loading altera_mf_ver.arm_m_cntr
+# Loading altera_mf_ver.arm_n_cntr
+# Loading altera_mf_ver.arm_scale_cntr
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+project compileall; restart; run -all
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading work.vga_pll
+# Loading work.vga_controller
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# invalid command name ".de1vga.draw.c"
+# invalid command name ".de1vga.draw.c"
+# Warning : Address pointed at port A is out of bound!
+# Time: 5  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv(33)
+#    Time: 110023 ps  Iteration: 0  Instance: /tb_rtl_task2
+# Break in Module tb_rtl_task2 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv line 33
+project compileall; restart; run -all
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv failed with 2 errors.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 1 failed with 2 errors.
+# Break key hit
+# Break at /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v line 8892
+# Error opening C:/build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# Path name 'C:/build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v' doesn't exist.
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv failed with 1 errors.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 1 failed with 1 error.
+project compileall; restart; run -all
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading work.vga_pll
+# Loading work.vga_controller
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# invalid command name ".de1vga.draw.c"
+# invalid command name ".de1vga.draw.c"
+# Warning : Address pointed at port A is out of bound!
+# Time: 5  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv(33)
+#    Time: 110023 ps  Iteration: 0  Instance: /tb_rtl_task2
+# Break in Module tb_rtl_task2 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv line 33
+vsim -L altera_mf_ver tb_rtl_task2
+# End time: 20:23:21 on Nov 02,2023, Elapsed time: 0:28:00
+# Errors: 1, Warnings: 150
+# vsim -L altera_mf_ver tb_rtl_task2 
+# Start time: 20:23:21 on Nov 02,2023
+# Loading sv_std.std
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading sv_std.mti_fli
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading altera_mf_ver.altsyncram
+# Loading work.vga_pll
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.vga_controller
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading altera_mf_ver.MF_stratixii_pll
+# Loading altera_mf_ver.MF_pll_reg
+# Loading altera_mf_ver.arm_m_cntr
+# Loading altera_mf_ver.arm_n_cntr
+# Loading altera_mf_ver.arm_scale_cntr
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+project compileall; restart; run -all
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading work.vga_pll
+# Loading work.vga_controller
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# invalid command name ".de1vga.draw.c"
+# invalid command name ".de1vga.draw.c"
+# Warning : Address pointed at port A is out of bound!
+# Time: 5  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv(33)
+#    Time: 110023 ps  Iteration: 0  Instance: /tb_rtl_task2
+# Break in Module tb_rtl_task2 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv line 33
+project compileall; restart; run -all
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading work.vga_pll
+# Loading work.vga_controller
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# invalid command name ".de1vga.draw.c"
+# invalid command name ".de1vga.draw.c"
+# Warning : Address pointed at port A is out of bound!
+# Time: 5  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv(33)
+#    Time: 110023 ps  Iteration: 0  Instance: /tb_rtl_task2
+# Break in Module tb_rtl_task2 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv line 33
+vsim -L altera_mf_ver tb_rtl_task2
+# End time: 20:24:10 on Nov 02,2023, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 150
+# vsim -L altera_mf_ver tb_rtl_task2 
+# Start time: 20:24:10 on Nov 02,2023
+# Loading sv_std.std
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading sv_std.mti_fli
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading altera_mf_ver.altsyncram
+# Loading work.vga_pll
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.vga_controller
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading altera_mf_ver.MF_stratixii_pll
+# Loading altera_mf_ver.MF_pll_reg
+# Loading altera_mf_ver.arm_m_cntr
+# Loading altera_mf_ver.arm_n_cntr
+# Loading altera_mf_ver.arm_scale_cntr
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+project compileall; restart; run -all
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading work.vga_pll
+# Loading work.vga_controller
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# invalid command name ".de1vga.draw.c"
+# invalid command name ".de1vga.draw.c"
+# Warning : Address pointed at port A is out of bound!
+# Time: 5  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv(33)
+#    Time: 110023 ps  Iteration: 0  Instance: /tb_rtl_task2
+# Break in Module tb_rtl_task2 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv line 33
+do C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/de1_vga_gui.tcl
+project compileall; restart; run -all
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading work.vga_pll
+# Loading work.vga_controller
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# Warning : Address pointed at port A is out of bound!
+# Time: 5  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv(33)
+#    Time: 110023 ps  Iteration: 0  Instance: /tb_rtl_task2
+# Break in Module tb_rtl_task2 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv line 33
+project compileall; restart; run -all
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading work.vga_pll
+# Loading work.vga_controller
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# invalid command name ".de1vga.draw.c"
+# invalid command name ".de1vga.draw.c"
+# Warning : Address pointed at port A is out of bound!
+# Time: 5  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv(33)
+#    Time: 110023 ps  Iteration: 0  Instance: /tb_rtl_task2
+# Break in Module tb_rtl_task2 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv line 33
+do C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/de1_vga_gui.tcl
+project compileall; restart; run -all
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading work.vga_pll
+# Loading work.vga_controller
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# invalid command name ".de1vga.draw.c"
+# invalid command name ".de1vga.draw.c"
+# Warning : Address pointed at port A is out of bound!
+# Time: 5  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv(33)
+#    Time: 110023 ps  Iteration: 0  Instance: /tb_rtl_task2
+# Break in Module tb_rtl_task2 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv line 33
+do C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/de1_vga_gui.tcl
+project compileall; restart; run -all
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading work.vga_pll
+# Loading work.vga_controller
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# invalid command name ".de1vga.draw.c"
+# invalid command name ".de1vga.draw.c"
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv(33)
+#    Time: 110023 ps  Iteration: 0  Instance: /tb_rtl_task2
+# Break in Module tb_rtl_task2 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv line 33
+do C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/de1_vga_gui.tcl
+project compileall; restart; run -all
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading work.vga_pll
+# Loading work.vga_controller
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# invalid command name ".de1vga.draw.c"
+# invalid command name ".de1vga.draw.c"
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv(33)
+#    Time: 110023 ps  Iteration: 0  Instance: /tb_rtl_task2
+# Break in Module tb_rtl_task2 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv line 33
+do C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/de1_vga_gui.tcl
+project compileall; restart; run -all
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading work.vga_pll
+# Loading work.vga_controller
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# invalid command name ".de1vga.draw.c"
+# invalid command name ".de1vga.draw.c"
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv(33)
+#    Time: 110023 ps  Iteration: 0  Instance: /tb_rtl_task2
+# Break in Module tb_rtl_task2 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv line 33
+project compileall; restart; run -all
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading work.vga_pll
+# Loading work.vga_controller
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv(33)
+#    Time: 110023 ps  Iteration: 0  Instance: /tb_rtl_task2
+# Break in Module tb_rtl_task2 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv line 33
+run -all
+# Break key hit
+# Simulation stop requested.
+# Error opening C:/build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# Path name 'C:/build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v' doesn't exist.
+project compileall; restart; run -all
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# 26 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task2
+# Loading work.task2
+# Loading work.fillscreen
+# Loading work.vga_adapter
+# Loading work.vga_address_translator
+# Loading work.vga_pll
+# Loading work.vga_controller
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/VideoMemory File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task2/dut/vga_u0/mypll/altpll_component File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task2.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv(33)
+#    Time: 110023 ps  Iteration: 0  Instance: /tb_rtl_task2
+# Break in Module tb_rtl_task2 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv line 33
