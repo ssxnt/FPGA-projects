@@ -58,11 +58,11 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY,
 	
 	always_comb begin
 		case(state)
-			IDLE: {fsb_start, c_start} = {0, 0};
-			FILL: {fsb_start, c_start} = {1, 0};
-			DRAW: {fsb_start, c_start} = {0, 1};
-			NEXT: {fsb_start, c_start} = {0, 0};
-			DONE: {fsb_start, c_start} = {0, 0};
+			IDLE: {fsb_start, c_start} = {2'b00};
+			FILL: {fsb_start, c_start} = {2'b10};
+			DRAW: {fsb_start, c_start} = {2'b01};
+			NEXT: {fsb_start, c_start} = {2'b00};
+			DONE: {fsb_start, c_start} = {2'b00};
 		endcase
 	end
 
@@ -93,7 +93,7 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY,
 		end else begin
 			case(state)
 				IDLE: state <= strt ? FILL : IDLE;
-				FILL: state <= fsb_done ? DRAW : IDLE;
+				FILL: state <= fsb_done ? DRAW : FILL;
 				DRAW: state <= c_done ? NEXT :
 							   strt ? DRAW : IDLE;
 				NEXT: begin

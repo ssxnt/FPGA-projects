@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/sants/Desktop/CPEN-311/Lab-3
 va_graycounter
-Z0 !s110 1699053990
+Z0 !s110 1699055402
 !i10b 1
 !s100 7RL@7]^Mkb[^0^A4A<DHg3
 I>hjj]0Pj0@M2XL@Ym^dZZ3
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1699053989.000000
+Z7 !s108 1699055401.000000
 Z8 !s107 C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v|
 !i113 1
@@ -366,7 +366,7 @@ R9
 R10
 R11
 vALTERA_DEVICE_FAMILIES
-Z12 !s110 1699053989
+Z12 !s110 1699055401
 !i10b 1
 !s100 LWTeFO?a^6l3ea7?@d<9?0
 IfYSM=nH62<i`IB[z2`8hl2
@@ -895,7 +895,7 @@ R10
 R11
 vbutton_pusher
 Z13 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z14 !s110 1699053988
+Z14 !s110 1699055400
 !i10b 1
 !s100 FdJfASPOg`ZfXQQU:2hJ^0
 I13nX0z]d9Nj`>gclYVTRc3
@@ -911,7 +911,7 @@ R6
 r1
 !s85 0
 31
-Z16 !s108 1699053988.000000
+Z16 !s108 1699055400.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/button_pusher.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/button_pusher.sv|
 !i113 1
@@ -1241,7 +1241,7 @@ R10
 R11
 vfillscreen
 R13
-Z19 !s110 1699053987
+Z19 !s110 1699055399
 !i10b 1
 !s100 1JVB86`]U>2QQZN4>6Pi71
 IojCf?4z]^2HoW?=jW=F_:1
@@ -1257,7 +1257,7 @@ R6
 r1
 !s85 0
 31
-Z20 !s108 1699053987.000000
+Z20 !s108 1699055399.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv|
 !i113 1
@@ -1265,7 +1265,7 @@ R17
 R11
 vfillscreenb
 R13
-!s110 1699053991
+!s110 1699055403
 !i10b 1
 !s100 M8Nb?JL@>TBR?6jCBi=j20
 I0XgJDdVgMIBz]fA1]@STn1
@@ -1281,7 +1281,7 @@ R6
 r1
 !s85 0
 31
-!s108 1699053990.000000
+!s108 1699055402.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/fillscreenb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/fillscreenb.sv|
 !i113 1
@@ -1526,7 +1526,7 @@ R10
 R11
 n@m@f_stratix_pll
 vMF_stratixii_pll
-R12
+R0
 !i10b 1
 !s100 m<j8S?b80d7m:cRfTMSCR0
 IMkmAzJV:Ski2^KZ]P75ER0
@@ -2020,13 +2020,13 @@ vtask3
 R13
 R14
 !i10b 1
-!s100 _2>c:o3?9`1_md1R<ZVCz3
-IO6;46]fYG3Z19;m4O:b_Z2
+!s100 h`^dAYk4B3?EV3z0dF5@B0
+IFeOnWD=5l6X:lfW;g922e3
 R1
 !s105 task3_sv_unit
 S1
 R2
-w1699053896
+w1699055390
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv
 L0 1
@@ -2114,7 +2114,7 @@ R17
 R11
 vtb_rtl_fillscreen
 R13
-R19
+R14
 !i10b 1
 !s100 nFf7l7zj;YeaYe]T4YfYg1
 IBcNQKT^z]GlD^iUbnANiC3
@@ -2130,7 +2130,7 @@ R6
 r1
 !s85 0
 31
-R20
+R16
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_fillscreen.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_fillscreen.sv|
 !i113 1
@@ -2178,7 +2178,7 @@ R6
 r1
 !s85 0
 31
-R20
+R16
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv|
 !i113 1
@@ -2377,7 +2377,7 @@ R7
 R17
 R11
 vttn_m_cntr
-R12
+R0
 !i10b 1
 !s100 ;3NK]8TY<L]eQ[IJY0gF32
 I_Q8:POIjoQO@]:T=;^n0?2
@@ -2398,7 +2398,7 @@ R9
 R10
 R11
 vttn_n_cntr
-R12
+R0
 !i10b 1
 !s100 7nCN0ZiXcEmbIBT5Y>_4a1
 Iie9]WoXQfd:8KLUn@g8ha1
@@ -2419,7 +2419,7 @@ R9
 R10
 R11
 vttn_scale_cntr
-R12
+R0
 !i10b 1
 !s100 _jZZ0@3D`H8_VG516F<O_0
 In^;<R;`W9:>8PFIPVIc]:0
@@ -2458,7 +2458,7 @@ R6
 r1
 !s85 0
 31
-R16
+R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv|
 !i113 1
@@ -2538,7 +2538,7 @@ R17
 R11
 vvga_pll
 R13
-R14
+R12
 !i10b 1
 !s100 B@RTRAe2BCUY;gLZj0kH`3
 IW6XUPfGWMGN69mRSP7T1;2

@@ -276,6 +276,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	task4
 
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/fillscreenb.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/fillscreenb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fillscreenb
+
+Top level modules:
+	fillscreenb
+
 } {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/tb_de1_gui.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/tb_de1_gui.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module tb_de1_gui

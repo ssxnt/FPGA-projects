@@ -25167,3 +25167,1879 @@ project compileall; restart; run -all;
 # ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv(40)
 #    Time: 2000013 ps  Iteration: 0  Instance: /tb_rtl_task3
 # Break in Module tb_rtl_task3 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv line 40
+project compileall; restart; run -all;
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# Compile of altera_mf.v was successful.
+# Compile of fillscreenb.sv was successful.
+# 28 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.fillscreenb
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.circle
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_adapter
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_address_translator
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altpll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_DEVICE_FAMILIES
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.pll_iobuf
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_controller
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram_body
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_stratixii_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_pll_reg
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_m_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_n_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_scale_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_X', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_Y', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_COLOUR', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_PLOT', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/VideoMemory File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/mypll/altpll_component File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# ==== START FSM TEST ====
+# ==== RESET ====
+# x   0 y   0
+# 
+# ==== TEST SUMMARY ====
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv(40)
+#    Time: 2000013 ps  Iteration: 0  Instance: /tb_rtl_task3
+# Break in Module tb_rtl_task3 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv line 40
+add wave -position insertpoint  \
+sim:/tb_rtl_task3/dut/fsb/state
+project compileall; restart; run -all;
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# Compile of altera_mf.v was successful.
+# Compile of fillscreenb.sv was successful.
+# 28 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.fillscreenb
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.circle
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_adapter
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_address_translator
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altpll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_DEVICE_FAMILIES
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.pll_iobuf
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_controller
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram_body
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_stratixii_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_pll_reg
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_m_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_n_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_scale_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_X', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_Y', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_COLOUR', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_PLOT', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/VideoMemory File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/mypll/altpll_component File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# ==== START FSM TEST ====
+# ==== RESET ====
+# x   0 y   0
+# 
+# ==== TEST SUMMARY ====
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv(40)
+#    Time: 2000013 ps  Iteration: 0  Instance: /tb_rtl_task3
+# Break in Module tb_rtl_task3 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv line 40
+add wave -position insertpoint  \
+sim:/tb_rtl_task3/dut/strt
+project compileall; restart; run -all;
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# Compile of altera_mf.v was successful.
+# Compile of fillscreenb.sv was successful.
+# 28 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.fillscreenb
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.circle
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_adapter
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_address_translator
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altpll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_DEVICE_FAMILIES
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.pll_iobuf
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_controller
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram_body
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_stratixii_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_pll_reg
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_m_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_n_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_scale_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_X', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_Y', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_COLOUR', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_PLOT', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/VideoMemory File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/mypll/altpll_component File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# ==== START FSM TEST ====
+# ==== RESET ====
+# x   0 y   0
+# 
+# ==== TEST SUMMARY ====
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv(40)
+#    Time: 2000013 ps  Iteration: 0  Instance: /tb_rtl_task3
+# Break in Module tb_rtl_task3 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv line 40
+add wave -position insertpoint  \
+sim:/tb_rtl_task3/dut/fsb_start
+project compileall; restart; run -all;
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# Compile of altera_mf.v was successful.
+# Compile of fillscreenb.sv was successful.
+# 28 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.fillscreenb
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.circle
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_adapter
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_address_translator
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altpll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_DEVICE_FAMILIES
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.pll_iobuf
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_controller
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram_body
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_stratixii_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_pll_reg
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_m_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_n_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_scale_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_X', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_Y', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_COLOUR', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_PLOT', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/VideoMemory File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/mypll/altpll_component File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# ==== START FSM TEST ====
+# ==== RESET ====
+# x   0 y   0
+# 
+# ==== TEST SUMMARY ====
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv(40)
+#    Time: 2000013 ps  Iteration: 0  Instance: /tb_rtl_task3
+# Break in Module tb_rtl_task3 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv line 40
+project compileall; restart; run -all;
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# Compile of altera_mf.v was successful.
+# Compile of fillscreenb.sv was successful.
+# 28 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.fillscreenb
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.circle
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_adapter
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_address_translator
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altpll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_DEVICE_FAMILIES
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.pll_iobuf
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_controller
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram_body
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_stratixii_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_pll_reg
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_m_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_n_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_scale_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_X', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_Y', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_COLOUR', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_PLOT', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/VideoMemory File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/mypll/altpll_component File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# ==== START FSM TEST ====
+# ==== RESET ====
+# x   0 y   0
+# 
+# ==== TEST SUMMARY ====
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv(40)
+#    Time: 2000013 ps  Iteration: 0  Instance: /tb_rtl_task3
+# Break in Module tb_rtl_task3 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv line 40
+project compileall; restart; run -all;
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# Compile of altera_mf.v was successful.
+# Compile of fillscreenb.sv was successful.
+# 28 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.fillscreenb
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.circle
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_adapter
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_address_translator
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altpll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_DEVICE_FAMILIES
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.pll_iobuf
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_controller
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram_body
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_stratixii_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_pll_reg
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_m_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_n_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_scale_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_X', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_Y', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_COLOUR', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_PLOT', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/VideoMemory File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/mypll/altpll_component File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# ==== START FSM TEST ====
+# ==== RESET ====
+# x   0 y   0
+# 
+# ==== TEST SUMMARY ====
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv(40)
+#    Time: 2000013 ps  Iteration: 0  Instance: /tb_rtl_task3
+# Break in Module tb_rtl_task3 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv line 40
+quit -sim
+# Load canceled
+# End time: 16:40:42 on Nov 03,2023, Elapsed time: 1:07:48
+# Errors: 313, Warnings: 648
+project compileall; restart; run -all;
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# Compile of altera_mf.v was successful.
+# Compile of fillscreenb.sv was successful.
+# 28 compiles, 0 failed with no errors.
+# No Design Loaded!
+vsim -L altera_mf.v work.tb_rtl_task3
+# vsim -L altera_mf.v work.tb_rtl_task3 
+# Start time: 16:41:00 on Nov 03,2023
+# Loading sv_std.std
+# Loading work.tb_rtl_task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.fillscreenb
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.circle
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading sv_std.mti_fli
+# Loading work.vga_adapter
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_address_translator
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altpll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_DEVICE_FAMILIES
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.pll_iobuf
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_controller
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram_body
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_stratixii_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_pll_reg
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_m_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_n_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_scale_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_X', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_Y', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_COLOUR', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_PLOT', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/VideoMemory File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/mypll/altpll_component File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+add wave -position insertpoint sim:/tb_rtl_task3/dut/*
+project compileall; restart; run -all;
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# Compile of altera_mf.v was successful.
+# Compile of fillscreenb.sv was successful.
+# 28 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.fillscreenb
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.circle
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_adapter
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_address_translator
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altpll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_DEVICE_FAMILIES
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.pll_iobuf
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_controller
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram_body
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_stratixii_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_pll_reg
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_m_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_n_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_scale_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_X', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_Y', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_COLOUR', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_PLOT', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/VideoMemory File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/mypll/altpll_component File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# ==== START FSM TEST ====
+# ==== RESET ====
+# x   0 y   0
+# 
+# ==== TEST SUMMARY ====
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv(40)
+#    Time: 2000013 ps  Iteration: 0  Instance: /tb_rtl_task3
+# Break in Module tb_rtl_task3 at C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv line 40
+project compileall; restart; run -all;
+# Compile of vga_demo.sv was successful.
+# Compile of tb_syn_task2.sv was successful.
+# Compile of fillscreen.sv was successful.
+# Compile of task2.sv was successful.
+# Compile of tb_rtl_fillscreen.sv was successful.
+# Compile of tb_rtl_task2.sv was successful.
+# Compile of tb_syn_fillscreen.sv was successful.
+# Compile of tb_syn_task3.sv was successful.
+# Compile of circle.sv was successful.
+# Compile of task3.sv was successful with warnings.
+# Compile of tb_rtl_circle.sv was successful.
+# Compile of tb_rtl_task3.sv was successful.
+# Compile of tb_syn_circle.sv was successful.
+# Compile of tb_de1_gui.sv was successful.
+# Compile of button_pusher.sv was successful.
+# Compile of de1_gui.sv was successful.
+# Compile of vga_pll.sv was successful.
+# Compile of vga_adapter.sv was successful.
+# Compile of vga_address_translator.sv was successful.
+# Compile of vga_controller.sv was successful.
+# Compile of tb_syn_task4.sv was successful.
+# Compile of reuleaux.sv was successful.
+# Compile of task4.sv was successful.
+# Compile of tb_rtl_reuleaux.sv was successful.
+# Compile of tb_rtl_task4.sv was successful.
+# Compile of tb_syn_reuleaux.sv was successful.
+# Compile of altera_mf.v was successful.
+# Compile of fillscreenb.sv was successful.
+# 28 compiles, 0 failed with no errors.
+# Loading work.tb_rtl_task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.task3
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.fillscreenb
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.circle
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_adapter
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_address_translator
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altpll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_DEVICE_FAMILIES
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.pll_iobuf
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.vga_controller
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.altsyncram_body
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_stratixii_pll
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MF_pll_reg
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_m_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_n_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# Loading work.arm_scale_cntr
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'altera_mf.v' at "altera_mf.v".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_X', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_Y', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_COLOUR', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3839) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(51): Variable '/tb_rtl_task3/dut/VGA_PLOT', driven via a port connection, is multiply driven. See C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/cir File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Too few port connections. Expected 23, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/VideoMemory File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv(210): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Too few port connections. Expected 37, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rtl_task3/dut/vga_u0/mypll/altpll_component File: C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbin'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pllena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkswitch'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'areset'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'pfdena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanaclr'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanread'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scanwrite'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandata'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'extclk'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'enable1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'activeclock'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'clkloss'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'locked'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandataout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'scandone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout0'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'sclkout1'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv(50): [TFMPC] - Missing connection for port 'icdrclk'.
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_rtl_task3.dut.vga_u0.mypll.altpll_component.stratixii_pll.pll1
+# Warning : Address pointed at port A is out of bound!
+# Time: 193225  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193245  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193255  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193265  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193275  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193285  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193295  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193305  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193315  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193325  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193335  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193345  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193355  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193365  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193375  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193385  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193395  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193405  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193415  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193425  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193435  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193445  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193455  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193465  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193475  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193485  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193495  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193505  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193515  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193525  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193535  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193545  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193555  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193565  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193575  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193585  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193595  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193605  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193615  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193625  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193635  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193645  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193655  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193665  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193675  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193685  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193695  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193705  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193715  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193725  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193735  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193745  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193755  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193765  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193775  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193785  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193795  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193805  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193815  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193825  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193835  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193845  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193855  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193865  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193875  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193885  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193895  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193905  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193915  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193925  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193935  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193945  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193955  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193965  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193975  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193985  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 193995  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194005  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194015  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194025  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194035  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194045  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194055  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194065  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194075  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194085  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194095  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194105  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194115  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194125  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194135  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194145  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194155  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194165  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194175  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194185  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194195  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194205  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194215  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194225  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194235  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194245  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194255  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194265  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194275  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194285  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194295  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194305  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194315  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194325  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194335  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194345  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194355  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194365  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194375  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194385  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194395  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194405  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194415  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194425  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194435  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194445  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194455  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194465  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194475  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194485  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194495  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194505  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194515  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194525  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194535  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194545  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194555  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194565  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194575  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194585  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194595  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194605  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194615  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194625  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194635  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194645  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194655  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194665  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194675  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194685  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194695  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194705  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194715  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194725  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194735  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194745  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194755  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194765  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194775  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194785  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194795  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194805  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194815  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194825  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 194835  Instance: tb_rtl_task3.dut.vga_u0.VideoMemory.m_default.altsyncram_inst
