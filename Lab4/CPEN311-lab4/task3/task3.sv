@@ -8,12 +8,11 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY,
 			 output logic [2:0] VGA_COLOUR, output logic VGA_PLOT);
 
 	// instantiate and connect the VGA adapter and your module
-	logic start, done, rst_n, strt;
+	logic fsb_start, c_start, fsb_done, c_done, rst_n, strt;
     reg [2:0] colour;
 	reg [7:0] centre_x, radius;
 	reg [6:0] centre_y;
-
-	reg [1:0] state;
+	reg [2:0] state;
 	reg [3:0] i = 0;
 	
 	//wire [7:0] VGA_X, VGA_Y;
@@ -25,9 +24,10 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY,
 	logic VGA_BLANK, VGA_SYNC;
 
 	localparam IDLE = 0;
-	localparam DRAW = 1;
-	localparam NEXT = 2;
-	localparam DONE = 3;
+	localparam FILL = 1;
+	localparam DRAW = 2;
+	localparam NEXT = 3;
+	localparam DONE = 4;
 
 	localparam RED 		= 3'b100;
 	localparam GREEN 	= 3'b010;
@@ -45,13 +45,11 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY,
     assign rst_n = KEY[3];
 	assign strt = KEY[0];
 
-	// assign colour = 3'b111;
-	// assign centre_x = 10;
-	// assign centre_y = 15;
-	// assign radius = 12;
+	fillscreenb fsb(.clk(CLOCK_50), .rst_n, .colour, .start(fsb_start), .done(fsb_done), .vga_x(VGA_X), .vga_y(VGA_Y), 
+                   .vga_colour(VGA_COLOUR), .vga_plot(VGA_PLOT));
 
 	circle cir(.clk(CLOCK_50), .rst_n, .colour, .centre_x, .centre_y, .radius,
-			  .start, .done, .vga_x(VGA_X), .vga_y(VGA_Y), .vga_colour(VGA_COLOUR), .vga_plot(VGA_PLOT));
+			  .start(c_start), .done(c_done), .vga_x(VGA_X), .vga_y(VGA_Y), .vga_colour(VGA_COLOUR), .vga_plot(VGA_PLOT));
 
 	vga_adapter#(.RESOLUTION("160x120")) vga_u0(.resetn(rst_n), .clock(CLOCK_50), .colour(VGA_COLOUR),
 											.x(VGA_X), .y(VGA_Y), .plot(VGA_PLOT),
@@ -60,11 +58,11 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY,
 	
 	always_comb begin
 		case(state)
-			IDLE: start = 0;
-			DRAW: start = 1;
-			NEXT: start = 0;
-			DONE: start = 0;
-			// default: start = 0;
+			IDLE: {fsb_start, c_start} = {0, 0};
+			FILL: {fsb_start, c_start} = {1, 0};
+			DRAW: {fsb_start, c_start} = {0, 1};
+			NEXT: {fsb_start, c_start} = {0, 0};
+			DONE: {fsb_start, c_start} = {0, 0};
 		endcase
 	end
 
@@ -86,7 +84,6 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY,
 			13: {colour, centre_x, centre_y, radius} = {AQUA, 	8'd23,	7'd39,	8'd90};
 			14: {colour, centre_x, centre_y, radius} = {PURPLE, 8'd23,	7'd22,	8'd64};
 			15: {colour, centre_x, centre_y, radius} = {PURPLE, 8'd87,	7'd56,	8'd32};
-			//default: {colour, centre_x, centre_y, radius} = {YELLOW, 8'd27, 7'd37, 8'd52};
 		endcase
 	end
 
@@ -95,16 +92,16 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY,
 			state <= IDLE;
 		end else begin
 			case(state)
-				IDLE: state <= strt ? DRAW : IDLE;
-				DRAW: state <= done ? NEXT :
+				IDLE: state <= strt ? FILL : IDLE;
+				FILL: state <= fsb_done ? DRAW : IDLE;
+				DRAW: state <= c_done ? NEXT :
 							   strt ? DRAW : IDLE;
 				NEXT: begin
-					  state <= done ? i==15 : 
+					  state <= c_done ? i==15 : 
 							   strt ? DRAW : IDLE;
 					i <= i + 1;
 				end
 				DONE: state <= DONE;
-				// default: state <= IDLE;
 			endcase
 		end
 	end
