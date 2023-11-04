@@ -68,7 +68,7 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY,
 
 	always_comb begin
 		case(i)
-			 0: {colour, centre_x, centre_y, radius} = {RED,	8'd27, 	7'd37,	8'd52};
+			 0: {colour, centre_x, centre_y, radius} = {BLACK,	8'd27, 	7'd37,	8'd52};
 			 1: {colour, centre_x, centre_y, radius} = {GREEN,	8'd27, 	7'd12,	8'd21};
 			 2: {colour, centre_x, centre_y, radius} = {BLUE,	8'd27, 	7'd123,	8'd14};
 			 3: {colour, centre_x, centre_y, radius} = {WHITE,  8'd82, 	7'd1,	8'd34};
