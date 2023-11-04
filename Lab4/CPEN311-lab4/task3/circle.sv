@@ -23,7 +23,7 @@ module circle(input logic clk, input logic rst_n, input logic [2:0] colour,
 	localparam RESOLUTION_WIDTH = 160;
 	localparam RESOLUTION_HIGHT = 120;
 
-	assign vga_colour = colour;
+	assign vga_colour = start ? colour : 0;
 	assign is_on_screen = pixel_x < RESOLUTION_WIDTH && pixel_y < RESOLUTION_HIGHT;
 	assign is_valid = is_on_screen && offset_y <= offset_x;
 
