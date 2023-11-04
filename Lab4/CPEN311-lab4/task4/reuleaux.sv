@@ -23,7 +23,7 @@ module reuleaux(input logic clk, input logic rst_n, input logic [2:0] colour,
 	localparam DONE = 4;
 
 	circle cir(.clk, .rst_n, .colour, .centre_x(CENTRE_X), .centre_y(CENTRE_Y), .radius(diameter),
-				.start(circle_start), .done(circle_done), .vga_x, .vga_y, .vga_colour, .vga_plot);
+			   .start(circle_start), .done(circle_done), .vga_x, .vga_y, .vga_colour, .vga_plot);
 	
 	always_comb begin
 		done = 0;
