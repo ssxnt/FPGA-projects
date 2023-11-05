@@ -28,9 +28,9 @@ module reuleaux(input logic clk, input logic rst_n, input logic [2:0] colour,
 	always_comb begin
 		case(state)
 			IDLE: vga_plot = 0;
-			DRC1: vga_plot = (vga_y >= c2y) && plot_en;
-			DRC2: vga_plot = (vga_x >= c1x && vga_y < c3y) && plot_en;
-			DRC3: vga_plot = (vga_x <  c1x && vga_y < c2y) && plot_en;
+			DRC1: vga_plot = (vga_y >  c2y) && plot_en;
+			DRC2: vga_plot = (vga_x >= c1x && vga_y <= c3y) && plot_en;
+			DRC3: vga_plot = (vga_x <  c1x && vga_y <= c2y) && plot_en;
 			DONE: vga_plot = 0;
 		endcase
 	end
