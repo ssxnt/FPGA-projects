@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/sants/Desktop/CPEN-311/Lab-3
 va_graycounter
-Z0 !s110 1699058318
+Z0 !s110 1699153314
 !i10b 1
 !s100 7RL@7]^Mkb[^0^A4A<DHg3
 I>hjj]0Pj0@M2XL@Ym^dZZ3
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1699058317.000000
+Z7 !s108 1699153313.000000
 Z8 !s107 C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v|
 !i113 1
@@ -240,7 +240,7 @@ R9
 R10
 R11
 valtaccumulate
-Z12 !s110 1699058317
+R0
 !i10b 1
 !s100 ]J^>>M@KIe6:;k?@cL6jK0
 IPfoi@R>CmmM^iBVYOG@li3
@@ -366,7 +366,7 @@ R9
 R10
 R11
 vALTERA_DEVICE_FAMILIES
-R12
+Z12 !s110 1699153313
 !i10b 1
 !s100 LWTeFO?a^6l3ea7?@d<9?0
 IfYSM=nH62<i`IB[z2`8hl2
@@ -474,7 +474,7 @@ R9
 R10
 R11
 valtera_syncram_derived
-R12
+R0
 !i10b 1
 !s100 hWa=4zA9QWk>DjHUA9O_03
 IlV82XQhjFm]X<WA]Md4X42
@@ -495,7 +495,7 @@ R9
 R10
 R11
 valtera_syncram_derived_forwarding_logic
-R12
+R0
 !i10b 1
 !s100 JdkVPmcjH;EBkEX<QBT7e1
 INZ?dYHkBz:?g^SVW9oZIf1
@@ -537,7 +537,7 @@ R9
 R10
 R11
 valtlvds_rx
-R12
+R0
 !i10b 1
 !s100 gb9XVzURj:[>Z`zA6Q=b@1
 Ido=9FANN[e>N>^5QeBD>`1
@@ -558,7 +558,7 @@ R9
 R10
 R11
 valtlvds_tx
-R12
+R0
 !i10b 1
 !s100 V^VfjN>9mSEQUOG3Ti[Tg3
 IZO1;Kn[jX@ojQOX^PV[8z1
@@ -579,7 +579,7 @@ R9
 R10
 R11
 valtmult_accum
-R12
+R0
 !i10b 1
 !s100 DiYBWLQQ0V7IkzHZ9PD3z0
 ID<@Hcf43Rze]cWUl[2bGl1
@@ -642,7 +642,7 @@ R9
 R10
 R11
 valtpll
-R12
+R0
 !i10b 1
 !s100 [SX62M8C0J@z:hfdAbBD;3
 IGYTM9gI6?AJT2SB78Wgh22
@@ -831,7 +831,7 @@ R9
 R10
 R11
 varm_m_cntr
-R12
+R0
 !i10b 1
 !s100 aE>Dk`dHV;WL1F5DL`IJe0
 ImjA[NLieN41a<3Ebd<4Em3
@@ -852,7 +852,7 @@ R9
 R10
 R11
 varm_n_cntr
-R12
+R0
 !i10b 1
 !s100 XVOhjdU?l`B?8Uf;M45`N2
 IW3mJ6QM]0`N@2ze?jJ4]41
@@ -873,7 +873,7 @@ R9
 R10
 R11
 varm_scale_cntr
-R12
+R0
 !i10b 1
 !s100 j]gN?cGBNo4nUKi^cZIh[0
 I@eRgh9b0bzEghBVnEQW<z3
@@ -895,7 +895,7 @@ R10
 R11
 vbutton_pusher
 Z13 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z14 !s110 1699058316
+Z14 !s110 1699153312
 !i10b 1
 !s100 FdJfASPOg`ZfXQQU:2hJ^0
 I13nX0z]d9Nj`>gclYVTRc3
@@ -911,14 +911,14 @@ R6
 r1
 !s85 0
 31
-!s108 1699058315.000000
+Z16 !s108 1699153312.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/button_pusher.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/button_pusher.sv|
 !i113 1
-Z16 o-work work -sv
+Z17 o-work work -sv
 R11
 vcda_m_cntr
-R12
+R0
 !i10b 1
 !s100 :_<zBWUomnj5alzgCU8:]0
 I^nH425C4d4;ah:<T_:KLY3
@@ -939,7 +939,7 @@ R9
 R10
 R11
 vcda_n_cntr
-R12
+R0
 !i10b 1
 !s100 nV^XiEi5JIcj0HOIXaGc03
 IjWnj`d[D?Q[UA04:T@2S@1
@@ -960,7 +960,7 @@ R9
 R10
 R11
 vcda_scale_cntr
-R12
+R0
 !i10b 1
 !s100 4J1MoLY9=kLfU@38IMIjc2
 IUWmEmNE4eHoe^FoUO?F^Z0
@@ -982,7 +982,7 @@ R10
 R11
 vcircle
 R13
-Z17 !s110 1699058314
+Z18 !s110 1699153311
 !i10b 1
 !s100 KC>XG7KkDCDS2:5VZnY[`0
 IzaHM;U8i1g>]G<iG^HEkM0
@@ -990,7 +990,7 @@ R1
 !s105 circle_sv_unit
 S1
 R2
-Z18 w1699057930
+w1699057930
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
 L0 1
@@ -998,14 +998,14 @@ R6
 r1
 !s85 0
 31
-Z19 !s108 1699058314.000000
+Z19 !s108 1699153311.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv|
 !i113 1
-R16
+R17
 R11
 vcycloneiiigl_post_divider
-R12
+R0
 !i10b 1
 !s100 @9Y`?FFYTN>9NX;gW1OfG1
 IWDN`@XInST3oH6Qc@kk>Q3
@@ -1026,7 +1026,7 @@ R9
 R10
 R11
 vdcfifo
-R12
+R0
 !i10b 1
 !s100 >_QjdB6M?Fk4HL;6^^<ME2
 IEzY6GS_zN1d8_`fFfml^P0
@@ -1047,7 +1047,7 @@ R9
 R10
 R11
 vdcfifo_async
-R12
+R0
 !i10b 1
 !s100 d5P=n]IHmnOZ9hZz[fWdh1
 IP`oAzd=Nl_m`>33b>RRRD2
@@ -1068,7 +1068,7 @@ R9
 R10
 R11
 vdcfifo_dffpipe
-R12
+R0
 !i10b 1
 !s100 G6:Pz;PaegaLY=LbNb1aj2
 IU@KXd5=;72glS>A`fA5l[1
@@ -1089,7 +1089,7 @@ R9
 R10
 R11
 vdcfifo_fefifo
-R12
+R0
 !i10b 1
 !s100 [S5CZc=BlVazbZ1>iU@^:0
 I`SB=WFo:m?A7_]9L29kL@3
@@ -1110,7 +1110,7 @@ R9
 R10
 R11
 vdcfifo_low_latency
-R12
+R0
 !i10b 1
 !s100 IQ4BkE1m]LoK6d_TWCG603
 I^Re;9m490z=Z;6A?Td=cZ3
@@ -1131,7 +1131,7 @@ R9
 R10
 R11
 vdcfifo_mixed_widths
-R12
+R0
 !i10b 1
 !s100 CJX4jRYM4PgegWl0iQXAi2
 IJ>f^PnPe8P@984aE9E3K`1
@@ -1152,7 +1152,7 @@ R9
 R10
 R11
 vdcfifo_sync
-R12
+R0
 !i10b 1
 !s100 Pbi<kMS?7L<S353V86kK^1
 IM?19KILcAaXRUhj53=b3>2
@@ -1175,7 +1175,7 @@ R11
 vde1_gui
 R13
 Z20 DXx6 sv_std 7 mti_fli 0 22 N`967G9WZ3=6fdOR5MX]S1
-R14
+R12
 !i10b 1
 !s100 =QRS2jiFLjHjH3@F5mOc31
 IaJH6B:?YL3<KQ8bS5ZPm61
@@ -1191,11 +1191,11 @@ R6
 r1
 !s85 0
 31
-Z21 !s108 1699058316.000000
+R16
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/de1_gui.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/de1_gui.sv|
 !i113 1
-R16
+R17
 R11
 vdffp
 R12
@@ -1241,7 +1241,7 @@ R10
 R11
 vfillscreen
 R13
-Z22 !s110 1699058313
+R18
 !i10b 1
 !s100 1JVB86`]U>2QQZN4>6Pi71
 IojCf?4z]^2HoW?=jW=F_:1
@@ -1257,15 +1257,15 @@ R6
 r1
 !s85 0
 31
-Z23 !s108 1699058313.000000
+R19
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv|
 !i113 1
-R16
+R17
 R11
 vfillscreenb
 R13
-R0
+!s110 1699153315
 !i10b 1
 !s100 M8Nb?JL@>TBR?6jCBi=j20
 I0XgJDdVgMIBz]fA1]@STn1
@@ -1281,14 +1281,14 @@ R6
 r1
 !s85 0
 31
-!s108 1699058318.000000
+!s108 1699153314.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/fillscreenb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/fillscreenb.sv|
 !i113 1
-R16
+R17
 R11
 vflexible_lvds_rx
-R12
+R0
 !i10b 1
 !s100 W9z8MEh:V@SWRS`?S3m8z0
 Ii@lBR=?Dn<Cz9ajb[4Vga2
@@ -1309,7 +1309,7 @@ R9
 R10
 R11
 vflexible_lvds_tx
-R12
+R0
 !i10b 1
 !s100 jTcRG:ZaXjOM?F8VcYB2<2
 IUP>j:^7z_M_;LfbjD`Jc81
@@ -1372,7 +1372,7 @@ R9
 R10
 R11
 vMF_cycloneiii_pll
-R12
+R0
 !i10b 1
 !s100 i8Pz?4iB:f]]S6g?8liLj1
 IXX@mXk6aJe5<:IYK4mHJi0
@@ -1394,7 +1394,7 @@ R10
 R11
 n@m@f_cycloneiii_pll
 vMF_cycloneiiigl_m_cntr
-R12
+R0
 !i10b 1
 !s100 ;Ham8kVCc_eoORKCnKBCm2
 IR2b[7<W6LOESZ7gTHHlY62
@@ -1416,7 +1416,7 @@ R10
 R11
 n@m@f_cycloneiiigl_m_cntr
 vMF_cycloneiiigl_n_cntr
-R12
+R0
 !i10b 1
 !s100 Y6P6>dF6[=ng@eP]XcCbT1
 IKnWcjfNH8UWh4j>lcODOM1
@@ -1438,7 +1438,7 @@ R10
 R11
 n@m@f_cycloneiiigl_n_cntr
 vMF_cycloneiiigl_pll
-R12
+R0
 !i10b 1
 !s100 ?zF?YB::hdSOAl`J3dMKg0
 IlYOD7=ogGbc46naD?PBfG2
@@ -1460,7 +1460,7 @@ R10
 R11
 n@m@f_cycloneiiigl_pll
 vMF_cycloneiiigl_scale_cntr
-R12
+R0
 !i10b 1
 !s100 F@V]ZGa7Ngd1a`457Y=:J3
 I=3I0`d_h6iIIo04<QGl3:0
@@ -1504,7 +1504,7 @@ R10
 R11
 n@m@f_pll_reg
 vMF_stratix_pll
-R12
+R0
 !i10b 1
 !s100 kITDCAAk7nE?EU[@=@9Oo1
 Ig_aRUBnejX>C;9S4G?C4g3
@@ -1526,7 +1526,7 @@ R10
 R11
 n@m@f_stratix_pll
 vMF_stratixii_pll
-R12
+R0
 !i10b 1
 !s100 m<j8S?b80d7m:cRfTMSCR0
 IMkmAzJV:Ski2^KZ]P75ER0
@@ -1548,7 +1548,7 @@ R10
 R11
 n@m@f_stratixii_pll
 vMF_stratixiii_pll
-R12
+R0
 !i10b 1
 !s100 >>583Yjn4HPZb7`:4`;I@1
 IlmdXJlXdN45RVGdl@[jKn2
@@ -1613,15 +1613,15 @@ R10
 R11
 vreuleaux
 R13
-R14
+R12
 !i10b 1
-!s100 =QK?XlWGY38n>R:eU0d`92
-Ilj<9UgSReoLJV`o4XG5bI1
+!s100 4><[Rc32UZEedT:b5GS^>0
+IRKhmGjCg9XUQaW2HIFN_I2
 R1
 !s105 reuleaux_sv_unit
 S1
 R2
-w1699058092
+w1699152214
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv
 L0 1
@@ -1629,11 +1629,11 @@ R6
 r1
 !s85 0
 31
-R21
+R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv|
 !i113 1
-R16
+R17
 R11
 vscfifo
 R0
@@ -1741,7 +1741,7 @@ R9
 R10
 R11
 vstratix_lvds_rx
-R12
+R0
 !i10b 1
 !s100 UTKR]VdDeZT>LbSY;S:H_1
 I[L<Hje1XW`9=<UZT4[POT1
@@ -1762,7 +1762,7 @@ R9
 R10
 R11
 vstratix_tx_outclk
-R12
+R0
 !i10b 1
 !s100 4Ui3ElJ34X8<LVV9ef0GJ3
 IYO=44M]z2fikcQKRFE?Ef2
@@ -1783,7 +1783,7 @@ R9
 R10
 R11
 vstratixgx_dpa_lvds_rx
-R12
+R0
 !i10b 1
 !s100 _X]M>KzVkG7lUE9h]U`5`2
 Iob=bI4>7B?IYnXMM`XoSd3
@@ -1804,7 +1804,7 @@ R9
 R10
 R11
 vstratixii_lvds_rx
-R12
+R0
 !i10b 1
 !s100 knHlz:fg3PUY;ldPQU=DZ2
 Ih3hNVHd9VdO22bY`_P`be3
@@ -1825,7 +1825,7 @@ R9
 R10
 R11
 vstratixii_tx_outclk
-R12
+R0
 !i10b 1
 !s100 5AcP::Tlc9]5j7hkY;D4i0
 ILRX=gz]ZdbO?aFzadz;@_2
@@ -1846,7 +1846,7 @@ R9
 R10
 R11
 vstratixiii_lvds_rx
-R12
+R0
 !i10b 1
 !s100 40^Sl2;KWo@`CV8djg@0E0
 IM63XCIZ8;cjY2zZG`J:i[3
@@ -1867,7 +1867,7 @@ R9
 R10
 R11
 vstratixiii_lvds_rx_channel
-R12
+R0
 !i10b 1
 !s100 nZ15@anWcG^ZUo9aDeUok0
 I45?GUIHRZ?V@HdgMmT;b<0
@@ -1888,7 +1888,7 @@ R9
 R10
 R11
 vstratixiii_lvds_rx_dpa
-R12
+R0
 !i10b 1
 !s100 UYlQ7Hb1fEX5K=N[1TOTO1
 Ia@zOFLg2E0Tizn_>:0P:53
@@ -1909,7 +1909,7 @@ R9
 R10
 R11
 vstratixv_local_clk_divider
-R12
+R0
 !i10b 1
 !s100 CLJ3F]CIGoaoiYzA7@];A1
 IM3A5AKdDE0z8;YW1T0kP71
@@ -1994,7 +1994,7 @@ R10
 R11
 vtask2
 R13
-R22
+R18
 !i10b 1
 !s100 4]e8LHHTmW`Ho<DX9V;jR1
 I6Q>m3^0:0:WXb1b>j<3@]3
@@ -2010,23 +2010,23 @@ R6
 r1
 !s85 0
 31
-R23
+R19
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/task2.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/task2.sv|
 !i113 1
-R16
+R17
 R11
 vtask3
 R13
-R17
+R18
 !i10b 1
-!s100 o9f?3IgFUg0><ZcIRH1z>3
-Im@Imde1la90SkiA=kf_8o3
+!s100 9PXFTR@MRe_jkFT_K9_EJ2
+Iz?aOOYXBLOELS0VH@WDn70
 R1
 !s105 task3_sv_unit
 S1
 R2
-R18
+w1699058713
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv
 L0 1
@@ -2038,19 +2038,19 @@ R19
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv|
 !i113 1
-R16
+R17
 R11
 vtask4
 R13
 R12
 !i10b 1
-!s100 V7>JddlD5G3j<hmhB_8ga2
-IBnNjb<KCSUal=011o>cWj1
+!s100 J5=e7IfGaojbF1Od[9Dca0
+IIeDPb8Ubzc6bVk:2YTe[<2
 R1
 !s105 task4_sv_unit
 S1
 R2
-w1698984651
+w1699153307
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv
 L0 1
@@ -2058,15 +2058,15 @@ R6
 r1
 !s85 0
 31
-R21
+R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv|
 !i113 1
-R16
+R17
 R11
 vtb_de1_gui
 R13
-!s110 1699058315
+R14
 !i10b 1
 !s100 b0c>baGOfmHTeC]g@n;Nc3
 I9gTH:FbU3l[KRaeLKPKE70
@@ -2074,7 +2074,7 @@ R1
 !s105 tb_de1_gui_sv_unit
 S1
 R2
-Z24 w1698889756
+Z21 w1698889756
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/tb_de1_gui.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/tb_de1_gui.sv
 L0 3
@@ -2082,15 +2082,15 @@ R6
 r1
 !s85 0
 31
-R19
+R16
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/tb_de1_gui.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/tb_de1_gui.sv|
 !i113 1
-R16
+R17
 R11
 vtb_rtl_circle
 R13
-R17
+R18
 !i10b 1
 !s100 jMg[>b44MI^[?nFjZE99Z3
 I1P:@MYIk`D0UG6PbjiMO]1
@@ -2110,11 +2110,11 @@ R19
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_circle.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_circle.sv|
 !i113 1
-R16
+R17
 R11
 vtb_rtl_fillscreen
 R13
-R22
+R18
 !i10b 1
 !s100 nFf7l7zj;YeaYe]T4YfYg1
 IBcNQKT^z]GlD^iUbnANiC3
@@ -2130,11 +2130,11 @@ R6
 r1
 !s85 0
 31
-R23
+R19
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_fillscreen.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_fillscreen.sv|
 !i113 1
-R16
+R17
 R11
 vtb_rtl_reuleaux
 R13
@@ -2158,11 +2158,11 @@ R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_reuleaux.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_reuleaux.sv|
 !i113 1
-R16
+R17
 R11
 vtb_rtl_task2
 R13
-R22
+R18
 !i10b 1
 !s100 hlG[W<HNeaD=k36D1MP3B3
 IP=4F0m6DVaaEoES12Lg9E2
@@ -2178,15 +2178,15 @@ R6
 r1
 !s85 0
 31
-R23
+R19
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv|
 !i113 1
-R16
+R17
 R11
 vtb_rtl_task3
 R13
-R17
+R18
 !i10b 1
 !s100 8Bh[?15V[ZQHD0YQ:h1nO0
 IV5n4oKI74ALWz6HKf>2G71
@@ -2206,7 +2206,7 @@ R19
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv|
 !i113 1
-R16
+R17
 R11
 vtb_rtl_task4
 R13
@@ -2230,11 +2230,11 @@ R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_task4.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_task4.sv|
 !i113 1
-R16
+R17
 R11
 vtb_syn_circle
 R13
-R17
+R14
 !i10b 1
 !s100 o4ncCV`P=YoGNNd5lQLBj1
 I3h`@1`C1jC^6Yce7=7<Tb0
@@ -2254,11 +2254,11 @@ R19
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_circle.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_circle.sv|
 !i113 1
-R16
+R17
 R11
 vtb_syn_fillscreen
 R13
-R17
+R18
 !i10b 1
 !s100 FO7zd0kGzL5KjHZaWW2UU3
 IHlC5j>H^iiKMn7jXAif;20
@@ -2274,11 +2274,11 @@ R6
 r1
 !s85 0
 31
-R23
+R19
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_fillscreen.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_fillscreen.sv|
 !i113 1
-R16
+R17
 R11
 vtb_syn_reuleaux
 R13
@@ -2302,11 +2302,11 @@ R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_reuleaux.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_reuleaux.sv|
 !i113 1
-R16
+R17
 R11
 vtb_syn_task2
 R13
-R22
+R18
 !i10b 1
 !s100 3oT3]S[``?EQNiCSG1D551
 IHo<H@aieHehFmb^Do@ALV0
@@ -2322,15 +2322,15 @@ R6
 r1
 !s85 0
 31
-R23
+R19
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_task2.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_task2.sv|
 !i113 1
-R16
+R17
 R11
 vtb_syn_task3
 R13
-R17
+R18
 !i10b 1
 !s100 U>8<W^K@z0<Pzk4Ez?oBf2
 IiQ;A97=2fMmU0c4cXAbi20
@@ -2350,11 +2350,11 @@ R19
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_task3.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_task3.sv|
 !i113 1
-R16
+R17
 R11
 vtb_syn_task4
 R13
-R14
+R12
 !i10b 1
 !s100 VUMEAfbXT9_z>?Oom>4F_1
 Im];Rd8zieeC77?S:0Pb5X3
@@ -2370,14 +2370,14 @@ R6
 r1
 !s85 0
 31
-R21
+R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_task4.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_task4.sv|
 !i113 1
-R16
+R17
 R11
 vttn_m_cntr
-R12
+R0
 !i10b 1
 !s100 ;3NK]8TY<L]eQ[IJY0gF32
 I_Q8:POIjoQO@]:T=;^n0?2
@@ -2398,7 +2398,7 @@ R9
 R10
 R11
 vttn_n_cntr
-R12
+R0
 !i10b 1
 !s100 7nCN0ZiXcEmbIBT5Y>_4a1
 Iie9]WoXQfd:8KLUn@g8ha1
@@ -2419,7 +2419,7 @@ R9
 R10
 R11
 vttn_scale_cntr
-R12
+R0
 !i10b 1
 !s100 _jZZ0@3D`H8_VG516F<O_0
 In^;<R;`W9:>8PFIPVIc]:0
@@ -2442,7 +2442,7 @@ R11
 vvga_adapter
 R13
 R20
-R14
+R12
 !i10b 1
 !s100 h8aB6A^ia_odOh=<4`Ka>0
 ITVj`R0`BzY9mWKRLQ0Nfe1
@@ -2458,15 +2458,15 @@ R6
 r1
 !s85 0
 31
-R21
+R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv|
 !i113 1
-R16
+R17
 R11
 vvga_address_translator
 R13
-R14
+R12
 !i10b 1
 !s100 >4Ck2[^7MRo410`;`mBhG0
 I[J@i5g5L0kfh78^<F6A173
@@ -2482,15 +2482,15 @@ R6
 r1
 !s85 0
 31
-R21
+R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_address_translator.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_address_translator.sv|
 !i113 1
-R16
+R17
 R11
 vvga_controller
 R13
-R14
+R12
 !i10b 1
 !s100 K^Z0JG9FjLR6T71PJVY]`2
 IN3hcz`0BdnIV]Xcml7LTI1
@@ -2506,15 +2506,15 @@ R6
 r1
 !s85 0
 31
-R21
+R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_controller.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_controller.sv|
 !i113 1
-R16
+R17
 R11
 vvga_demo
 R13
-R22
+!s110 1699153310
 !i10b 1
 !s100 7aVGTY:=?Q[B8bW1E7KTe3
 I9dj5BoAhbA>oRAAFjaW=:2
@@ -2522,7 +2522,7 @@ R1
 !s105 vga_demo_sv_unit
 S1
 R2
-R24
+R21
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task1/vga_demo.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task1/vga_demo.sv
 L0 5
@@ -2530,15 +2530,15 @@ R6
 r1
 !s85 0
 31
-R23
+!s108 1699153310.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task1/vga_demo.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task1/vga_demo.sv|
 !i113 1
-R16
+R17
 R11
 vvga_pll
 R13
-R14
+R12
 !i10b 1
 !s100 B@RTRAe2BCUY;gLZj0kH`3
 IW6XUPfGWMGN69mRSP7T1;2
@@ -2554,9 +2554,9 @@ R6
 r1
 !s85 0
 31
-R21
+R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv|
 !i113 1
-R16
+R17
 R11

@@ -7,12 +7,11 @@ module task4(input logic CLOCK_50, input logic [3:0] KEY,
              output logic [7:0] VGA_X, output logic [6:0] VGA_Y,
              output logic [2:0] VGA_COLOUR, output logic VGA_PLOT);
 
-	logic start, done, rst_n, strt;
-    reg [2:0] colour;
+	logic r_start, r_done, rst_n, strt, fsb_start, fsb_done;
+    reg [2:0] r_colour, fsb_colour;
 	reg [7:0] centre_x, diameter;
 	reg [6:0] centre_y;
-
-	reg [1:0] state;
+	reg [2:0] state;
 
     logic [9:0] VGA_R_10;
 	logic [9:0] VGA_G_10;
@@ -20,7 +19,8 @@ module task4(input logic CLOCK_50, input logic [3:0] KEY,
 	logic VGA_BLANK, VGA_SYNC;
 
 	localparam IDLE = 0;
-	localparam DRAW = 1;
+	localparam FILL = 1;
+	localparam DRAW = 2;
 	localparam DONE = 3;
 
 	localparam RED 		= 3'b100;
@@ -39,13 +39,17 @@ module task4(input logic CLOCK_50, input logic [3:0] KEY,
     assign rst_n = KEY[3];
 	assign strt = KEY[0];
 
-	assign colour = RED;
+	assign r_colour = RED;
+	assign fsb_colour = BLACK;
 	assign centre_x = 80;
 	assign centre_y = 60;
 	assign diameter = 80;
 
-	reuleaux joe(.clk(CLOCK_50), .rst_n, .colour, .centre_x, .centre_y, .diameter,
-			  .start, .done, .vga_x(VGA_X), .vga_y(VGA_Y), .vga_colour(VGA_COLOUR), .vga_plot(VGA_PLOT));
+	fillscreenb fsb(.clk(CLOCK_50), .rst_n, .colour(fsb_colour), .start(fsb_start), .done(fsb_done), .vga_x(VGA_X), .vga_y(VGA_Y), 
+                   .vga_colour(VGA_COLOUR), .vga_plot(VGA_PLOT));
+
+	reuleaux joe(.clk(CLOCK_50), .rst_n, .colour(r_colour), .centre_x, .centre_y, .diameter,
+			  .start(r_start), .done(r_done), .vga_x(VGA_X), .vga_y(VGA_Y), .vga_colour(VGA_COLOUR), .vga_plot(VGA_PLOT));
 
 	vga_adapter#(.RESOLUTION("160x120")) vga_u0(.resetn(rst_n), .clock(CLOCK_50), .colour(VGA_COLOUR),
 											.x(VGA_X), .y(VGA_Y), .plot(VGA_PLOT),
@@ -54,9 +58,10 @@ module task4(input logic CLOCK_50, input logic [3:0] KEY,
 	
 	always_comb begin
 		case(state)
-			IDLE: start = 0;
-			DRAW: start = 1;
-			DONE: start = 0;
+			IDLE: {fsb_start, r_start} = {2'b00};
+			FILL: {fsb_start, r_start} = {2'b10};
+			DRAW: {fsb_start, r_start} = {2'b01};
+			DONE: {fsb_start, r_start} = {2'b00};
 		endcase
 	end
 
@@ -65,8 +70,9 @@ module task4(input logic CLOCK_50, input logic [3:0] KEY,
 			state <= IDLE;
 		end else begin
 			case(state)
-				IDLE: state <= strt ? DRAW : IDLE;
-				DRAW: state <= done ? DONE :
+				IDLE: state <= strt ? FILL : IDLE;
+				FILL: state <= fsb_done ? DRAW : FILL;
+				DRAW: state <= r_done ? DONE :
 							   strt ? DRAW : IDLE;
 				DONE: state <= DONE;
 				default: state <= IDLE;
