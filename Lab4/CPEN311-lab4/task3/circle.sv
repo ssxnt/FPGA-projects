@@ -105,10 +105,10 @@ module circle(input logic clk, input logic rst_n, input logic [2:0] colour,
 					state <= start ? OCT1 : IDLE;
 					offset_y <= offset_y + 1;
 					if (crit < 1) begin
-						crit <= crit + (offset_y<<1) + 1;
+						crit <= crit + 2 * (offset_y + 1) + 1;
 					end else begin
 						offset_x <= offset_x - 1;
-						crit <= crit + ((offset_y - offset_x)<<1) + 1;
+						crit <= crit + 2 * ((offset_y + 1) - (offset_x - 1)) + 1;
 					end
 				end
 				DONE: state <= start ? IDLE : DONE;
