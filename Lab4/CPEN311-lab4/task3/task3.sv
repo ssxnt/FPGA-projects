@@ -9,7 +9,7 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY,
 
 	// instantiate and connect the VGA adapter and your module
 	logic fsb_start, c_start, fsb_done, c_done, rst_n, strt;
-    reg [2:0] colour;
+    reg [2:0] colour, fill_colour;
 	reg [7:0] centre_x, radius, fsb_colour, cir_colour;
 	reg [6:0] centre_y;
 	reg [2:0] state;
@@ -44,10 +44,11 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY,
 
     assign rst_n = KEY[3];
 	assign strt = KEY[0];
+	assign fill_colour = BLACK;
 
 	assign VGA_COLOUR = fsb_colour | cir_colour;
 
-	fillscreenb fsb(.clk(CLOCK_50), .rst_n, .colour, .start(fsb_start), .done(fsb_done), .vga_x(VGA_X), .vga_y(VGA_Y), 
+	fillscreenb fsb(.clk(CLOCK_50), .rst_n, .colour(fill_colour), .start(fsb_start), .done(fsb_done), .vga_x(VGA_X), .vga_y(VGA_Y), 
                    .vga_colour(fsb_colour), .vga_plot(VGA_PLOT));
 
 	circle cir(.clk(CLOCK_50), .rst_n, .colour, .centre_x, .centre_y, .radius,
