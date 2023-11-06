@@ -33,9 +33,11 @@ module fillscreen(input logic clk, input logic rst_n, input logic [2:0] colour,
                     FILL: begin
                          if (VGA_X < RESOLUTION_WIDTH-1) begin
                               VGA_X <= VGA_X + 1;
+							state <= start ? FILL : IDLE;
                          end  else if (VGA_Y < RESOLUTION_HEIGHT-1) begin
                                    VGA_X <= 0;
                                    VGA_Y <= VGA_Y + 1;
+								state <= start ? FILL : IDLE;
                          end  else begin
                                    state <= DONE;
                          end
