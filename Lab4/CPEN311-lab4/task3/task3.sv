@@ -66,6 +66,7 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY,
 			DRAW: {fsb_start, c_start} = {2'b01};
 			NEXT: {fsb_start, c_start} = {2'b00};
 			DONE: {fsb_start, c_start} = {2'b00};
+			default: {fsb_start, c_start} = {2'b00};
 		endcase
 	end
 

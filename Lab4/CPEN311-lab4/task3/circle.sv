@@ -75,6 +75,7 @@ module circle(input logic clk, input logic rst_n, input logic [2:0] colour,
 			end 
 			default: begin
 				vga_plot = 0;
+				done = 0;
 			end
 		endcase
 	end

@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at fillscreen.sv(3): object "vga_x" differs only in case from object "VGA_X" in the same scope File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv Line: 3
+Info (10281): Verilog HDL Declaration information at fillscreen.sv(3): object "vga_y" differs only in case from object "VGA_Y" in the same scope File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv Line: 3
+Info (10281): Verilog HDL Declaration information at fillscreen.sv(2): object "done" differs only in case from object "DONE" in the same scope File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv Line: 2
