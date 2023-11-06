@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/sants/Desktop/CPEN-311/Lab-3
 va_graycounter
-Z0 !s110 1699153314
+Z0 !s110 1699254042
 !i10b 1
 !s100 7RL@7]^Mkb[^0^A4A<DHg3
 I>hjj]0Pj0@M2XL@Ym^dZZ3
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1699153313.000000
+Z7 !s108 1699254041.000000
 Z8 !s107 C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/19.1/modelsim_ase/altera/verilog/src/altera_mf.v|
 !i113 1
@@ -366,7 +366,7 @@ R9
 R10
 R11
 vALTERA_DEVICE_FAMILIES
-Z12 !s110 1699153313
+Z12 !s110 1699254041
 !i10b 1
 !s100 LWTeFO?a^6l3ea7?@d<9?0
 IfYSM=nH62<i`IB[z2`8hl2
@@ -895,7 +895,7 @@ R10
 R11
 vbutton_pusher
 Z13 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z14 !s110 1699153312
+R12
 !i10b 1
 !s100 FdJfASPOg`ZfXQQU:2hJ^0
 I13nX0z]d9Nj`>gclYVTRc3
@@ -903,7 +903,7 @@ R1
 !s105 button_pusher_sv_unit
 S1
 R2
-Z15 w1698091486
+Z14 w1698091486
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/button_pusher.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/button_pusher.sv
 L0 3
@@ -911,11 +911,11 @@ R6
 r1
 !s85 0
 31
-Z16 !s108 1699153312.000000
+Z15 !s108 1699254040.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/button_pusher.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/button_pusher.sv|
 !i113 1
-Z17 o-work work -sv
+Z16 o-work work -sv
 R11
 vcda_m_cntr
 R0
@@ -982,15 +982,15 @@ R10
 R11
 vcircle
 R13
-Z18 !s110 1699153311
+Z17 !s110 1699254040
 !i10b 1
-!s100 KC>XG7KkDCDS2:5VZnY[`0
-IzaHM;U8i1g>]G<iG^HEkM0
+!s100 X8U5jNJ28^1:_M127fO?32
+IiY^eaOYHUbfce_K0]Kz4X2
 R1
 !s105 circle_sv_unit
 S1
 R2
-w1699057930
+w1699235054
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
 L0 1
@@ -998,11 +998,11 @@ R6
 r1
 !s85 0
 31
-Z19 !s108 1699153311.000000
+R15
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv|
 !i113 1
-R17
+R16
 R11
 vcycloneiiigl_post_divider
 R0
@@ -1174,7 +1174,7 @@ R10
 R11
 vde1_gui
 R13
-Z20 DXx6 sv_std 7 mti_fli 0 22 N`967G9WZ3=6fdOR5MX]S1
+Z18 DXx6 sv_std 7 mti_fli 0 22 N`967G9WZ3=6fdOR5MX]S1
 R12
 !i10b 1
 !s100 =QRS2jiFLjHjH3@F5mOc31
@@ -1183,7 +1183,7 @@ R1
 !s105 de1_gui_sv_unit
 S1
 R2
-R15
+R14
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/de1_gui.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/de1_gui.sv
 L0 1
@@ -1191,11 +1191,11 @@ R6
 r1
 !s85 0
 31
-R16
+R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/de1_gui.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/de1_gui.sv|
 !i113 1
-R17
+R16
 R11
 vdffp
 R12
@@ -1241,7 +1241,7 @@ R10
 R11
 vfillscreen
 R13
-R18
+Z19 !s110 1699254039
 !i10b 1
 !s100 1JVB86`]U>2QQZN4>6Pi71
 IojCf?4z]^2HoW?=jW=F_:1
@@ -1257,15 +1257,15 @@ R6
 r1
 !s85 0
 31
-R19
+Z20 !s108 1699254039.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv|
 !i113 1
-R17
+R16
 R11
 vfillscreenb
 R13
-!s110 1699153315
+!s110 1699254043
 !i10b 1
 !s100 M8Nb?JL@>TBR?6jCBi=j20
 I0XgJDdVgMIBz]fA1]@STn1
@@ -1281,11 +1281,11 @@ R6
 r1
 !s85 0
 31
-!s108 1699153314.000000
+!s108 1699254042.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/fillscreenb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/fillscreenb.sv|
 !i113 1
-R17
+R16
 R11
 vflexible_lvds_rx
 R0
@@ -1615,13 +1615,13 @@ vreuleaux
 R13
 R12
 !i10b 1
-!s100 4><[Rc32UZEedT:b5GS^>0
-IRKhmGjCg9XUQaW2HIFN_I2
+!s100 3JJkI3VASDFFh0;^4dA[F0
+Ii?K^L90fzTEKiVb77o8aY0
 R1
 !s105 reuleaux_sv_unit
 S1
 R2
-w1699152214
+w1699153889
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv
 L0 1
@@ -1633,7 +1633,7 @@ R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv|
 !i113 1
-R17
+R16
 R11
 vscfifo
 R0
@@ -1994,7 +1994,7 @@ R10
 R11
 vtask2
 R13
-R18
+R19
 !i10b 1
 !s100 4]e8LHHTmW`Ho<DX9V;jR1
 I6Q>m3^0:0:WXb1b>j<3@]3
@@ -2002,7 +2002,7 @@ R1
 !s105 task2_sv_unit
 S1
 R2
-w1698988205
+w1699233842
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/task2.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/task2.sv
 L0 1
@@ -2010,23 +2010,23 @@ R6
 r1
 !s85 0
 31
-R19
+R20
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/task2.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/task2.sv|
 !i113 1
-R17
+R16
 R11
 vtask3
 R13
-R18
+R17
 !i10b 1
-!s100 9PXFTR@MRe_jkFT_K9_EJ2
-Iz?aOOYXBLOELS0VH@WDn70
+!s100 ;C6jNc@Tj=7_WZo;1N56;1
+ImdQJIOJLNeRAW7=eQKzAB3
 R1
 !s105 task3_sv_unit
 S1
 R2
-w1699058713
+w1699234988
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv
 L0 1
@@ -2034,11 +2034,11 @@ R6
 r1
 !s85 0
 31
-R19
+R15
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv|
 !i113 1
-R17
+R16
 R11
 vtask4
 R13
@@ -2062,11 +2062,11 @@ R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv|
 !i113 1
-R17
+R16
 R11
 vtb_de1_gui
 R13
-R14
+R17
 !i10b 1
 !s100 b0c>baGOfmHTeC]g@n;Nc3
 I9gTH:FbU3l[KRaeLKPKE70
@@ -2082,15 +2082,15 @@ R6
 r1
 !s85 0
 31
-R16
+R15
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/tb_de1_gui.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/de1-gui/tb_de1_gui.sv|
 !i113 1
-R17
+R16
 R11
 vtb_rtl_circle
 R13
-R18
+R17
 !i10b 1
 !s100 jMg[>b44MI^[?nFjZE99Z3
 I1P:@MYIk`D0UG6PbjiMO]1
@@ -2098,7 +2098,7 @@ R1
 !s105 tb_rtl_circle_sv_unit
 S1
 R2
-R15
+R14
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_circle.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_circle.sv
 L0 1
@@ -2106,15 +2106,15 @@ R6
 r1
 !s85 0
 31
-R19
+R15
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_circle.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_circle.sv|
 !i113 1
-R17
+R16
 R11
 vtb_rtl_fillscreen
 R13
-R18
+R17
 !i10b 1
 !s100 nFf7l7zj;YeaYe]T4YfYg1
 IBcNQKT^z]GlD^iUbnANiC3
@@ -2122,7 +2122,7 @@ R1
 !s105 tb_rtl_fillscreen_sv_unit
 S1
 R2
-R15
+R14
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_fillscreen.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_fillscreen.sv
 L0 1
@@ -2130,11 +2130,11 @@ R6
 r1
 !s85 0
 31
-R19
+R20
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_fillscreen.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_fillscreen.sv|
 !i113 1
-R17
+R16
 R11
 vtb_rtl_reuleaux
 R13
@@ -2146,7 +2146,7 @@ R1
 !s105 tb_rtl_reuleaux_sv_unit
 S1
 R2
-R15
+R14
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_reuleaux.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_reuleaux.sv
 L0 1
@@ -2158,11 +2158,11 @@ R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_reuleaux.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_reuleaux.sv|
 !i113 1
-R17
+R16
 R11
 vtb_rtl_task2
 R13
-R18
+R17
 !i10b 1
 !s100 hlG[W<HNeaD=k36D1MP3B3
 IP=4F0m6DVaaEoES12Lg9E2
@@ -2178,15 +2178,15 @@ R6
 r1
 !s85 0
 31
-R19
+R15
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv|
 !i113 1
-R17
+R16
 R11
 vtb_rtl_task3
 R13
-R18
+R17
 !i10b 1
 !s100 8Bh[?15V[ZQHD0YQ:h1nO0
 IV5n4oKI74ALWz6HKf>2G71
@@ -2202,11 +2202,11 @@ R6
 r1
 !s85 0
 31
-R19
+R15
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv|
 !i113 1
-R17
+R16
 R11
 vtb_rtl_task4
 R13
@@ -2230,11 +2230,11 @@ R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_task4.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_task4.sv|
 !i113 1
-R17
+R16
 R11
 vtb_syn_circle
 R13
-R14
+R17
 !i10b 1
 !s100 o4ncCV`P=YoGNNd5lQLBj1
 I3h`@1`C1jC^6Yce7=7<Tb0
@@ -2242,7 +2242,7 @@ R1
 !s105 tb_syn_circle_sv_unit
 S1
 R2
-R15
+R14
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_circle.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_circle.sv
 L0 1
@@ -2250,15 +2250,15 @@ R6
 r1
 !s85 0
 31
-R19
+R15
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_circle.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_circle.sv|
 !i113 1
-R17
+R16
 R11
 vtb_syn_fillscreen
 R13
-R18
+R17
 !i10b 1
 !s100 FO7zd0kGzL5KjHZaWW2UU3
 IHlC5j>H^iiKMn7jXAif;20
@@ -2274,11 +2274,11 @@ R6
 r1
 !s85 0
 31
-R19
+R15
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_fillscreen.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_fillscreen.sv|
 !i113 1
-R17
+R16
 R11
 vtb_syn_reuleaux
 R13
@@ -2290,7 +2290,7 @@ R1
 !s105 tb_syn_reuleaux_sv_unit
 S1
 R2
-R15
+R14
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_reuleaux.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_reuleaux.sv
 L0 1
@@ -2302,11 +2302,11 @@ R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_reuleaux.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_reuleaux.sv|
 !i113 1
-R17
+R16
 R11
 vtb_syn_task2
 R13
-R18
+R19
 !i10b 1
 !s100 3oT3]S[``?EQNiCSG1D551
 IHo<H@aieHehFmb^Do@ALV0
@@ -2314,7 +2314,7 @@ R1
 !s105 tb_syn_task2_sv_unit
 S1
 R2
-R15
+R14
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_task2.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_task2.sv
 L0 1
@@ -2322,15 +2322,15 @@ R6
 r1
 !s85 0
 31
-R19
+R20
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_task2.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_task2.sv|
 !i113 1
-R17
+R16
 R11
 vtb_syn_task3
 R13
-R18
+R17
 !i10b 1
 !s100 U>8<W^K@z0<Pzk4Ez?oBf2
 IiQ;A97=2fMmU0c4cXAbi20
@@ -2338,7 +2338,7 @@ R1
 !s105 tb_syn_task3_sv_unit
 S1
 R2
-R15
+R14
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_task3.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_task3.sv
 L0 1
@@ -2346,11 +2346,11 @@ R6
 r1
 !s85 0
 31
-R19
+R15
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_task3.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_task3.sv|
 !i113 1
-R17
+R16
 R11
 vtb_syn_task4
 R13
@@ -2362,7 +2362,7 @@ R1
 !s105 tb_syn_task4_sv_unit
 S1
 R2
-R15
+R14
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_task4.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_task4.sv
 L0 1
@@ -2374,7 +2374,7 @@ R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_task4.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_task4.sv|
 !i113 1
-R17
+R16
 R11
 vttn_m_cntr
 R0
@@ -2441,7 +2441,7 @@ R10
 R11
 vvga_adapter
 R13
-R20
+R18
 R12
 !i10b 1
 !s100 h8aB6A^ia_odOh=<4`Ka>0
@@ -2450,7 +2450,7 @@ R1
 !s105 vga_adapter_sv_unit
 S1
 R2
-R15
+R14
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv
 L0 82
@@ -2462,7 +2462,7 @@ R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_adapter.sv|
 !i113 1
-R17
+R16
 R11
 vvga_address_translator
 R13
@@ -2474,7 +2474,7 @@ R1
 !s105 vga_address_translator_sv_unit
 S1
 R2
-R15
+R14
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_address_translator.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_address_translator.sv
 L0 8
@@ -2486,7 +2486,7 @@ R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_address_translator.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_address_translator.sv|
 !i113 1
-R17
+R16
 R11
 vvga_controller
 R13
@@ -2498,7 +2498,7 @@ R1
 !s105 vga_controller_sv_unit
 S1
 R2
-R15
+R14
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_controller.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_controller.sv
 L0 13
@@ -2510,11 +2510,11 @@ R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_controller.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_controller.sv|
 !i113 1
-R17
+R16
 R11
 vvga_demo
 R13
-!s110 1699153310
+R19
 !i10b 1
 !s100 7aVGTY:=?Q[B8bW1E7KTe3
 I9dj5BoAhbA>oRAAFjaW=:2
@@ -2530,11 +2530,11 @@ R6
 r1
 !s85 0
 31
-!s108 1699153310.000000
+R20
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task1/vga_demo.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task1/vga_demo.sv|
 !i113 1
-R17
+R16
 R11
 vvga_pll
 R13
@@ -2546,7 +2546,7 @@ R1
 !s105 vga_pll_sv_unit
 S1
 R2
-R15
+R14
 8C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv
 FC:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv
 L0 36
@@ -2558,5 +2558,5 @@ R7
 !s107 C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/vga-core/vga_pll.sv|
 !i113 1
-R17
+R16
 R11
