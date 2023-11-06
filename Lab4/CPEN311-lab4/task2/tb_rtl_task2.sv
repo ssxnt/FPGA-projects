@@ -16,7 +16,7 @@ module tb_rtl_task2();
 			  .HEX0(), .HEX1(), .HEX2(), .HEX3(), .HEX4(), .HEX5()); 
 
     task reset; rst_n = 1'b0; #10; rst_n = 1'b1; endtask
-	task start; strt = 1'b0; #10000; strt = 1'b1; endtask
+	task start; strt = 1'b1; #100000; strt = 1'b0; endtask
 
 
 	initial begin
