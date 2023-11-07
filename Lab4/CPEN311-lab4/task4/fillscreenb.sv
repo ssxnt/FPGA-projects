@@ -16,10 +16,10 @@ module fillscreenb(input logic clk, input logic rst_n, input logic [2:0] colour,
 
 	localparam BLACK = 3'b000;
 
-	assign vga_colour = colour;
+	assign vga_colour = state == FILL ? colour : 0;
 
-	assign vga_x = VGA_X;
-	assign vga_y = VGA_Y;
+	assign vga_x = state == FILL ? VGA_X : 0;
+	assign vga_y = state == FILL ? VGA_Y : 0;
 	assign done = state == DONE;
 	assign vga_plot = state == FILL;
 

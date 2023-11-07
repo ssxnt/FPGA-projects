@@ -15,8 +15,9 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY,
 	reg [2:0] state;
 	reg [3:0] i = 0;
 	
-	//wire [7:0] VGA_X, VGA_Y;
-	//wire [2:0] VGA_COLOUR;
+	wire [7:0] VGA_X_cir, VGA_X_fsb;
+	wire [6:0] VGA_Y_cir, VGA_Y_fsb;
+	wire VGA_PLOT_cir, VGA_PLOT_fsb;
 
     logic [9:0] VGA_R_10;
 	logic [9:0] VGA_G_10;
@@ -47,12 +48,16 @@ module task3(input logic CLOCK_50, input logic [3:0] KEY,
 	assign fill_colour = BLACK;
 
 	assign VGA_COLOUR = fsb_colour | cir_colour;
+	assign VGA_X = VGA_X_cir | VGA_X_fsb;
+	assign VGA_Y = VGA_Y_cir | VGA_Y_fsb;
+	assign VGA_PLOT = VGA_PLOT_cir | VGA_PLOT_fsb;
 
-	fillscreenb fsb(.clk(CLOCK_50), .rst_n, .colour(fill_colour), .start(fsb_start), .done(fsb_done), .vga_x(VGA_X), .vga_y(VGA_Y), 
-                   .vga_colour(fsb_colour), .vga_plot(VGA_PLOT));
+
+	fillscreenb fsb(.clk(CLOCK_50), .rst_n, .colour(fill_colour), .start(fsb_start), .done(fsb_done), .vga_x(VGA_X_fsb), .vga_y(VGA_Y_fsb), 
+                   .vga_colour(fsb_colour), .vga_plot(VGA_PLOT_fsb));
 
 	circle cir(.clk(CLOCK_50), .rst_n, .colour, .centre_x, .centre_y, .radius,
-			  .start(c_start), .done(c_done), .vga_x(VGA_X), .vga_y(VGA_Y), .vga_colour(cir_colour), .vga_plot(VGA_PLOT));
+			  .start(c_start), .done(c_done), .vga_x(VGA_X_cir), .vga_y(VGA_Y_cir), .vga_colour(cir_colour), .vga_plot(VGA_PLOT_cir));
 
 	vga_adapter#(.RESOLUTION("160x120")) vga_u0(.resetn(rst_n), .clock(CLOCK_50), .colour(VGA_COLOUR),
 											.x(VGA_X), .y(VGA_Y), .plot(VGA_PLOT),

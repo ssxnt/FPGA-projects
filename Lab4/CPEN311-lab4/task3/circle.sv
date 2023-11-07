@@ -27,12 +27,14 @@ module circle(input logic clk, input logic rst_n, input logic [2:0] colour,
 	assign is_on_screen = pixel_x < RESOLUTION_WIDTH && pixel_y < RESOLUTION_HIGHT;
 	assign is_valid = is_on_screen && offset_y <= offset_x;
 
-	assign vga_x = is_on_screen ? pixel_x : 8'h55;
-	assign vga_y = is_on_screen ? pixel_y[6:0] : 7'h55;
+	assign vga_x = is_on_screen ? pixel_x : 0;
+	assign vga_y = is_on_screen ? pixel_y[6:0] : 0;
 
 	always_comb begin
 		done = 0;
 		vga_plot = is_valid;
+		pixel_x = 0;
+		pixel_y = 0;
 		case (state)
 			IDLE: begin
 				vga_plot = 0;

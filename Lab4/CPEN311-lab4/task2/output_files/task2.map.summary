@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Sun Nov 05 17:39:40 2023
-Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Analysis & Synthesis Status : Successful - Sat Oct 07 09:04:26 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : task2
 Top-level Entity Name : task2
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 28
+Total registers : 48
 Total pins : 113
 Total virtual pins : 0
 Total block memory bits : 57,600

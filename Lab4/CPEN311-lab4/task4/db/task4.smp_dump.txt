@@ -1,0 +1,34 @@
+
+State Machine - |task4|state
+Name state.DONE state.DRAW state.FILL state.IDLE 
+state.IDLE 0 0 0 0 
+state.FILL 0 0 1 1 
+state.DRAW 0 1 0 1 
+state.DONE 1 0 0 1 
+
+State Machine - |task4|reuleaux:joe|state
+Name state.DRC3 state.DRC2 state.DRC1 state.IDLE state.DONE 
+state.IDLE 0 0 0 0 0 
+state.DRC1 0 0 1 1 0 
+state.DRC2 0 1 0 1 0 
+state.DRC3 1 0 0 1 0 
+state.DONE 0 0 0 1 1 
+
+State Machine - |task4|reuleaux:joe|circle:cir|state
+Name state.DONE state.OCT8 state.OCT7 state.OCT6 state.OCT5 state.OCT4 state.OCT3 state.OCT2 state.OCT1 state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 0 0 
+state.OCT1 0 0 0 0 0 0 0 0 1 1 
+state.OCT2 0 0 0 0 0 0 0 1 0 1 
+state.OCT3 0 0 0 0 0 0 1 0 0 1 
+state.OCT4 0 0 0 0 0 1 0 0 0 1 
+state.OCT5 0 0 0 0 1 0 0 0 0 1 
+state.OCT6 0 0 0 1 0 0 0 0 0 1 
+state.OCT7 0 0 1 0 0 0 0 0 0 1 
+state.OCT8 0 1 0 0 0 0 0 0 0 1 
+state.DONE 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |task4|fillscreenb:fsb|state
+Name state.IDLE state.DONE state.FILL 
+state.IDLE 0 0 0 
+state.FILL 1 0 1 
+state.DONE 1 1 0 

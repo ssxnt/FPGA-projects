@@ -22,8 +22,8 @@ module reuleaux(input logic clk, input logic rst_n, input logic [2:0] colour,
 	localparam DRC3 = 3;
 	localparam DONE = 4;
 
-	circle cir(.clk, .rst_n, .colour, .centre_x(CENTRE_X), .centre_y(CENTRE_Y), .radius(diameter),
-				.start(circle_start), .done(circle_done), .vga_x, .vga_y, .vga_colour, .vga_plot(plot_en));
+	circle cir(.clk(clk), .rst_n(rst_n), .colour(colour), .centre_x(CENTRE_X), .centre_y(CENTRE_Y), .radius(diameter),
+				.start(circle_start), .done(circle_done), .vga_x(vga_x), .vga_y(vga_y), .vga_colour(vga_colour), .vga_plot(plot_en));
 	
 	always_comb begin
 		case(state)
@@ -36,7 +36,10 @@ module reuleaux(input logic clk, input logic rst_n, input logic [2:0] colour,
 	end
 
 	always_comb begin
+		circle_start = 0;
 		done = 0;
+		CENTRE_X = 0;
+		CENTRE_Y = 0;
 		case(state)
 			IDLE: circle_start = 0;
 			DRC1: begin

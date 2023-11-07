@@ -14,6 +14,9 @@ module task4(input logic CLOCK_50, input logic [3:0] KEY,
 	reg [2:0] state;
 
 	wire [2:0] fsb_colour_out, r_colour_out;
+	wire [7:0] VGA_X_r, VGA_X_fsb;
+	wire [6:0] VGA_Y_r, VGA_Y_fsb;
+	wire VGA_PLOT_r, VGA_PLOT_fsb;
 
     logic [9:0] VGA_R_10;
 	logic [9:0] VGA_G_10;
@@ -48,11 +51,15 @@ module task4(input logic CLOCK_50, input logic [3:0] KEY,
 	assign diameter = 80;
 	assign VGA_COLOUR = fsb_colour_out | r_colour_out;
 
-	fillscreenb fsb(.clk(CLOCK_50), .rst_n, .colour(fsb_colour), .start(fsb_start), .done(fsb_done), .vga_x(VGA_X), .vga_y(VGA_Y), 
-                   .vga_colour(fsb_colour_out), .vga_plot(VGA_PLOT));
+	assign VGA_X = VGA_X_r | VGA_X_fsb;
+	assign VGA_Y = VGA_Y_r | VGA_Y_fsb;
+	assign VGA_PLOT = VGA_PLOT_r | VGA_PLOT_fsb;
+
+	fillscreenb fsb(.clk(CLOCK_50), .rst_n, .colour(fsb_colour), .start(fsb_start), .done(fsb_done), .vga_x(VGA_X_fsb), .vga_y(VGA_Y_fsb), 
+                   .vga_colour(fsb_colour_out), .vga_plot(VGA_PLOT_fsb));
 
 	reuleaux joe(.clk(CLOCK_50), .rst_n, .colour(r_colour), .centre_x, .centre_y, .diameter,
-			  .start(r_start), .done(r_done), .vga_x(VGA_X), .vga_y(VGA_Y), .vga_colour(r_colour_out), .vga_plot(VGA_PLOT));
+			  .start(r_start), .done(r_done), .vga_x(VGA_X_r), .vga_y(VGA_Y_r), .vga_colour(r_colour_out), .vga_plot(VGA_PLOT_r));
 
 	vga_adapter#(.RESOLUTION("160x120")) vga_u0(.resetn(rst_n), .clock(CLOCK_50), .colour(VGA_COLOUR),
 											.x(VGA_X), .y(VGA_Y), .plot(VGA_PLOT),
