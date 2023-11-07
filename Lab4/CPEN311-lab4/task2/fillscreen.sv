@@ -16,8 +16,8 @@ module fillscreen(input logic clk, input logic rst_n, input logic [2:0] colour,
 
      assign vga_colour = VGA_X % 8;
 
-     assign vga_x = VGA_X;
-     assign vga_y = VGA_Y;
+     assign vga_x = state == FILL ? VGA_X : 0;
+     assign vga_y = state == FILL ? VGA_Y : 0;
      assign done = state == DONE;
      assign vga_plot = state == FILL;
 
