@@ -1,0 +1,169 @@
+C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/vga_address_translator.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/vga_address_translator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module vga_address_translator
+
+Top level modules:
+	vga_address_translator
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reuleaux
+
+Top level modules:
+	reuleaux
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_task3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_rtl_task3
+
+Top level modules:
+	tb_rtl_task3
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_fillscreen.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_fillscreen.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_rtl_fillscreen
+
+Top level modules:
+	tb_rtl_fillscreen
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_fillscreen.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_fillscreen.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_syn_fillscreen
+
+Top level modules:
+	tb_syn_fillscreen
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_task3.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_task3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_syn_task3
+
+Top level modules:
+	tb_syn_task3
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/vga_adapter.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/vga_adapter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module vga_adapter
+
+Top level modules:
+	vga_adapter
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/fillscreen.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fillscreen
+
+Top level modules:
+	fillscreen
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_circle.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_syn_circle.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_syn_circle
+
+Top level modules:
+	tb_syn_circle
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_circle.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/tb_rtl_circle.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_rtl_circle
+
+Top level modules:
+	tb_rtl_circle
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/vga_controller.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/vga_controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module vga_controller
+
+Top level modules:
+	vga_controller
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/vga_demo.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/vga_demo.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module vga_demo
+
+Top level modules:
+	vga_demo
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fillscreenb
+
+Top level modules:
+	fillscreenb
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_rtl_task2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_rtl_task2
+
+Top level modules:
+	tb_rtl_task2
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_task2.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/tb_syn_task2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_syn_task2
+
+Top level modules:
+	tb_syn_task2
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/vga_pll.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/vga_pll.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module vga_pll
+
+Top level modules:
+	vga_pll
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/task2.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task2/task2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task2
+
+Top level modules:
+	task2
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_task4.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_task4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_rtl_task4
+
+Top level modules:
+	tb_rtl_task4
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_task4.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_task4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_syn_task4
+
+Top level modules:
+	tb_syn_task4
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/task3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task3
+
+Top level modules:
+	task3
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module task4
+
+Top level modules:
+	task4
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_reuleaux.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_syn_reuleaux.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_syn_reuleaux
+
+Top level modules:
+	tb_syn_reuleaux
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_reuleaux.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/tb_rtl_reuleaux.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_rtl_reuleaux
+
+Top level modules:
+	tb_rtl_reuleaux
+
+} {} {}} C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv {1 {vlog -work work -sv -stats=none C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module circle
+
+Top level modules:
+	circle
+
+} {} {}}

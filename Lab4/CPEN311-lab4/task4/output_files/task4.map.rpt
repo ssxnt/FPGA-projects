@@ -1,6 +1,6 @@
 Analysis & Synthesis report for task4
-Tue Nov 07 09:30:59 2023
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Tue Nov 07 10:03:04 2023
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
 ---------------------
@@ -46,9 +46,9 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2018  Intel Corporation. All rights reserved.
+Copyright (C) 2019  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -58,15 +58,16 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details.
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 
 
 
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Nov 07 09:30:59 2023       ;
-; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Analysis & Synthesis Status     ; Successful - Tue Nov 07 10:03:04 2023       ;
+; Quartus Prime Version           ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                   ; task4                                       ;
 ; Top-level Entity Name           ; task4                                       ;
 ; Family                          ; Cyclone V                                   ;
@@ -177,50 +178,51 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 16          ;
-; Maximum allowed            ; 16          ;
+; Number detected on machine ; 20          ;
+; Maximum allowed            ; 14          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 16          ;
+; Maximum used               ; 14          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-16        ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-14        ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                            ; Library ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------+---------+
-; ../task3/circle.sv               ; yes             ; User SystemVerilog HDL File  ; C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv                 ;         ;
-; vga_pll.sv                       ; yes             ; User Wizard-Generated File   ; C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_pll.sv                ;         ;
-; vga_controller.sv                ; yes             ; User SystemVerilog HDL File  ; C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_controller.sv         ;         ;
-; vga_address_translator.sv        ; yes             ; User SystemVerilog HDL File  ; C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_address_translator.sv ;         ;
-; vga_adapter.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv            ;         ;
-; task4.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv                  ;         ;
-; reuleaux.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv               ;         ;
-; fillscreenb.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv            ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf                                   ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc                            ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc                                      ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.inc                                   ;         ;
-; aglobal181.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc                                   ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/a_rdenreg.inc                                    ;         ;
-; altrom.inc                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc                                       ;         ;
-; altram.inc                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc                                       ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc                                     ;         ;
-; db/altsyncram_g6k1.tdf           ; yes             ; Auto-Generated Megafunction  ; C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/db/altsyncram_g6k1.tdf    ;         ;
-; db/decode_7la.tdf                ; yes             ; Auto-Generated Megafunction  ; C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/db/decode_7la.tdf         ;         ;
-; db/decode_01a.tdf                ; yes             ; Auto-Generated Megafunction  ; C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/db/decode_01a.tdf         ;         ;
-; db/mux_ifb.tdf                   ; yes             ; Auto-Generated Megafunction  ; C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/db/mux_ifb.tdf            ;         ;
-; altpll.tdf                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf                                       ;         ;
-; stratix_pll.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_pll.inc                                  ;         ;
-; stratixii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratixii_pll.inc                                ;         ;
-; cycloneii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/cycloneii_pll.inc                                ;         ;
-; db/altpll_80u.tdf                ; yes             ; Auto-Generated Megafunction  ; C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/db/altpll_80u.tdf         ;         ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                          ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                      ; Library ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------+---------+
+; ../task3/circle.sv               ; yes             ; User SystemVerilog HDL File  ; C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv                 ;         ;
+; vga_pll.sv                       ; yes             ; User Wizard-Generated File   ; C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_pll.sv                ;         ;
+; vga_controller.sv                ; yes             ; User SystemVerilog HDL File  ; C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_controller.sv         ;         ;
+; vga_address_translator.sv        ; yes             ; User SystemVerilog HDL File  ; C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_address_translator.sv ;         ;
+; vga_adapter.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv            ;         ;
+; task4.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv                  ;         ;
+; reuleaux.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv               ;         ;
+; fillscreenb.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv            ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altsyncram.tdf             ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/stratix_ram_block.inc      ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_mux.inc                ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_decode.inc             ;         ;
+; aglobal191.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/aglobal191.inc             ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/a_rdenreg.inc              ;         ;
+; altrom.inc                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altrom.inc                 ;         ;
+; altram.inc                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altram.inc                 ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altdpram.inc               ;         ;
+; db/altsyncram_g6k1.tdf           ; yes             ; Auto-Generated Megafunction  ; C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/db/altsyncram_g6k1.tdf    ;         ;
+; db/decode_7la.tdf                ; yes             ; Auto-Generated Megafunction  ; C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/db/decode_7la.tdf         ;         ;
+; db/decode_01a.tdf                ; yes             ; Auto-Generated Megafunction  ; C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/db/decode_01a.tdf         ;         ;
+; db/mux_ifb.tdf                   ; yes             ; Auto-Generated Megafunction  ; C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/db/mux_ifb.tdf            ;         ;
+; altpll.tdf                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altpll.tdf                 ;         ;
+; stratix_pll.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/stratix_pll.inc            ;         ;
+; stratixii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/stratixii_pll.inc          ;         ;
+; cycloneii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/cycloneii_pll.inc          ;         ;
+; db/altpll_80u.tdf                ; yes             ; Auto-Generated Megafunction  ; C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/db/altpll_80u.tdf         ;         ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------------+
@@ -1066,61 +1068,61 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Nov 07 09:30:47 2023
+    Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+    Info: Processing started: Tue Nov 07 10:02:55 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off task4 -c task4
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file /users/administrator/documents/verilog/311/cpen-311/lab4/cpen311-lab4/task3/circle.sv
-    Info (12023): Found entity 1: circle File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 1
+Info (20030): Parallel compilation is enabled and will use 14 of the 14 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /users/sants/desktop/cpen-311/lab4/cpen311-lab4/task3/circle.sv
+    Info (12023): Found entity 1: circle File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file vga_pll.sv
-    Info (12023): Found entity 1: vga_pll File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_pll.sv Line: 36
+    Info (12023): Found entity 1: vga_pll File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_pll.sv Line: 36
 Info (12021): Found 1 design units, including 1 entities, in source file vga_demo.sv
-    Info (12023): Found entity 1: vga_demo File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_demo.sv Line: 5
+    Info (12023): Found entity 1: vga_demo File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_demo.sv Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file vga_controller.sv
-    Info (12023): Found entity 1: vga_controller File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_controller.sv Line: 13
+    Info (12023): Found entity 1: vga_controller File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_controller.sv Line: 13
 Info (12021): Found 1 design units, including 1 entities, in source file vga_address_translator.sv
-    Info (12023): Found entity 1: vga_address_translator File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_address_translator.sv Line: 8
+    Info (12023): Found entity 1: vga_address_translator File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_address_translator.sv Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file vga_adapter.sv
-    Info (12023): Found entity 1: vga_adapter File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv Line: 82
+    Info (12023): Found entity 1: vga_adapter File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv Line: 82
 Info (12021): Found 1 design units, including 1 entities, in source file task4.sv
-    Info (12023): Found entity 1: task4 File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 1
+    Info (12023): Found entity 1: task4 File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reuleaux.sv
-    Info (12023): Found entity 1: reuleaux File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv Line: 1
+    Info (12023): Found entity 1: reuleaux File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file fillscreenb.sv
-    Info (12023): Found entity 1: fillscreenb File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv Line: 1
+    Info (12023): Found entity 1: fillscreenb File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv Line: 1
 Info (12127): Elaborating entity "task4" for the top level hierarchy
-Warning (10034): Output port "LEDR" at task4.sv(2) has no driver File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-Warning (10034): Output port "HEX0" at task4.sv(3) has no driver File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-Warning (10034): Output port "HEX1" at task4.sv(3) has no driver File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-Warning (10034): Output port "HEX2" at task4.sv(3) has no driver File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-Warning (10034): Output port "HEX3" at task4.sv(4) has no driver File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-Warning (10034): Output port "HEX4" at task4.sv(4) has no driver File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-Warning (10034): Output port "HEX5" at task4.sv(4) has no driver File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-Info (12128): Elaborating entity "fillscreenb" for hierarchy "fillscreenb:fsb" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 59
-Warning (10230): Verilog HDL assignment warning at fillscreenb.sv(19): truncated value with size 32 to match size of target (3) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv Line: 19
-Warning (10230): Verilog HDL assignment warning at fillscreenb.sv(21): truncated value with size 32 to match size of target (8) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv Line: 21
-Warning (10230): Verilog HDL assignment warning at fillscreenb.sv(22): truncated value with size 32 to match size of target (7) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv Line: 22
-Warning (10230): Verilog HDL assignment warning at fillscreenb.sv(37): truncated value with size 32 to match size of target (8) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv Line: 37
-Warning (10230): Verilog HDL assignment warning at fillscreenb.sv(41): truncated value with size 32 to match size of target (7) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv Line: 41
-Info (12128): Elaborating entity "reuleaux" for hierarchy "reuleaux:joe" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 62
-Warning (10230): Verilog HDL assignment warning at reuleaux.sv(13): truncated value with size 32 to match size of target (8) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv Line: 13
-Warning (10230): Verilog HDL assignment warning at reuleaux.sv(15): truncated value with size 32 to match size of target (8) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv Line: 15
-Warning (10230): Verilog HDL assignment warning at reuleaux.sv(17): truncated value with size 32 to match size of target (8) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv Line: 17
-Info (12128): Elaborating entity "circle" for hierarchy "reuleaux:joe|circle:cir" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv Line: 26
-Warning (10230): Verilog HDL assignment warning at circle.sv(26): truncated value with size 32 to match size of target (3) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 26
-Warning (10230): Verilog HDL assignment warning at circle.sv(30): truncated value with size 32 to match size of target (8) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 30
-Warning (10230): Verilog HDL assignment warning at circle.sv(31): truncated value with size 32 to match size of target (7) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 31
-Warning (10230): Verilog HDL assignment warning at circle.sv(94): truncated value with size 32 to match size of target (9) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 94
-Warning (10230): Verilog HDL assignment warning at circle.sv(109): truncated value with size 32 to match size of target (8) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 109
-Warning (10230): Verilog HDL assignment warning at circle.sv(111): truncated value with size 32 to match size of target (9) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 111
-Warning (10230): Verilog HDL assignment warning at circle.sv(113): truncated value with size 32 to match size of target (8) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 113
-Warning (10230): Verilog HDL assignment warning at circle.sv(114): truncated value with size 32 to match size of target (9) File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 114
-Info (12128): Elaborating entity "vga_adapter" for hierarchy "vga_adapter:vga_u0" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 67
-Info (12128): Elaborating entity "vga_address_translator" for hierarchy "vga_adapter:vga_u0|vga_address_translator:user_input_translator" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv Line: 200
-Info (12128): Elaborating entity "altsyncram" for hierarchy "vga_adapter:vga_u0|altsyncram:VideoMemory" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv Line: 221
-Info (12130): Elaborated megafunction instantiation "vga_adapter:vga_u0|altsyncram:VideoMemory" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv Line: 221
-Info (12133): Instantiated megafunction "vga_adapter:vga_u0|altsyncram:VideoMemory" with the following parameter: File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv Line: 221
+Warning (10034): Output port "LEDR" at task4.sv(2) has no driver File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+Warning (10034): Output port "HEX0" at task4.sv(3) has no driver File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+Warning (10034): Output port "HEX1" at task4.sv(3) has no driver File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+Warning (10034): Output port "HEX2" at task4.sv(3) has no driver File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+Warning (10034): Output port "HEX3" at task4.sv(4) has no driver File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+Warning (10034): Output port "HEX4" at task4.sv(4) has no driver File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+Warning (10034): Output port "HEX5" at task4.sv(4) has no driver File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+Info (12128): Elaborating entity "fillscreenb" for hierarchy "fillscreenb:fsb" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 59
+Warning (10230): Verilog HDL assignment warning at fillscreenb.sv(19): truncated value with size 32 to match size of target (3) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv Line: 19
+Warning (10230): Verilog HDL assignment warning at fillscreenb.sv(21): truncated value with size 32 to match size of target (8) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv Line: 21
+Warning (10230): Verilog HDL assignment warning at fillscreenb.sv(22): truncated value with size 32 to match size of target (7) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv Line: 22
+Warning (10230): Verilog HDL assignment warning at fillscreenb.sv(37): truncated value with size 32 to match size of target (8) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv Line: 37
+Warning (10230): Verilog HDL assignment warning at fillscreenb.sv(41): truncated value with size 32 to match size of target (7) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/fillscreenb.sv Line: 41
+Info (12128): Elaborating entity "reuleaux" for hierarchy "reuleaux:joe" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 62
+Warning (10230): Verilog HDL assignment warning at reuleaux.sv(13): truncated value with size 32 to match size of target (8) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv Line: 13
+Warning (10230): Verilog HDL assignment warning at reuleaux.sv(15): truncated value with size 32 to match size of target (8) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv Line: 15
+Warning (10230): Verilog HDL assignment warning at reuleaux.sv(17): truncated value with size 32 to match size of target (8) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv Line: 17
+Info (12128): Elaborating entity "circle" for hierarchy "reuleaux:joe|circle:cir" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/reuleaux.sv Line: 26
+Warning (10230): Verilog HDL assignment warning at circle.sv(26): truncated value with size 32 to match size of target (3) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 26
+Warning (10230): Verilog HDL assignment warning at circle.sv(30): truncated value with size 32 to match size of target (8) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 30
+Warning (10230): Verilog HDL assignment warning at circle.sv(31): truncated value with size 32 to match size of target (7) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 31
+Warning (10230): Verilog HDL assignment warning at circle.sv(94): truncated value with size 32 to match size of target (9) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 94
+Warning (10230): Verilog HDL assignment warning at circle.sv(109): truncated value with size 32 to match size of target (8) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 109
+Warning (10230): Verilog HDL assignment warning at circle.sv(111): truncated value with size 32 to match size of target (9) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 111
+Warning (10230): Verilog HDL assignment warning at circle.sv(113): truncated value with size 32 to match size of target (8) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 113
+Warning (10230): Verilog HDL assignment warning at circle.sv(114): truncated value with size 32 to match size of target (9) File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task3/circle.sv Line: 114
+Info (12128): Elaborating entity "vga_adapter" for hierarchy "vga_adapter:vga_u0" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 67
+Info (12128): Elaborating entity "vga_address_translator" for hierarchy "vga_adapter:vga_u0|vga_address_translator:user_input_translator" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv Line: 200
+Info (12128): Elaborating entity "altsyncram" for hierarchy "vga_adapter:vga_u0|altsyncram:VideoMemory" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv Line: 221
+Info (12130): Elaborated megafunction instantiation "vga_adapter:vga_u0|altsyncram:VideoMemory" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv Line: 221
+Info (12133): Instantiated megafunction "vga_adapter:vga_u0|altsyncram:VideoMemory" with the following parameter: File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv Line: 221
     Info (12134): Parameter "width_a" = "3"
     Info (12134): Parameter "width_b" = "3"
     Info (12134): Parameter "intended_device_family" = "Cyclone II"
@@ -1136,21 +1138,21 @@ Info (12133): Instantiated megafunction "vga_adapter:vga_u0|altsyncram:VideoMemo
     Info (12134): Parameter "clock_enable_output_b" = "BYPASS"
     Info (12134): Parameter "power_up_uninitialized" = "TRUE"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_g6k1.tdf
-    Info (12023): Found entity 1: altsyncram_g6k1 File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/db/altsyncram_g6k1.tdf Line: 33
-Info (12128): Elaborating entity "altsyncram_g6k1" for hierarchy "vga_adapter:vga_u0|altsyncram:VideoMemory|altsyncram_g6k1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+    Info (12023): Found entity 1: altsyncram_g6k1 File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/db/altsyncram_g6k1.tdf Line: 34
+Info (12128): Elaborating entity "altsyncram_g6k1" for hierarchy "vga_adapter:vga_u0|altsyncram:VideoMemory|altsyncram_g6k1:auto_generated" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_7la.tdf
-    Info (12023): Found entity 1: decode_7la File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/db/decode_7la.tdf Line: 22
-Info (12128): Elaborating entity "decode_7la" for hierarchy "vga_adapter:vga_u0|altsyncram:VideoMemory|altsyncram_g6k1:auto_generated|decode_7la:decode2" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/db/altsyncram_g6k1.tdf Line: 46
+    Info (12023): Found entity 1: decode_7la File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/db/decode_7la.tdf Line: 23
+Info (12128): Elaborating entity "decode_7la" for hierarchy "vga_adapter:vga_u0|altsyncram:VideoMemory|altsyncram_g6k1:auto_generated|decode_7la:decode2" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/db/altsyncram_g6k1.tdf Line: 47
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_01a.tdf
-    Info (12023): Found entity 1: decode_01a File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/db/decode_01a.tdf Line: 22
-Info (12128): Elaborating entity "decode_01a" for hierarchy "vga_adapter:vga_u0|altsyncram:VideoMemory|altsyncram_g6k1:auto_generated|decode_01a:rden_decode_b" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/db/altsyncram_g6k1.tdf Line: 47
+    Info (12023): Found entity 1: decode_01a File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/db/decode_01a.tdf Line: 23
+Info (12128): Elaborating entity "decode_01a" for hierarchy "vga_adapter:vga_u0|altsyncram:VideoMemory|altsyncram_g6k1:auto_generated|decode_01a:rden_decode_b" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/db/altsyncram_g6k1.tdf Line: 48
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_ifb.tdf
-    Info (12023): Found entity 1: mux_ifb File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/db/mux_ifb.tdf Line: 22
-Info (12128): Elaborating entity "mux_ifb" for hierarchy "vga_adapter:vga_u0|altsyncram:VideoMemory|altsyncram_g6k1:auto_generated|mux_ifb:mux3" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/db/altsyncram_g6k1.tdf Line: 49
-Info (12128): Elaborating entity "vga_pll" for hierarchy "vga_adapter:vga_u0|vga_pll:mypll" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv Line: 238
-Info (12128): Elaborating entity "altpll" for hierarchy "vga_adapter:vga_u0|vga_pll:mypll|altpll:altpll_component" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_pll.sv Line: 53
-Info (12130): Elaborated megafunction instantiation "vga_adapter:vga_u0|vga_pll:mypll|altpll:altpll_component" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_pll.sv Line: 53
-Info (12133): Instantiated megafunction "vga_adapter:vga_u0|vga_pll:mypll|altpll:altpll_component" with the following parameter: File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_pll.sv Line: 53
+    Info (12023): Found entity 1: mux_ifb File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/db/mux_ifb.tdf Line: 23
+Info (12128): Elaborating entity "mux_ifb" for hierarchy "vga_adapter:vga_u0|altsyncram:VideoMemory|altsyncram_g6k1:auto_generated|mux_ifb:mux3" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/db/altsyncram_g6k1.tdf Line: 50
+Info (12128): Elaborating entity "vga_pll" for hierarchy "vga_adapter:vga_u0|vga_pll:mypll" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv Line: 238
+Info (12128): Elaborating entity "altpll" for hierarchy "vga_adapter:vga_u0|vga_pll:mypll|altpll:altpll_component" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_pll.sv Line: 53
+Info (12130): Elaborated megafunction instantiation "vga_adapter:vga_u0|vga_pll:mypll|altpll:altpll_component" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_pll.sv Line: 53
+Info (12133): Instantiated megafunction "vga_adapter:vga_u0|vga_pll:mypll|altpll:altpll_component" with the following parameter: File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_pll.sv Line: 53
     Info (12134): Parameter "operation_mode" = "NORMAL"
     Info (12134): Parameter "intended_device_family" = "Cyclone II"
     Info (12134): Parameter "lpm_type" = "altpll"
@@ -1163,85 +1165,85 @@ Info (12133): Instantiated megafunction "vga_adapter:vga_u0|vga_pll:mypll|altpll
     Info (12134): Parameter "clk0_multiply_by" = "1"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altpll_80u.tdf
-    Info (12023): Found entity 1: altpll_80u File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/db/altpll_80u.tdf Line: 25
-Info (12128): Elaborating entity "altpll_80u" for hierarchy "vga_adapter:vga_u0|vga_pll:mypll|altpll:altpll_component|altpll_80u:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf Line: 897
-Info (12128): Elaborating entity "vga_controller" for hierarchy "vga_adapter:vga_u0|vga_controller:controller" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv Line: 259
+    Info (12023): Found entity 1: altpll_80u File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/db/altpll_80u.tdf Line: 26
+Info (12128): Elaborating entity "altpll_80u" for hierarchy "vga_adapter:vga_u0|vga_pll:mypll|altpll:altpll_component|altpll_80u:auto_generated" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altpll.tdf Line: 898
+Info (12128): Elaborating entity "vga_controller" for hierarchy "vga_adapter:vga_u0|vga_controller:controller" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/vga_adapter.sv Line: 259
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LEDR[0]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (13410): Pin "LEDR[1]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (13410): Pin "LEDR[2]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (13410): Pin "LEDR[3]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (13410): Pin "HEX0[0]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX0[1]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX0[2]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX0[3]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX0[4]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX0[5]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX0[6]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX1[0]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX1[3]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX1[4]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX1[5]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX1[6]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX2[0]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX2[2]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX2[3]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX2[4]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX2[5]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX2[6]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
-    Warning (13410): Pin "HEX3[0]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX3[1]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX3[2]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX3[3]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX3[4]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX3[5]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX3[6]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX4[0]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX4[1]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX4[2]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX4[3]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX4[4]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX4[5]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX4[6]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX5[0]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX5[1]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX5[2]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX5[3]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX5[4]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX5[5]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "HEX5[6]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
-    Warning (13410): Pin "VGA_COLOUR[0]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 8
-    Warning (13410): Pin "VGA_COLOUR[1]" is stuck at GND File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 8
+    Warning (13410): Pin "LEDR[0]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (13410): Pin "LEDR[1]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (13410): Pin "LEDR[2]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (13410): Pin "LEDR[3]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (13410): Pin "HEX0[0]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX0[1]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX0[2]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX0[3]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX0[4]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX0[5]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX0[6]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX1[0]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX1[3]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX1[4]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX1[5]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX1[6]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX2[0]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX2[2]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX2[3]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX2[4]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX2[5]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX2[6]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 3
+    Warning (13410): Pin "HEX3[0]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX3[1]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX3[2]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX3[3]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX3[4]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX3[5]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX3[6]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX4[0]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX4[1]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX4[2]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX4[3]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX4[4]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX4[5]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX4[6]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX5[0]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX5[1]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX5[2]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX5[3]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX5[4]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX5[5]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "HEX5[6]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 4
+    Warning (13410): Pin "VGA_COLOUR[0]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 8
+    Warning (13410): Pin "VGA_COLOUR[1]" is stuck at GND File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 8
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 10 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/output_files/task4.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/output_files/task4.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 5 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Warning: RST port on the PLL is not properly connected on instance vga_adapter:vga_u0|vga_pll:mypll|altpll:altpll_component|altpll_80u:auto_generated|generic_pll1. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/db/altpll_80u.tdf Line: 33
+Warning: RST port on the PLL is not properly connected on instance vga_adapter:vga_u0|vga_pll:mypll|altpll:altpll_component|altpll_80u:auto_generated|generic_pll1. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/db/altpll_80u.tdf Line: 34
     Info: Must be connected
 Warning (21074): Design contains 12 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 1
-    Warning (15610): No output dependent on input pin "KEY[2]" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 1
-    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
-    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 1
+    Warning (15610): No output dependent on input pin "KEY[2]" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 1
+    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
+    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/task4.sv Line: 2
 Info (21057): Implemented 480 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 15 input pins
     Info (21059): Implemented 98 output pins
@@ -1250,15 +1252,15 @@ Info (21057): Implemented 480 device resources after synthesis - the final resou
     Info (21065): Implemented 1 PLLs
     Info (21062): Implemented 2 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 94 warnings
-    Info: Peak virtual memory: 4921 megabytes
-    Info: Processing ended: Tue Nov 07 09:30:59 2023
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:23
+    Info: Peak virtual memory: 4929 megabytes
+    Info: Processing ended: Tue Nov 07 10:03:04 2023
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:11
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/Administrator/Documents/Verilog/311/CPEN-311/Lab4/CPEN311-lab4/task4/output_files/task4.map.smsg.
+The suppressed messages can be found in C:/Users/sants/Desktop/CPEN-311/Lab4/CPEN311-lab4/task4/output_files/task4.map.smsg.
 
 

@@ -1,0 +1,5 @@
+Warning (10268): Verilog HDL information at task4.sv(40): always construct contains both blocking and non-blocking assignments File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3/Lab-3-CPEN311/task4/task4.sv Line: 40
+Info (10281): Verilog HDL Declaration information at task4.sv(1): object "KEY" differs only in case from object "key" in the same scope File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3/Lab-3-CPEN311/task4/task4.sv Line: 1
+Warning (10268): Verilog HDL information at arc4.sv(45): always construct contains both blocking and non-blocking assignments File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3/Lab-3-CPEN311/task4/arc4.sv Line: 45
+Warning (10268): Verilog HDL information at crack.sv(35): always construct contains both blocking and non-blocking assignments File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3/Lab-3-CPEN311/task4/crack.sv Line: 35
+Warning (10268): Verilog HDL information at crack.sv(95): always construct contains both blocking and non-blocking assignments File: C:/Users/sants/Desktop/CPEN-311/Lab-3/Lab-3/Lab-3-CPEN311/task4/crack.sv Line: 95
