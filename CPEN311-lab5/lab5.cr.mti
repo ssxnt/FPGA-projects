@@ -1,0 +1,17 @@
+C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/s_mem.v {1 {vlog -work work -stats=none C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/s_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module s_mem
+
+Top level modules:
+	s_mem
+
+} {} {}} C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/tb_flash_reader.sv {1 {vlog -work work -sv -stats=none C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/tb_flash_reader.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_flash_reader
+-- Compiling module flash
+
+Top level modules:
+	tb_flash_reader
+	flash
+
+} {} {}}

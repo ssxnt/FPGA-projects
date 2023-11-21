@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at flash_reader.sv(28): object "start" differs only in case from object "START" in the same scope File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/flash_reader.sv Line: 28
+Info (10281): Verilog HDL Declaration information at flash_reader.sv(28): object "done" differs only in case from object "DONE" in the same scope File: C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/flash_reader.sv Line: 28

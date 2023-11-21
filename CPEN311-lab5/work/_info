@@ -1,0 +1,148 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Administrator/Documents/Verilog/lab5-files
+vavalon_mm_master
+!s110 1700533450
+!i10b 1
+!s100 ]fS@EAW5?^4U`]zcBQmZ30
+IM2kD4QHIdYoXnPjVRnU8Q0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5
+w1700529428
+8C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/avalon_mm_master.v
+FC:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/avalon_mm_master.v
+L0 11
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1700533450.000000
+!s107 C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/avalon_mm_master.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/avalon_mm_master.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vflash
+Z5 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z6 !s110 1700537499
+!i10b 1
+!s100 FJU0gf0c_7jU@1UIcaicS0
+IN?EVHb5oai92IL9CQ_0i80
+R0
+Z7 !s105 tb_flash_reader_sv_unit
+S1
+R1
+Z8 w1700532483
+Z9 8C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/tb_flash_reader.sv
+Z10 FC:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/tb_flash_reader.sv
+L0 35
+R2
+r1
+!s85 0
+31
+Z11 !s108 1700537499.000000
+Z12 !s107 C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/tb_flash_reader.sv|
+Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/tb_flash_reader.sv|
+!i113 1
+Z14 o-work work -sv
+R4
+vflash_reader
+R5
+R6
+!i10b 1
+!s100 ?kb<`Cm2OGA>`]eKo??;>2
+I]0jc70?diIV70?`cAjhJ>0
+R0
+Z15 !s105 flash_reader_sv_unit
+S1
+R1
+Z16 w1700537466
+Z17 8C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/flash_reader.sv
+Z18 FC:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/flash_reader.sv
+L0 1
+R2
+r1
+!s85 0
+31
+R11
+Z19 !s107 C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/flash_reader.sv|
+Z20 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/flash_reader.sv|
+!i113 1
+R14
+R4
+vs_mem
+R6
+!i10b 1
+!s100 leiYnmhjFWRMM92d;SH762
+I7Ph=8B3UlHe_^JoBP]R=G3
+R0
+R1
+w1700457264
+8C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/s_mem.v
+FC:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/s_mem.v
+L0 39
+R2
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/s_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/s_mem.v|
+!i113 1
+R3
+R4
+vtb_flash_reader
+R5
+R6
+!i10b 1
+!s100 HRNY;ZX1PL86kK5nUeVU92
+IE^M?B5R2=2>k4JT?lR4:J1
+R0
+R7
+S1
+R1
+R8
+R9
+R10
+L0 1
+R2
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R14
+R4
+vwave
+R5
+R6
+!i10b 1
+!s100 eVY@S8AXG1a8U=G2jgEg^1
+IMJo4F7N40@F?bLFf@NAc=1
+R0
+R15
+S1
+R1
+R16
+R17
+R18
+L0 106
+R2
+r1
+!s85 0
+31
+R11
+R19
+R20
+!i113 1
+R14
+R4
