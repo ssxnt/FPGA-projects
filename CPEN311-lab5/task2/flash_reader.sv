@@ -74,7 +74,7 @@ module flash_reader(input logic CLOCK_50, input logic [3:0] KEY, input logic [9:
 	end
 
 	
-	always_ff @(posedge clk, negedge rst_n) begin
+	always_ff @(posedge clk) begin
 		if (!rst_n) begin
 			state <= START;
 			s_addr <= 0;
@@ -114,7 +114,7 @@ module wave(input logic clk, input logic rst_n, input logic [39:0] data);
 
 	wv_mem log(.address(addr), .clock(clk), .data(data), .wren(wren), .q());
 
-	always_ff @(posedge clk, negedge rst_n) begin
+	always_ff @(posedge clk) begin
 		if (!rst_n) begin
 			addr <= 0;
 			wren <= 0;

@@ -1,6 +1,6 @@
 module sound(input CLOCK_50, input CLOCK2_50, input [3:0] KEY, input [9:0] SW,
              input AUD_DACLRCK, input AUD_ADCLRCK, input AUD_BCLK, input AUD_ADCDAT,
-			 inout FPGA_I2C_SDAT, output FPGA_I2C_SCLK, output AUD_DACDAT, output AUD_XCK,
+			 input FPGA_I2C_SDAT, output FPGA_I2C_SCLK, output AUD_DACDAT, output AUD_XCK,
              output [6:0] HEX0, output [6:0] HEX1, output [6:0] HEX2,
              output [6:0] HEX3, output [6:0] HEX4, output [6:0] HEX5,
              output [9:0] LEDR);

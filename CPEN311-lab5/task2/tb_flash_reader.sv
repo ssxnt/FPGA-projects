@@ -72,7 +72,7 @@ module flash(input logic clk_clk, input logic reset_reset_n,
 		endcase
 	end
 
-	always_ff @(posedge clk_clk, negedge reset_reset_n) begin
+	always_ff @(posedge clk_clk) begin
 		if (!reset_reset_n) begin
 			state <= SETUP;
 			out <= 0;
