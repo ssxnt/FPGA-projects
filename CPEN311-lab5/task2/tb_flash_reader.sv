@@ -40,5 +40,111 @@ module flash(input logic clk_clk, input logic reset_reset_n,
 			 input logic [31:0] flash_mem_writedata);
 
 // Your simulation-only flash module goes here.
+	reg [31:0] out = 0;
+	reg [3:0] timer = 0;
+	reg [2:0] state = 0;
+
+	wire [31:0] fake_data;
+	assign fake_data = {9'b0, flash_mem_address};
+
+	localparam SETUP = 0;
+	localparam READ_0 = 1;
+	localparam READ_1 = 2;
+	localparam READ_2 = 3;
+	localparam READ_3 = 4;
+	localparam READ_DONE = 5;
+	localparam KILL_TIME = 6;
+	localparam IDLE = 7;
+
+	assign flash_mem_readdata = out;
+	assign flash_mem_readdatavalid = state == READ_DONE;
+
+	always_comb begin
+		case (state)
+			SETUP : flash_mem_waitrequest = 0;
+			READ_0 : flash_mem_waitrequest = 1;
+			READ_1 : flash_mem_waitrequest = 1;
+			READ_2 : flash_mem_waitrequest = 1;
+			READ_3 : flash_mem_waitrequest = 1;
+			READ_DONE : flash_mem_waitrequest = 1;
+			KILL_TIME : flash_mem_waitrequest = 1;
+			IDLE : flash_mem_waitrequest = 0;
+		endcase
+	end
+
+	always_ff @(posedge clk_clk, negedge reset_reset_n) begin
+		if (!reset_reset_n) begin
+			state <= SETUP;
+			out <= 0;
+			timer <= 0;
+		end else begin
+			case (state)
+				SETUP : begin
+					if (timer < 3) begin
+						state <= SETUP;
+						timer <= timer + 1;
+					end else begin
+						state <= READ_0;
+						timer <= 0;
+					end					 
+				end
+				READ_0 : begin
+					if (timer < 15) begin
+						state <= READ_0;
+						timer <= timer + 1;
+					end else begin
+						state <= READ_1;
+						timer <= 0;
+						out <= { out[23:0], fake_data[31:24]};
+					end
+				end
+				READ_1 : begin
+					if (timer < 7) begin
+						state <= READ_1;
+						timer <= timer + 1;
+					end else begin
+						state <= READ_2;
+						timer <= 0;
+						out <= { out[23:0], fake_data[23:16]};
+					end
+				end
+				READ_2 : begin
+					if (timer < 7) begin
+						state <= READ_2;
+						timer <= timer + 1;
+					end else begin
+						state <= READ_3;
+						timer <= 0;
+						out <= { out[23:0], fake_data[16:8]};
+					end
+				end
+				READ_3 : begin
+					if (timer < 7) begin
+						state <= READ_3;
+						timer <= timer + 1;
+					end else begin
+						state <= READ_DONE;
+						timer <= 0;
+						out <= { out[23:0], fake_data[7:0]};
+					end
+				end
+				READ_DONE : begin
+					state <= KILL_TIME;
+				end
+				KILL_TIME : begin
+					if (timer < 1) begin
+						state <= KILL_TIME;
+						timer <= timer + 1;
+					end else begin
+						state <= IDLE;
+						timer <= 0;
+					end
+				end
+				IDLE : begin
+					state <= flash_mem_read? READ_0 : IDLE;
+				end
+			endcase
+		end
+	end
 
 endmodule: flash
