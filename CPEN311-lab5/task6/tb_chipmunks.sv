@@ -9,7 +9,7 @@ module tb_chipmunks();
 	assign KEY[3] = rst_n;
 	assign clk2 = clk;
 	assign AUD_ADCLRCK = 0;
-	assign AUD_BCLK
+	assign AUD_BCLK = 0;
 
 	chipmunks DUT(.CLOCK_50(clk), .CLOCK2_50(clk2), .KEY(KEY), .SW(sw), .AUD_DACLRCK, .AUD_ADCLRCK, .AUD_BCLK, .AUD_ADCDAT,
 			  .FPGA_I2C_SDAT, .FPGA_I2C_SCLK, .AUD_DACDAT, .AUD_XCK, .HEX0, .HEX1, .HEX2, .HEX3, .HEX4, .HEX5, .LEDR(ledr));
