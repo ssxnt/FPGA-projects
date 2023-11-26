@@ -34,7 +34,7 @@ module music(input CLOCK_50, input CLOCK2_50, input [3:0] KEY, input [9:0] SW,
 					.flash_mem_readdata(flash_mem_readdata), .flash_mem_readdatavalid(flash_mem_readdatavalid), .flash_mem_byteenable(flash_mem_byteenable), .flash_mem_writedata());
 
 	// your code for the rest of this task here 
-	reg [31:0] rd_data;
+	reg signed [31:0] rd_data;
 	reg [22:0] fm_addr; 
 	reg [2:0] state;
 
@@ -72,14 +72,14 @@ module music(input CLOCK_50, input CLOCK2_50, input [3:0] KEY, input [9:0] SW,
 			WAIT_FIFO_1:    write_s = 0;
 			SEND_1ST_WD: begin
 				write_s = 1;
-				writedata_left = rd_data[15:0];
-				writedata_right = rd_data[15:0];
+				writedata_left = rd_data[15:0] / 64;
+				writedata_right = rd_data[15:0] / 64;
 			end
 			WAIT_FIFO_2:	write_s = 0;
 			SEND_2ND_WD: begin
 				write_s = 1;
-				writedata_left = rd_data[31:16];
-				writedata_right = rd_data[31:16];
+				writedata_left = rd_data[31:16] / 64;
+				writedata_right = rd_data[31:16] / 64;
 			end
 			DONE:			write_s = 0;
 			default:		write_s = 0;
@@ -111,7 +111,7 @@ module music(input CLOCK_50, input CLOCK2_50, input [3:0] KEY, input [9:0] SW,
 				SEND_1ST_WD: state <= !write_ready ? WAIT_FIFO_2 : SEND_1ST_WD;
 				WAIT_FIFO_2: state <= write_ready ? SEND_2ND_WD : WAIT_FIFO_2;
 				SEND_2ND_WD: state <= !write_ready ? DONE : SEND_2ND_WD;
-				DONE: state <= fm_addr < 23'h200000 ? FM_START : DONE;
+				DONE: state <= fm_addr < 23'h100000 ? FM_START : DONE;
 				default: state <= FM_START;
 			endcase
 		end

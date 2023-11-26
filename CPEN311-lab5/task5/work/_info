@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task2
 vAltera_UP_Audio_Bit_Counter
-Z0 !s110 1700717611
+Z0 !s110 1700982094
 !i10b 1
 !s100 J2Tb5SPZN>>^6S@MM9o:c1
 I29W>:klRF>j2m6R^K^zdI1
@@ -23,7 +23,7 @@ Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1700717611.000000
+Z6 !s108 1700982094.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_Audio_Bit_Counter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_Audio_Bit_Counter.v|
 !i113 1
@@ -119,7 +119,7 @@ R7
 R8
 n@altera_@u@p_@i2@c
 vAltera_UP_I2C_AV_Auto_Initialize
-R0
+Z11 !s110 1700982095
 !i10b 1
 !s100 TbIA;9787GSRoV9be_N2^2
 IjFdD>[lO91I4gQzjHzHBm0
@@ -141,7 +141,7 @@ R7
 R8
 n@altera_@u@p_@i2@c_@a@v_@auto_@initialize
 vAltera_UP_I2C_DC_Auto_Initialize
-R0
+R11
 !i10b 1
 !s100 WaG<YW8VGFlT:ijQ;9gO?3
 I`V`bBW4jFNO9CElnL?7Yd0
@@ -155,7 +155,7 @@ R5
 r1
 !s85 0
 31
-R6
+Z12 !s108 1700982095.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_I2C_DC_Auto_Initialize.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_I2C_DC_Auto_Initialize.v|
 !i113 1
@@ -163,7 +163,7 @@ R7
 R8
 n@altera_@u@p_@i2@c_@d@c_@auto_@initialize
 vAltera_UP_I2C_LCM_Auto_Initialize
-R0
+R11
 !i10b 1
 !s100 Jn038;8oQ^Ukg7ZXlQdT33
 I[XLL`T<1k:cgYDg:IejoD2
@@ -177,7 +177,7 @@ R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_I2C_LCM_Auto_Initialize.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_I2C_LCM_Auto_Initialize.v|
 !i113 1
@@ -185,7 +185,7 @@ R7
 R8
 n@altera_@u@p_@i2@c_@l@c@m_@auto_@initialize
 vAltera_UP_Slow_Clock_Generator
-R0
+R11
 !i10b 1
 !s100 U@B3NehPQRXcdeI<e=@I53
 I95O3HG1<D<P2CiCgM6`aS1
@@ -199,7 +199,7 @@ R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_Slow_Clock_Generator.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_Slow_Clock_Generator.v|
 !i113 1
@@ -207,7 +207,7 @@ R7
 R8
 n@altera_@u@p_@slow_@clock_@generator
 vAltera_UP_SYNC_FIFO
-R0
+R11
 !i10b 1
 !s100 jDg=^5VOBFbFho_;gZbiA1
 IFaC13oYXK60SYY[Ze;<RG1
@@ -221,7 +221,7 @@ R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v|
 !i113 1
@@ -229,7 +229,7 @@ R7
 R8
 n@altera_@u@p_@s@y@n@c_@f@i@f@o
 vaudio_and_video_config
-Z11 !s110 1700717692
+R0
 !i10b 1
 !s100 H5S>REIXkb2jmA4R;b>E@0
 IZnk7Yd0=J31hkA<6MLLKU3
@@ -243,14 +243,14 @@ R5
 r1
 !s85 0
 31
-Z12 !s108 1700717692.000000
+R6
 !s107 C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/audio_and_video_config.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/audio_and_video_config.v|
 !i113 1
 R7
 R8
 vaudio_codec
-R11
+R0
 !i10b 1
 !s100 IWj2Umo=K?`hjF>jkX>7>3
 IPO5kHOG:<_4oPlAZKfXKD3
@@ -264,14 +264,38 @@ R5
 r1
 !s85 0
 31
-R12
+R6
 !s107 C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/audio_codec.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/audio_codec.v|
 !i113 1
 R7
 R8
+vchipmunks
+Z13 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R0
+!i10b 1
+!s100 ]6In7``giA?S^>zFYd;iJ0
+I72NaMSH@M:cBL:P76_?9=2
+R1
+!s105 chipmunks_sv_unit
+S1
+R2
+w1700981539
+8C:\Users\sants\Desktop\CPEN-311\CPEN311-lab5\task6\chipmunks.sv
+FC:\Users\sants\Desktop\CPEN-311\CPEN311-lab5\task6\chipmunks.sv
+L0 42
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:\Users\sants\Desktop\CPEN-311\CPEN311-lab5\task6\chipmunks.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\sants\Desktop\CPEN-311\CPEN311-lab5\task6\chipmunks.sv|
+!i113 1
+Z14 o-work work -sv
+R8
 vclock_generator
-R11
+R0
 !i10b 1
 !s100 [mUdzL@60Sz84VWkbiWER3
 In]GIYURR`0k7lWiJGY[n=0
@@ -285,47 +309,47 @@ R5
 r1
 !s85 0
 31
-R12
+R6
 !s107 C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v|
 !i113 1
 R7
 R8
 vflash
-Z13 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-R11
+R13
+R0
 !i10b 1
-!s100 Fn0MJmMF9h;dE6XfLSXIY1
-I1HKN@@RlR0KZ;DR0ZoPoQ1
+!s100 bV:m[:=C1?UVcbaohbF=^1
+IOGO9LB`1VX>YZZ:9dUXNj2
 R1
-Z14 !s105 tb_music_sv_unit
+Z15 !s105 tb_chipmunks_sv_unit
 S1
 R2
-Z15 w1700717515
-Z16 8C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/tb_music.sv
-Z17 FC:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/tb_music.sv
-L0 34
+Z16 w1700981138
+Z17 8C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv
+Z18 FC:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv
+L0 36
 R5
 r1
 !s85 0
 31
-R12
-Z18 !s107 C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/tb_music.sv|
-Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/tb_music.sv|
+R6
+Z19 !s107 C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv|
+Z20 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv|
 !i113 1
-Z20 o-work work -sv
+R14
 R8
 vmusic
 R13
-R11
+Z21 !s110 1700979396
 !i10b 1
-!s100 BzLTgQ0QXLY@EHcZbD39k3
-IHgL=jiYzi7o91=C[b<3Cd0
+!s100 DIem8A0zd@@f?`K8F53F60
+IDLnbP0QhNhTazfFcGPL<83
 R1
 !s105 music_sv_unit
 S1
 R2
-w1700717497
+w1700973237
 8C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/music.sv
 FC:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/music.sv
 L0 1
@@ -333,33 +357,57 @@ R5
 r1
 !s85 0
 31
-R12
+Z22 !s108 1700979396.000000
 !s107 C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/music.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/music.sv|
 !i113 1
+R14
+R8
+vtb_chipmunks
+R13
+R0
+!i10b 1
+!s100 ghhB?b@aA]Gkbd^RSF1L62
+IcIXTWhb@GNg2Lf]9f@ZZR2
+R1
+R15
+S1
+R2
+R16
+R17
+R18
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R19
 R20
+!i113 1
+R14
 R8
 vtb_music
 R13
-R11
+R21
 !i10b 1
 !s100 b=iXzegWn8eN69N`Z8loS3
 IT65=a1bj6fMh44Xz0bIIA3
 R1
-R14
+!s105 tb_music_sv_unit
 S1
 R2
-R15
-R16
-R17
+w1700717515
+8C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/tb_music.sv
+FC:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/tb_music.sv
 L0 1
 R5
 r1
 !s85 0
 31
-R12
-R18
-R19
+R22
+!s107 C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/tb_music.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/tb_music.sv|
 !i113 1
-R20
+R14
 R8

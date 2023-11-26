@@ -1,0 +1,708 @@
+# Compile of tb_music.sv was successful.
+# Compile of music.sv was successful.
+# Compile of clock_generator.v was successful.
+# Compile of audio_and_video_config.v was successful.
+# Compile of audio_codec.v was successful.
+# Compile of tb_chipmunks.sv was successful.
+# Compile of chipmunks.sv failed with 4 errors.
+# 7 compiles, 1 failed with 4 errors.
+# Compile of tb_music.sv was successful.
+# Compile of music.sv was successful.
+# Compile of clock_generator.v was successful.
+# Compile of audio_and_video_config.v was successful.
+# Compile of audio_codec.v was successful.
+# Compile of tb_chipmunks.sv was successful.
+# Compile of chipmunks.sv failed with 2 errors.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of tb_music.sv was successful.
+# Compile of music.sv was successful.
+# Compile of clock_generator.v was successful.
+# Compile of audio_and_video_config.v was successful.
+# Compile of audio_codec.v was successful.
+# Compile of tb_chipmunks.sv was successful.
+# Compile of chipmunks.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.tb_chipmunks
+# vsim -gui work.tb_chipmunks 
+# Start time: 22:17:23 on Nov 25,2023
+# Loading sv_std.std
+# Loading work.tb_chipmunks
+# Loading work.chipmunks
+# Loading work.clock_generator
+# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): Instantiation of 'altpll' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v
+#         Searched libraries:
+#             C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/work
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): Instantiation of 'scfifo' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v
+#         Searched libraries:
+#             C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/work
+# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): Instantiation of 'scfifo' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v
+#         Searched libraries:
+#             C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/work
+# Loading work.Altera_UP_Audio_Out_Serializer
+# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): Instantiation of 'scfifo' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v
+#         Searched libraries:
+#             C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/work
+# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): Instantiation of 'scfifo' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v
+#         Searched libraries:
+#             C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/work
+# Loading work.flash
+# Error loading design
+# End time: 22:17:23 on Nov 25,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vsim work.tbchipmunks.sv
+# vsim work.tbchipmunks.sv 
+# Start time: 22:20:37 on Nov 25,2023
+# ** Error (suppressible): (vsim-19) Failed to access library 'work.tbchipmunks' at "work.tbchipmunks".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 22:20:37 on Nov 25,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of audio_and_video_config.v was successful.
+# Compile of audio_codec.v was successful.
+# Compile of tb_chipmunks.sv was successful.
+# Compile of chipmunks.sv was successful.
+# Compile of clock_generator.v was successful.
+# Compile of Altera_UP_Audio_Bit_Counter.v was successful.
+# Compile of Altera_UP_Audio_In_Deserializer.v was successful.
+# Compile of Altera_UP_Audio_Out_Serializer.v was successful.
+# Compile of Altera_UP_Clock_Edge.v was successful.
+# Compile of Altera_UP_I2C.v was successful.
+# Compile of Altera_UP_I2C_AV_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_DC_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_LCM_Auto_Initialize.v was successful.
+# Compile of Altera_UP_Slow_Clock_Generator.v was successful.
+# Compile of Altera_UP_SYNC_FIFO.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.tbchipmunks.sv
+# vsim work.tbchipmunks.sv 
+# Start time: 22:22:18 on Nov 25,2023
+# ** Error (suppressible): (vsim-19) Failed to access library 'work.tbchipmunks' at "work.tbchipmunks".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 22:22:19 on Nov 25,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim work.tb_chipmunks.sv
+# vsim work.tb_chipmunks.sv 
+# Start time: 22:22:31 on Nov 25,2023
+# ** Error (suppressible): (vsim-19) Failed to access library 'work.tb_chipmunks' at "work.tb_chipmunks".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 22:22:31 on Nov 25,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.tb_chipmunks
+# vsim work.tb_chipmunks 
+# Start time: 22:22:50 on Nov 25,2023
+# Loading sv_std.std
+# Loading work.tb_chipmunks
+# Loading work.chipmunks
+# Loading work.clock_generator
+# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): Instantiation of 'altpll' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v
+#         Searched libraries:
+#             C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/work
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): Instantiation of 'scfifo' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v
+#         Searched libraries:
+#             C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/work
+# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): Instantiation of 'scfifo' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v
+#         Searched libraries:
+#             C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/work
+# Loading work.Altera_UP_Audio_Out_Serializer
+# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): Instantiation of 'scfifo' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v
+#         Searched libraries:
+#             C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/work
+# ** Error: (vsim-3033) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): Instantiation of 'scfifo' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v
+#         Searched libraries:
+#             C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task5/work
+# Loading work.flash
+# Error loading design
+# End time: 22:22:50 on Nov 25,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vsim -L altera_mf_ver tb_chipmunks
+# vsim -L altera_mf_ver tb_chipmunks 
+# Start time: 22:30:43 on Nov 25,2023
+# Loading sv_std.std
+# Loading work.tb_chipmunks
+# Loading work.chipmunks
+# Loading work.clock_generator
+# Loading altera_mf_ver.altpll
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'tb_chipmunks' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen/DE_Clock_Generator_Audio File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading altera_mf_ver.scfifo
+# Loading work.Altera_UP_Audio_Out_Serializer
+# Loading work.flash
+# Error loading design
+# End time: 22:30:44 on Nov 25,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim -L altera_mf_ver tb_chipmunks
+# vsim -L altera_mf_ver tb_chipmunks 
+# Start time: 22:32:24 on Nov 25,2023
+# Loading sv_std.std
+# Loading work.tb_chipmunks
+# Loading work.chipmunks
+# Loading work.clock_generator
+# Loading altera_mf_ver.altpll
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'tb_chipmunks' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen/DE_Clock_Generator_Audio File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading altera_mf_ver.scfifo
+# Loading work.Altera_UP_Audio_Out_Serializer
+# Loading work.flash
+# Error loading design
+# End time: 22:32:24 on Nov 25,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of audio_and_video_config.v was successful.
+# Compile of audio_codec.v was successful.
+# Compile of tb_chipmunks.sv was successful.
+# Compile of chipmunks.sv was successful.
+# Compile of clock_generator.v was successful.
+# Compile of Altera_UP_Audio_Bit_Counter.v was successful.
+# Compile of Altera_UP_Audio_In_Deserializer.v was successful.
+# Compile of Altera_UP_Audio_Out_Serializer.v was successful.
+# Compile of Altera_UP_Clock_Edge.v was successful.
+# Compile of Altera_UP_I2C.v was successful.
+# Compile of Altera_UP_I2C_AV_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_DC_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_LCM_Auto_Initialize.v was successful.
+# Compile of Altera_UP_Slow_Clock_Generator.v was successful.
+# Compile of Altera_UP_SYNC_FIFO.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver tb_chipmunks
+# vsim -L altera_mf_ver tb_chipmunks 
+# Start time: 22:32:32 on Nov 25,2023
+# Loading sv_std.std
+# Loading work.tb_chipmunks
+# Loading work.chipmunks
+# Loading work.clock_generator
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading altera_mf_ver.scfifo
+# Loading work.Altera_UP_Audio_Out_Serializer
+# Loading work.flash
+# Loading altera_mf_ver.MF_stratixii_pll
+# Loading altera_mf_ver.MF_pll_reg
+# Loading altera_mf_ver.arm_m_cntr
+# Loading altera_mf_ver.arm_n_cntr
+# Loading altera_mf_ver.arm_scale_cntr
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Too few port connections. Expected 37, found 25.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen/DE_Clock_Generator_Audio File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3015) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [PCDPC] - Port size (6) does not match connection size (1) for port 'clk'. The port definition is at: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(21851).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen/DE_Clock_Generator_Audio File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'icdrclk'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/chipmunks.sv(77): [PCDPC] - Port size (7) does not match connection size (1) for port 'flash_mem_burstcount'. The port definition is at: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv(36).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/flash_inst File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv
+run -all
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_chipmunks.DUT.my_clock_gen.DE_Clock_Generator_Audio.stratixii_pll.pll1
+# Warning : Invalid transition to 'X' detected on StratixII PLL input clk. This edge will be ignored.
+# Time: 0  Instance: tb_chipmunks.DUT.my_clock_gen.DE_Clock_Generator_Audio.stratixii_pll.pll1.n1
+# ==== START FSM TEST ====
+# ==== RESET ====
+# 
+# ==== TEST SUMMARY ====
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv(29)
+#    Time: 13 ps  Iteration: 0  Instance: /tb_chipmunks
+# Break in Module tb_chipmunks at C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv line 29
+add wave -position insertpoint sim:/tb_chipmunks/DUT/*
+run -all
+# Break key hit
+# Break in Module Altera_UP_Slow_Clock_Generator at C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_Slow_Clock_Generator.v line 140
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+project compileall ;run -all
+# Compile of audio_and_video_config.v was successful.
+# Compile of audio_codec.v was successful.
+# Compile of tb_chipmunks.sv was successful.
+# Compile of chipmunks.sv was successful.
+# Compile of clock_generator.v was successful.
+# Compile of Altera_UP_Audio_Bit_Counter.v was successful.
+# Compile of Altera_UP_Audio_In_Deserializer.v was successful.
+# Compile of Altera_UP_Audio_Out_Serializer.v was successful.
+# Compile of Altera_UP_Clock_Edge.v was successful.
+# Compile of Altera_UP_I2C.v was successful.
+# Compile of Altera_UP_I2C_AV_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_DC_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_LCM_Auto_Initialize.v was successful.
+# Compile of Altera_UP_Slow_Clock_Generator.v was successful.
+# Compile of Altera_UP_SYNC_FIFO.v was successful.
+# 15 compiles, 0 failed with no errors.
+# Break key hit
+# Simulation stop requested.
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run -all
+# Break key hit
+# Break in Module Altera_UP_Audio_In_Deserializer in file C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_Audio_In_Deserializer.v
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of audio_and_video_config.v was successful.
+# Compile of audio_codec.v was successful.
+# Compile of tb_chipmunks.sv was successful.
+# Compile of chipmunks.sv was successful.
+# Compile of clock_generator.v was successful.
+# Compile of Altera_UP_Audio_Bit_Counter.v was successful.
+# Compile of Altera_UP_Audio_In_Deserializer.v was successful.
+# Compile of Altera_UP_Audio_Out_Serializer.v was successful.
+# Compile of Altera_UP_Clock_Edge.v was successful.
+# Compile of Altera_UP_I2C.v was successful.
+# Compile of Altera_UP_I2C_AV_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_DC_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_LCM_Auto_Initialize.v was successful.
+# Compile of Altera_UP_Slow_Clock_Generator.v was successful.
+# Compile of Altera_UP_SYNC_FIFO.v was successful.
+# 15 compiles, 0 failed with no errors.
+run -all
+# Break key hit
+# Break in Module Altera_UP_Audio_In_Deserializer in file C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_Audio_In_Deserializer.v
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+restart -f
+# Loading work.tb_chipmunks
+# Loading work.chipmunks
+# Loading work.clock_generator
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading work.Altera_UP_Audio_Out_Serializer
+# Loading work.flash
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Too few port connections. Expected 37, found 25.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen/DE_Clock_Generator_Audio File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3015) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [PCDPC] - Port size (6) does not match connection size (1) for port 'clk'. The port definition is at: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(21851).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen/DE_Clock_Generator_Audio File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'icdrclk'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/chipmunks.sv(77): [PCDPC] - Port size (7) does not match connection size (1) for port 'flash_mem_burstcount'. The port definition is at: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv(37).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/flash_inst File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv
+# Compile of audio_and_video_config.v was successful.
+# Compile of audio_codec.v was successful.
+# Compile of tb_chipmunks.sv was successful.
+# Compile of chipmunks.sv was successful.
+# Compile of clock_generator.v was successful.
+# Compile of Altera_UP_Audio_Bit_Counter.v was successful.
+# Compile of Altera_UP_Audio_In_Deserializer.v was successful.
+# Compile of Altera_UP_Audio_Out_Serializer.v was successful.
+# Compile of Altera_UP_Clock_Edge.v was successful.
+# Compile of Altera_UP_I2C.v was successful.
+# Compile of Altera_UP_I2C_AV_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_DC_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_LCM_Auto_Initialize.v was successful.
+# Compile of Altera_UP_Slow_Clock_Generator.v was successful.
+# Compile of Altera_UP_SYNC_FIFO.v was successful.
+# 15 compiles, 0 failed with no errors.
+run -all
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_chipmunks.DUT.my_clock_gen.DE_Clock_Generator_Audio.stratixii_pll.pll1
+# Warning : Invalid transition to 'X' detected on StratixII PLL input clk. This edge will be ignored.
+# Time: 0  Instance: tb_chipmunks.DUT.my_clock_gen.DE_Clock_Generator_Audio.stratixii_pll.pll1.n1
+# ==== START FSM TEST ====
+# ==== RESET ====
+# 
+# ==== TEST SUMMARY ====
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv(30)
+#    Time: 13 ps  Iteration: 0  Instance: /tb_chipmunks
+# Break in Module tb_chipmunks at C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv line 30
+run -all
+# Break key hit
+# Break in Module scfifo at /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v line 51858
+# Error opening C:/build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# Path name 'C:/build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v' doesn't exist.
+quit -sim
+# End time: 22:49:18 on Nov 25,2023, Elapsed time: 0:16:46
+# Errors: 14, Warnings: 47
+# Compile of audio_and_video_config.v was successful.
+# Compile of audio_codec.v was successful.
+# Compile of tb_chipmunks.sv was successful.
+# Compile of chipmunks.sv was successful.
+# Compile of clock_generator.v was successful.
+# Compile of Altera_UP_Audio_Bit_Counter.v was successful.
+# Compile of Altera_UP_Audio_In_Deserializer.v was successful.
+# Compile of Altera_UP_Audio_Out_Serializer.v was successful.
+# Compile of Altera_UP_Clock_Edge.v was successful.
+# Compile of Altera_UP_I2C.v was successful.
+# Compile of Altera_UP_I2C_AV_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_DC_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_LCM_Auto_Initialize.v was successful.
+# Compile of Altera_UP_Slow_Clock_Generator.v was successful.
+# Compile of Altera_UP_SYNC_FIFO.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver tb_chipmunks
+# vsim -L altera_mf_ver tb_chipmunks 
+# Start time: 22:49:30 on Nov 25,2023
+# Loading sv_std.std
+# Loading work.tb_chipmunks
+# Loading work.chipmunks
+# Loading work.clock_generator
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading altera_mf_ver.scfifo
+# Loading work.Altera_UP_Audio_Out_Serializer
+# Loading work.flash
+# Loading altera_mf_ver.MF_stratixii_pll
+# Loading altera_mf_ver.MF_pll_reg
+# Loading altera_mf_ver.arm_m_cntr
+# Loading altera_mf_ver.arm_n_cntr
+# Loading altera_mf_ver.arm_scale_cntr
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Too few port connections. Expected 37, found 25.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen/DE_Clock_Generator_Audio File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3015) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [PCDPC] - Port size (6) does not match connection size (1) for port 'clk'. The port definition is at: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(21851).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen/DE_Clock_Generator_Audio File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'icdrclk'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/chipmunks.sv(77): [PCDPC] - Port size (7) does not match connection size (1) for port 'flash_mem_burstcount'. The port definition is at: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv(37).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/flash_inst File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv
+add wave -position insertpoint sim:/tb_chipmunks/DUT/*
+run -all
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_chipmunks.DUT.my_clock_gen.DE_Clock_Generator_Audio.stratixii_pll.pll1
+# Warning : Invalid transition to 'X' detected on StratixII PLL input clk. This edge will be ignored.
+# Time: 0  Instance: tb_chipmunks.DUT.my_clock_gen.DE_Clock_Generator_Audio.stratixii_pll.pll1.n1
+# ==== START FSM TEST ====
+# ==== RESET ====
+# 
+# ==== TEST SUMMARY ====
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv(30)
+#    Time: 100013 ps  Iteration: 0  Instance: /tb_chipmunks
+# Break in Module tb_chipmunks at C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv line 30
+# Break key hit
+# Compile of audio_and_video_config.v was successful.
+# Compile of audio_codec.v was successful.
+# Compile of tb_chipmunks.sv was successful.
+# Compile of chipmunks.sv was successful.
+# Compile of clock_generator.v was successful.
+# Compile of Altera_UP_Audio_Bit_Counter.v was successful.
+# Compile of Altera_UP_Audio_In_Deserializer.v was successful.
+# Compile of Altera_UP_Audio_Out_Serializer.v was successful.
+# Compile of Altera_UP_Clock_Edge.v was successful.
+# Compile of Altera_UP_I2C.v was successful.
+# Compile of Altera_UP_I2C_AV_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_DC_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_LCM_Auto_Initialize.v was successful.
+# Compile of Altera_UP_Slow_Clock_Generator.v was successful.
+# Compile of Altera_UP_SYNC_FIFO.v was successful.
+# 15 compiles, 0 failed with no errors.
+run -all
+# Break key hit
+# Break in Module tb_chipmunks at C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv line 18
+restart -f
+# Loading work.tb_chipmunks
+# Loading work.chipmunks
+# Loading work.clock_generator
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading work.Altera_UP_Audio_Out_Serializer
+# Loading work.flash
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Too few port connections. Expected 37, found 25.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen/DE_Clock_Generator_Audio File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3015) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [PCDPC] - Port size (6) does not match connection size (1) for port 'clk'. The port definition is at: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(21851).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen/DE_Clock_Generator_Audio File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'icdrclk'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/chipmunks.sv(77): [PCDPC] - Port size (7) does not match connection size (1) for port 'flash_mem_burstcount'. The port definition is at: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv(37).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/flash_inst File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv
+run -all
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_chipmunks.DUT.my_clock_gen.DE_Clock_Generator_Audio.stratixii_pll.pll1
+# Warning : Invalid transition to 'X' detected on StratixII PLL input clk. This edge will be ignored.
+# Time: 0  Instance: tb_chipmunks.DUT.my_clock_gen.DE_Clock_Generator_Audio.stratixii_pll.pll1.n1
+# ==== START FSM TEST ====
+# ==== RESET ====
+# 
+# ==== TEST SUMMARY ====
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv(30)
+#    Time: 100013 ps  Iteration: 0  Instance: /tb_chipmunks
+# Break in Module tb_chipmunks at C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv line 30
+restart -f
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Too few port connections. Expected 37, found 25.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen/DE_Clock_Generator_Audio File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3015) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [PCDPC] - Port size (6) does not match connection size (1) for port 'clk'. The port definition is at: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(21851).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen/DE_Clock_Generator_Audio File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'icdrclk'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/chipmunks.sv(77): [PCDPC] - Port size (7) does not match connection size (1) for port 'flash_mem_burstcount'. The port definition is at: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv(37).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/flash_inst File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv
+run -all
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_chipmunks.DUT.my_clock_gen.DE_Clock_Generator_Audio.stratixii_pll.pll1
+# Warning : Invalid transition to 'X' detected on StratixII PLL input clk. This edge will be ignored.
+# Time: 0  Instance: tb_chipmunks.DUT.my_clock_gen.DE_Clock_Generator_Audio.stratixii_pll.pll1.n1
+# ==== START FSM TEST ====
+# ==== RESET ====
+# 
+# ==== TEST SUMMARY ====
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv(30)
+#    Time: 100013 ps  Iteration: 0  Instance: /tb_chipmunks
+# Break in Module tb_chipmunks at C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv line 30
+# Break key hit
+# Compile of audio_and_video_config.v was successful.
+# Compile of audio_codec.v was successful.
+# Compile of tb_chipmunks.sv was successful.
+# Compile of chipmunks.sv was successful.
+# Compile of clock_generator.v was successful.
+# Compile of Altera_UP_Audio_Bit_Counter.v was successful.
+# Compile of Altera_UP_Audio_In_Deserializer.v was successful.
+# Compile of Altera_UP_Audio_Out_Serializer.v was successful.
+# Compile of Altera_UP_Clock_Edge.v was successful.
+# Compile of Altera_UP_I2C.v was successful.
+# Compile of Altera_UP_I2C_AV_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_DC_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_LCM_Auto_Initialize.v was successful.
+# Compile of Altera_UP_Slow_Clock_Generator.v was successful.
+# Compile of Altera_UP_SYNC_FIFO.v was successful.
+# 15 compiles, 0 failed with no errors.
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# Loading work.tb_chipmunks
+# Loading work.chipmunks
+# Loading work.clock_generator
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading work.Altera_UP_Audio_Out_Serializer
+# Loading work.flash
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Too few port connections. Expected 37, found 25.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen/DE_Clock_Generator_Audio File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3015) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [PCDPC] - Port size (6) does not match connection size (1) for port 'clk'. The port definition is at: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(21851).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/my_clock_gen/DE_Clock_Generator_Audio File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'scanclkena'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasecounterselect'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phaseupdown'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasestep'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'configupdate'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fbmimicbidir'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'phasedone'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'vcooverrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'vcounderrange'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fbout'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'fref'.
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/clock_generator.v(108): [TFMPC] - Missing connection for port 'icdrclk'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO/Sync_FIFO File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/components/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/chipmunks.sv(77): [PCDPC] - Port size (7) does not match connection size (1) for port 'flash_mem_burstcount'. The port definition is at: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv(37).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_chipmunks/DUT/flash_inst File: C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv
+run -all
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: tb_chipmunks.DUT.my_clock_gen.DE_Clock_Generator_Audio.stratixii_pll.pll1
+# Warning : Invalid transition to 'X' detected on StratixII PLL input clk. This edge will be ignored.
+# Time: 0  Instance: tb_chipmunks.DUT.my_clock_gen.DE_Clock_Generator_Audio.stratixii_pll.pll1.n1
+# ==== START FSM TEST ====
+# ==== RESET ====
+# 
+# ==== TEST SUMMARY ====
+# ** Note: $stop    : C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv(30)
+#    Time: 100013 ps  Iteration: 0  Instance: /tb_chipmunks
+# Break in Module tb_chipmunks at C:/Users/sants/Desktop/CPEN-311/CPEN311-lab5/task6/tb_chipmunks.sv line 30
