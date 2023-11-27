@@ -117,5 +117,27 @@ always_ff @(posedge CLOCK_50)
 				 end // default
 			endcase
      end  // if 
+	wire [39:0] data;
+				//  3b       +           1b         +             1b          +   1b  +   1b       +       1b      +      16b      +  1b +     1b      +      1b    +    1b   +   1b  +     1b    +    10b   = 40b
+	assign data = {state[2:0], 2'b0, write_s, write_ready, 1'b0, writedata_left, 1'b0, FPGA_I2C_SCLK, AUD_DACLRCK, AUD_BCLK, 1'b0, AUD_DACDAT, cnt[9:0]};
 
+	wave log_(.clk(CLOCK_50), .rst_n((rst_n || KEY[0])), .data);
 endmodule: sound
+
+// module wave(input logic clk, input logic rst_n, input logic [39:0] data);
+// 	reg [9:0] addr;
+// 	reg wren;
+
+// 	wv_mem log(.address(addr), .clock(clk), .data(data), .wren(wren), .q());
+
+// 	assign wren = 1;
+
+// 	always_ff @(posedge clk) begin
+// 		if (!rst_n) begin
+// 			addr <= 0;
+// 		end else begin
+// 			addr <= wren ? addr + 1 : addr;
+// 		end
+// 	end
+
+// endmodule: wave

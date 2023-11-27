@@ -31,23 +31,23 @@ Z3 o-work work
 Z4 tCvgOpt 0
 vflash
 Z5 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z6 !s110 1700537499
+Z6 !s110 1701051249
 !i10b 1
-!s100 FJU0gf0c_7jU@1UIcaicS0
-IN?EVHb5oai92IL9CQ_0i80
+!s100 f816cViA16JoU_?<:b04k1
+IP:2GcIPO`:<C@<^SFh5UH1
 R0
 Z7 !s105 tb_flash_reader_sv_unit
 S1
 R1
-Z8 w1700532483
+Z8 w1701051245
 Z9 8C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/tb_flash_reader.sv
 Z10 FC:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/tb_flash_reader.sv
-L0 35
+L0 37
 R2
 r1
 !s85 0
 31
-Z11 !s108 1700537499.000000
+Z11 !s108 1701051248.000000
 Z12 !s107 C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/tb_flash_reader.sv|
 Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/tb_flash_reader.sv|
 !i113 1
@@ -57,13 +57,13 @@ vflash_reader
 R5
 R6
 !i10b 1
-!s100 ?kb<`Cm2OGA>`]eKo??;>2
-I]0jc70?diIV70?`cAjhJ>0
+!s100 Q2o8RJIHNP;dh^L6cO9L73
+I<2cDcTYiL:QSSQ=Q:WU?k2
 R0
 Z15 !s105 flash_reader_sv_unit
 S1
 R1
-Z16 w1700537466
+Z16 w1700792566
 Z17 8C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/flash_reader.sv
 Z18 FC:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/flash_reader.sv
 L0 1
@@ -71,9 +71,9 @@ R2
 r1
 !s85 0
 31
-R11
-Z19 !s107 C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/flash_reader.sv|
-Z20 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/flash_reader.sv|
+Z19 !s108 1701051249.000000
+Z20 !s107 C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/flash_reader.sv|
+Z21 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/flash_reader.sv|
 !i113 1
 R14
 R4
@@ -92,7 +92,7 @@ R2
 r1
 !s85 0
 31
-R11
+R19
 !s107 C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/s_mem.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Administrator/Documents/Verilog/311/CPEN-311/CPEN311-lab5/task2/s_mem.v|
 !i113 1
@@ -102,8 +102,8 @@ vtb_flash_reader
 R5
 R6
 !i10b 1
-!s100 HRNY;ZX1PL86kK5nUeVU92
-IE^M?B5R2=2>k4JT?lR4:J1
+!s100 <J0PlX;O:Y>BQXBCL]E0g1
+IX8QFBcBM6niN?EVKLe66D3
 R0
 R7
 S1
@@ -111,7 +111,7 @@ R1
 R8
 R9
 R10
-L0 1
+L0 3
 R2
 r1
 !s85 0
@@ -126,8 +126,8 @@ vwave
 R5
 R6
 !i10b 1
-!s100 eVY@S8AXG1a8U=G2jgEg^1
-IMJo4F7N40@F?bLFf@NAc=1
+!s100 ]B@[GGihGTdkf=LkF7a_]1
+IEfEco59h]_Al7QAiW:OZ;0
 R0
 R15
 S1
@@ -135,14 +135,14 @@ R1
 R16
 R17
 R18
-L0 106
+L0 111
 R2
 r1
 !s85 0
 31
-R11
 R19
 R20
+R21
 !i113 1
 R14
 R4

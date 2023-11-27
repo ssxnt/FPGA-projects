@@ -1,3 +1,5 @@
+`timescale 1ps / 1ps
+
 module tb_flash_reader();
 
 	reg [9:0] sw, ledr;
